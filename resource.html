@@ -37,6 +37,17 @@
         width: 10rem;
         height: 8rem;
       }
+      @media only screen and (max-width: 600px) {
+  
+  #navResourceBtn{
+ padding: 0%;
+ margin-left: 0%;
+ width: 40%;
+}
+#resourceContainer{
+  display: flex;
+  flex-direction: column;
+}}
     </style>
   </head>
 
@@ -51,7 +62,7 @@
       /></a>
       <a class="nav-link btn" href="./index.html" id="navResourceBtn">Home</a>
     </nav>
-    <div class="container-fluid my-3" id="resourceContainer">
+    <div class="container-fluid my-3" id="resourceContainer" >
       <div id="sidebar" class="d-flex flex-column flex-shrink-0 p-3 m-3 mx-4">
         <h4 id="categoryText">Categories</h4>
         <hr />
@@ -200,15 +211,15 @@
 
         </ol>
       </div>
-      <div class="container mt-3" id="resourceBox">
+      <div class="container mt-3 " id="resourceBox">
         <!--Beginner Resource Box-->
-        <h4 class="resource-heading">Beginner</h4>
+        <h4 class="resource-heading d-flex">Beginner</h4>
         <div class="row" id="beginnerResourceBox"></div>
         <!--Intermediate Resource Box -->
-        <h4 class="resource-heading">Intermediate</h4>
+        <h4 class="resource-heading d-flex">Intermediate</h4>
         <div class="row mt-2" id="intermediateResourceBox"></div>
         <!--Advanced Resource Box -->
-        <h4 class="resource-heading">Advanced</h4>
+        <h4 class="resource-heading ">Advanced</h4>
         <div class="row mt-2" id="advancedResourceBox"></div>
       </div>
     </div>
