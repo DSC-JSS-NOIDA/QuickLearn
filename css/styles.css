@@ -26,6 +26,36 @@ html {
   scroll-behavior: smooth;
 }
 /* Navbar Section */
+#navbar{
+  position: relative;
+  display: flex;
+}
+#navbar ul {
+  display: flex;
+}
+
+#navbar::before {
+  content: "";
+  background-color: rgb(27, 238, 80);
+  position: absolute;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  opacity: 0.1;
+  z-index: -1;
+}
+
+#navbar ul li {
+  list-style: none;
+}
+
+#navbar ul li a {
+  margin: 10px;
+  padding: 6px 11px;
+  border-radius: 11px;
+  text-decoration: none;
+  background-color: antiquewhite;
+}
 #quickLearnLogoImg {
   width: 150px;
 }
