@@ -1,11 +1,12 @@
 [
+   
     {
-        "title": "MDN DOCS",
-        "link": "https://developer.mozilla.org/"
+        "title": "MDN Docs On JS",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
     },
     {
-        "title": "Namaste Javascipt by Akshay Saini",
-        "link": "https://www.youtube.com/watch?v=pN6jk0uUrD8&list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP"
+        "title": "React Documentation",
+        "link": "https://reactjs.org/docs/getting-started.html"
     },
     {
         "title": "JavaScript Info",

@@ -1,7 +1,7 @@
 [
     {
-        "title": "MDN DOCS",
-        "link": "https://developer.mozilla.org/"
+        "title": "Pepcoding",
+        "link": "https://www.youtube.com/playlist?list=PL-Jc9J83PIiEeD3I4VXETPDmzJ3Z1rWb4"
     },
     {
         "title": "Traversy Media",
@@ -10,14 +10,6 @@
     {
         "title": "React Documentation",
         "link": "https://reactjs.org/"
-    },
+    }
     
-    {
-        "title": "Code Evolution",
-        "link": "https://www.youtube.com/watch?v=QFaFIcGhPoM"
-    },
-    {
-        "title": "CSS Tricks",
-        "link": "https://css-tricks.com/"
-    },
 ]
