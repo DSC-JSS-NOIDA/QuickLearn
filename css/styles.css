@@ -233,48 +233,99 @@ footer {
   }
 }
 
-.mybutton{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins',sans-serif;
-    position: relative;
-    padding: 17px 25px;
-    border: 2px solid white;
-    margin: 10px;
-    display: inline-block;
-    text-decoration: none;
+/* .mybutton {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  padding: 17px 25px;
+  border: 2px solid white;
+  margin: 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: 0.5s;
+  overflow: hidden;
+  border-radius: 45px;
+  width: 260px;
+  text-align: center;
+  margin-left: 2.7%;
+  font-size: 1.1em;
+  font-weight: 600;
+} */
+
+/* .mybutton:hover{
     color: white;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    transition: 0.5s;
-    overflow: hidden;
-    border-radius: 45px;
-    width: 260px;
-    text-align: center;
-    margin-left: 2.7%;
-    font-size: 1.1em;
-    font-weight: 600;
-}
+} */
 
-.mybutton:hover{
-    color: white;
-}
+/* .mybutton span {
+  position: absolute;
+  display: block;
+  width: 0px;
+  height: 0px;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background-color: #045de9;
+  background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+  transition: width 0.5s, height 0.5s;
+  z-index: -1;
+} */
 
-.mybutton span{
-    position: absolute;
-    display: block;
-    width: 0px;
-    height: 0px;
-    transform: translate(-50%,-50%);
-    border-radius: 50%;
-    background-color: #045de9;
-    background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
-    transition: width 0.5s,height 0.5s;
-    z-index: -1;
-}
-
-.mybutton:hover span{
+/* .mybutton:hover span{
     width: 530px;
     height: 235px;
+} */
+.butn:hover {
+  background-color: #ff7a00;
+  color: #fff;
+  transition-delay: 0.4s;
+}
+.butn:hover::before,
+.butn:hover::after {
+  width: calc(100% - 6px);
+  height: calc(100% - 6px);
+  opacity: 1;
+}
+
+.butn {
+  padding: 16px 46px;
+  background: none;
+  border: 2px solid #131313;
+  color: #131313;
+  font-size: 20px;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s;
+  width: 250px;
+  height: 70px;
+  margin-left: 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.butn::before,
+.butn::after {
+  --offset: 2px;
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  transition: all 0.3s;
+  opacity: 0;
+}
+.butn::before {
+  border-top: 2px solid #ff7a00;
+  border-left: 2px solid #ff7a00;
+  top: var(--offset);
+  left: var(--offset);
+}
+.butn::after {
+  border-bottom: 2px solid #ff7a00;
+  border-right: 2px solid #ff7a00;
+  bottom: var(--offset);
+  right: var(--offset);
 }
