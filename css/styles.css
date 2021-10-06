@@ -27,11 +27,10 @@ html {
 }
 /* Navbar Section */
 #quickLearnLogoImg {
-  width: 150px;
+  width: 200px;
 }
 #navResourceBtn {
   margin-left: auto;
-  width: 18%;
   text-align: center;
   background-color: var(--primary-title);
   border: 2px solid var(--primary-title);
@@ -39,6 +38,7 @@ html {
   font-size: 1.2rem;
   transition: 0.1s linear all;
 }
+
 #navResourceBtn:hover {
   border: 2px solid var(--primary-title);
   color: var(--primary-title);
@@ -100,6 +100,9 @@ html {
 }
 .card {
   transition: all 0.2s ease-in;
+}
+.card-img-top{
+  width: 0%;
 }
 .card:hover {
   transform: scale(1.05);
@@ -214,6 +217,7 @@ footer {
   padding-top: 10px;
   padding-bottom: 5px;
   align-items: center;
+  padding: 70px;
 }
 .fc {
   width: fit-content;
