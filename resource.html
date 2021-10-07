@@ -38,20 +38,34 @@
         height: 8rem;
       }
     </style>
+    <!-- Bootstrap.js jQuery.js and Popper.js  -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
   </head>
 
   <body id="resource">
     <!--Navbar Section -->
-    <nav class="nav p-3">
-      <a class="nav-link active" aria-current="page" href="./index.html"
-        ><img
+    <nav class="navbar  navbar-expand-sm navbar-light bg-light fixed-top" style="padding: 1rem 0.5rem 1rem 0.5rem">
+      <a class="navbar-brand" href="./index.html"><img
           id="quickLearnLogoImg"
           src="./assets/images/logo.svg"
           alt="logo_img"
       /></a>
-      <a class="nav-link btn" href="./index.html" id="navResourceBtn">Home</a>
-    </nav>
-    <div class="container-fluid my-3" id="resourceContainer">
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#mynavbar">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item items"><a href="./index.html" class="nav-link" style="color: #6940d3"  >Homepage</a></li>
+              <li class="nav-item items"><a href="./contribution.html" class="nav-link" style="color: #6940d3" >Contribution Guidelines</a></li>
+          </ul>
+      </div>
+  </nav>
+    <div class="container-fluid " style="margin-top: 5rem;margin-bottom: 1rem;" id="resourceContainer">
       <div id="sidebar" class="d-flex flex-column flex-shrink-0 p-3 m-3 mx-4">
         <h4 id="categoryText">Categories</h4>
         <hr />

@@ -31,6 +31,11 @@
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet"
     />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <title>Quick Learner</title>
     <style>
       .img-sz {
@@ -41,20 +46,26 @@
   </head>
 
   <body>
-    <!--Navbar Section -->
-    <nav class="nav p-3">
-      <a class="nav-link active" aria-current="page" href="#"
-        ><img
+
+    <nav class="navbar  navbar-expand-sm navbar-light bg-light fixed-top" style="padding: 1rem 0.5rem 1rem 0.5rem">
+      <a class="navbar-brand" href="#"><img
           id="quickLearnLogoImg"
           src="./assets/images/logo.svg"
           alt="logo_img"
       /></a>
-      <a class="nav-link btn" href="./resource.html" id="navResourceBtn"
-        >Resources</a
-      >
-    </nav>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#mynavbar">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item items"><a href="./resource.html"  class="nav-link" style="color: #6940d3"  >Resources</a></li>
+              <li class="nav-item items"><a href="./contribution.html"  class="nav-link" style="color: #6940d3" >Contribution Guidelines</a></li>
+          </ul>
+      </div>
+  </nav>
+    
     <!-- Header Section -->
-    <header>
+    <header style=" margin-top: 5rem;">
       <div class="container my-5" id="aboutUs">
         <!-- Text Section -->
         <div class="row">

@@ -29,20 +29,8 @@ html {
 #quickLearnLogoImg {
   width: 150px;
 }
-#navResourceBtn {
-  margin-left: auto;
-  width: 18%;
-  text-align: center;
-  background-color: var(--primary-title);
-  border: 2px solid var(--primary-title);
-  color: white;
-  font-size: 1.2rem;
-  transition: 0.1s linear all;
-}
-#navResourceBtn:hover {
-  border: 2px solid var(--primary-title);
+.itemsS{
   color: var(--primary-title);
-  background-color: white;
 }
 /* About Us Section */
 #mainHeading {
