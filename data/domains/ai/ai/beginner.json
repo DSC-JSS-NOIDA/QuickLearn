@@ -1,6 +1,18 @@
 [
     {
-        "title": "C++",
-        "link": "https://developer.mozilla.org/"
+        "title": "AI For Everyone",
+        "link": "https://www.coursera.org/learn/ai-for-everyone"
+    },
+    {
+        "title": "Edureka",
+        "link": "https://www.youtube.com/playlist?list=PL9ooVrP1hQOGHNaCT7_fwe9AabjZI1RjI"
+    },
+    {
+        "title": "MIT 6.034 Artificial Intelligence",
+        "link": "https://www.youtube.com/playlist?list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi"
+    },
+    {
+        "title": "AI Guidebook",
+        "link": "https://pair.withgoogle.com/guidebook"
     }
 ]

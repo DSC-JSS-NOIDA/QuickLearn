@@ -1,6 +1,18 @@
 [
     {
-        "title": "C++",
-        "link": "https://developer.mozilla.org/"
+        "title": "AI in Practice (edx)",
+        "link": "https://www.edx.org/professional-certificate/delftx-ai-in-practice"
+    },
+    {
+        "title": "Machine learning and artificial intelligence (Google)",
+        "link": "https://cloud.google.com/training/machinelearning-ai"
+    },
+    {
+        "title": "Advanced AI: Deep Reinforcement Learning (Udemy)",
+        "link": "https://www.udemy.com/course/deep-reinforcement-learning-in-python/"
+    },
+    {
+        "title":"ANNetGPGPU",
+        "link":"https://github.com/ANNetGPGPU/ANNetGPGPU"
     }
 ]

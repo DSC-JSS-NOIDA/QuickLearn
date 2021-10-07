@@ -10,5 +10,9 @@
     {
         "title": "FreeCodeCamp",
         "link": "https://www.freecodecamp.org/news/tag/c-2/"
+    },
+    {
+        "title": "ProblemSet",
+        "link": "https://cses.fi/problemset/"
     }
 ]

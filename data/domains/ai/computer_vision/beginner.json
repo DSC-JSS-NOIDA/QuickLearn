@@ -1,6 +1,14 @@
 [
     {
-        "title": "C++",
-        "link": "https://developer.mozilla.org/"
+        "title": "Python",
+        "link": "https://youtu.be/_uQrJ0TkZlc"
+    },
+    {
+        "title": "Machine Learning With Python",
+        "link": "https://youtu.be/RnFGwxJwx-0"
+    },
+    {
+        "title": "Coursera",
+        "link": "https://www.coursera.org/learn/machine-learning"
     }
 ]

@@ -30,12 +30,12 @@ html {
   width: 200px;
 }
 #navResourceBtn {
+  box-sizing: border-box;
   margin-left: auto;
   text-align: center;
   background-color: var(--primary-title);
   border: 2px solid var(--primary-title);
   color: white;
-  font-size: 1.2rem;
   transition: 0.1s linear all;
 }
 
@@ -237,48 +237,61 @@ footer {
   }
 }
 
-.mybutton{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins',sans-serif;
-    position: relative;
-    padding: 17px 25px;
-    border: 2px solid white;
-    margin: 10px;
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    transition: 0.5s;
-    overflow: hidden;
-    border-radius: 45px;
-    width: 260px;
-    text-align: center;
-    margin-left: 2.7%;
-    font-size: 1.1em;
-    font-weight: 600;
+.mybutton {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  padding: 17px 25px;
+  border: 2px solid white;
+  margin: 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: 0.5s;
+  overflow: hidden;
+  border-radius: 45px;
+  width: 260px;
+  text-align: center;
+  margin-left: 2.7%;
+  font-size: 1.1em;
+  font-weight: 600;
 }
 
-.mybutton:hover{
-    color: white;
+.mybutton:hover {
+  color: white;
 }
 
-.mybutton span{
-    position: absolute;
-    display: block;
-    width: 0px;
-    height: 0px;
-    transform: translate(-50%,-50%);
-    border-radius: 50%;
-    background-color: #045de9;
-    background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
-    transition: width 0.5s,height 0.5s;
-    z-index: -1;
+.mybutton span {
+  position: absolute;
+  display: block;
+  width: 0px;
+  height: 0px;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background-color: #045de9;
+  background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+  transition: width 0.5s, height 0.5s;
+  z-index: -1;
 }
 
-.mybutton:hover span{
-    width: 530px;
-    height: 235px;
+.mybutton:hover span {
+  width: 530px;
+  height: 235px;
+}
+
+#forkImg {
+  width: 50%;
+  margin-left: 10%;
+}
+
+#footHeading{
+  font-family: "Poppins", serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: var(--primary-title);
+  margin-left: 2%;
 }

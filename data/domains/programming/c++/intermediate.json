@@ -1,14 +1,14 @@
 [
     {
-        "title": "Code With Harry",
-        "link": "https://www.youtube.com/playlist?list=PLu0W_9lII9agpFUAlPFe_VNSlXW5uE0YL"
+        "title":"Code With Harry",
+        "link":"https://www.youtube.com/playlist?list=PLu0W_9lII9agpFUAlPFe_VNSlXW5uE0YL"
     },
     {
-        "title": "Learn C++",
-        "link": "https://www.learncpp.com/"
+        "title":"Learn C++",
+        "link":"https://www.learncpp.com/"
     },
     {
-        "title": "Hackerrank",
-        "link": "https://www.hackerrank.com/domains/cpp"
+        "title":"Hackerrank",
+        "link":"https://www.hackerrank.com/domains/cpp"
     }
 ]

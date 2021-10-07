@@ -1,6 +1,48 @@
 [
     {
-        "title": "Android",
-        "link": "https://developer.mozilla.org/"
+      "title": "FireBase",
+      "link": "https://firebase.google.com/docs?gclid=CjwKCAjwkvWKBhB4EiwA-GHjFj4wqezYPqdBtXiFmtE1aIAG1oDLfsD0mYBm2Nz6GLq7hXsplUs3rRoCB4MQAvD_BwE&gclsrc=aw.ds"
+    },
+    {
+      "title": "Rest API",
+      "link": "https://www.youtube.com/watch?v=GZvSYJDk-us&ab_channel=freeCodeCamp.org"
+    },
+    {
+      "title": "Unit Testing",
+      "link": "https://developer.android.com/training/testing/unit-testing"
+    },
+    
+    {
+      "title": "Flutter",
+      "link": "https://flutter.dev/docs"
+    },
+    {
+      "title": "React Native",
+      "link": "https://reactnative.dev/docs/getting-started"
+    },
+    {
+      "title": "Project Ideas",
+      "link": "https://nevonprojects.com/project-ideas/android-project-ideas/"
+    },
+    {
+      "title": "Archtectural Code",
+      "link": "https://developer.android.com/jetpack/guide"
+    },
+    {
+      "title": "Android Application Development (Full)",
+      "link": "https://www.youtube.com/watch?v=roDz8mMvbIg&list=PLknSwrodgQ72X4sKpzf5vT8kY80HKcUSe&ab_channel=AndroidDeveloper"
+    },
+    {
+      "title": "Android Studio (User Guide)",
+      "link": "https://developer.android.com/studio/intro"
+    },
+    {
+      "title": "Advanced Android Design",
+      "link": "https://www.youtube.com/playlist?list=PLvcDz6v7QDFxG1jgTXawu5kx769Ln1BhK"
+    },
+    {
+      "title": "Advanced Android Development (CODELAB BASED)",
+      "link": "https://developer.android.com/courses/kotlin-android-advanced/overview"
     }
-]
+  ]
+  

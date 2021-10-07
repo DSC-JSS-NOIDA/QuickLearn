@@ -1,10 +1,10 @@
 [
     {
-        "title": "Free Code Camp",
-        "link": "https://youtu.be/7CqJlxBYj-M"
+        "title":"Free Code Camp",
+        "link":"https://youtu.be/7CqJlxBYj-M"
     },
     {
-        "title": "Redux",
-        "link": "https://redux.js.org/"
+        "title":"Redux",
+        "link":"https://redux.js.org/"
     }
 ]

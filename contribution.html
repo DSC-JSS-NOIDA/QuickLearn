@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <!--Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+   
+    <!--Font Aswesome-->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!--Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <title>Contributing Guidelines</title>
+    <style>
+        .img-sz {
+            width: 10rem;
+            height: 8rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--Navbar Section -->
+    <nav class="nav p-3">
+        <a class="nav-link active" aria-current="page" href="./index.html"><img id="quickLearnLogoImg"
+                src="./assets/images/logo.svg" alt="logo_img" /></a>
+        <a class="nav-link btn" href="./resource.html" id="navResourceBtn">Resources</a>
+    </nav>
+
+    <!-- Text Section -->
+    <div class="container mt-3" id="contributionGuideline">
+        <h2>Contribution Guidelines</h2>
+
+        <div class="contributionHead font my-2">
+            Follow the steps below to start contributing, and make your first PR. We hope you have fun!
+        </div>
+        <li class="font">
+            Firstly, fork the repository you want to contribute to by clicking on the fork button.
+        </li>
+        <li class="font">
+            Now clone the Repo by typing the following commands in the
+            terminal:
+        </li>
+        <div class="mx-4 my-2 fc">
+            <div>$ git clone https://github.com/< your_user_name>/QuickLearn.git
+                    <div>
+                        $ cd QuickLearn
+                    </div>
+            </div>
+        </div>
+        <li class="font">
+            Now add a reference to the original repository(by typing following command).
+        </li>
+
+        <div class="mx-4 my-2 fc">
+            $ git remote add upstream https://github.com/DSC-JSS-NOIDA/QuickLearn.git
+        </div>
+        <li class="font">
+            Check the remotes for your repository:
+        </li>
+
+        <div class="mx-4 my-2 fc">
+            $ git remote -v
+        </div>
+        <li class="font">
+            Always take a pull from the upstream repository to your master branch to keep it at par with the main
+            project:
+        </li>
+
+        <div class="mx-4 my-2 fc">
+            $ git pull upstream master
+        </div>
+        <li class="font">
+            Create a new branch to perform your changes:
+        </li>
+
+        <div class="mx-4 my-2 fc">
+            $ git checkout -b < your_branch_name>
+        </div>
+        <li class="font">
+            Perform the desired changes that you want to perform in the repository.
+        </li>
+        <li class="font">
+            After performing the changes, track your changes:
+        </li>
+
+        <div class="mx-4 my-2 fc">
+            $ git add .
+        </div>
+        <li class="font">
+            Now commit your changes:
+        </li>
+
+        <div class="mx-4 my-2 fc">
+            $ git commit -m "< type_Message>
+        </div>
+
+        <li class="font">Push the committed changes in your feature branch to your remote repo:</li>
+        <div class="mx-4 my-2 fc">
+            $ git push -u origin < branch name you gave earlier>
+        </div>
+
+        <li class="font">Navigate to the original repository and make a pull request, by clicking on Compare and Pull
+            Request</li>
+        <li class="font">Add appropriate title and description to your pull request explaining your changes and efforts
+            done.</li>
+        <li class="font">Click On Create Pull Request</li><br>
+        <div id="footHeading">
+            Woohoo! You have made a PR to the QuickLEarn ?? . Wait for your submission to be accepted and your PR to be
+            merged.
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer d-flex flex-coloumn justify-content-center p-1">
+            Made with ❤ By <a href="https://dscjss.in">DSC JSSATEN</a>
+            <a href="https://github.com/dsc-jss-noida" classname=" text-black github-footer" rel="noopener noreferrer"
+                target="_blank">
+            </a>
+        </div>
+        <img src="./assets/images/gdsc-logo.png" style="display: block; width: 250px; margin: 10px auto"
+            classname="m-5 img-logo" alt="gdsc_logo" />
+    </footer>
+
+</body>
+
+</html>

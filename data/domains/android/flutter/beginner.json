@@ -1,6 +1,18 @@
 [
     {
-        "title": "Android",
-        "link": "https://developer.mozilla.org/"
+        "title": "The Net Ninja",
+        "link": "https://youtube.com/playlist?list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ"
+    },
+    {
+        "title": "Devspot",
+        "link": "https://youtu.be/ToPdSd42UKA"
+    },
+    {
+        "title": "Flutter Documentation",
+        "link": "https://flutter.dev/docs"
+    },
+    {
+        "title": "freeCodeCamp.org",
+        "link": "https://youtu.be/pTJJsmejUOQ"
     }
 ]

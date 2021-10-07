@@ -50,6 +50,7 @@ for (let i = 0; i < selectCategoryBtn.length; i++) {
      /* intermediate */
      ires = await fetch(`./data/domains/${value}/${domains[i]}/intermediate.json`);
      idata = await ires.json();
+    console.log(idata);
      /* advanced */
      ares = await fetch(`./data/domains/${value}/${domains[i]}/advanced.json`);
     adata = await ares.json();

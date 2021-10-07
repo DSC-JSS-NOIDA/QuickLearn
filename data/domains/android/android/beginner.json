@@ -1,6 +1,32 @@
 [
     {
-        "title": "Android",
-        "link": "https://developer.mozilla.org/"
+      "title": "FreeCodeCamp.org",
+      "link": "https://www.youtube.com/watch?v=fis26HvvDII&ab_channel=freeCodeCamp.org"
+    },
+  
+    {
+      "title": "Google Developers India",
+      "link": "https://www.youtube.com/playlist?list=PLlyCyjh2pUe9wv-hU4my-Nen_SvXIzxGB"
+    },
+    {
+      "title": "Intents",
+      "link": "https://developer.android.com/guide/components/intents-filters"
+    },
+    {
+      "title": "Complex UI design",
+      "link": "https://proandroiddev.com/designing-complex-ui-using-android-constraintlayout-cb0606823da0"
+    },
+    {
+      "title": "CodeWithHarry",
+      "link": "https://www.youtube.com/watch?v=mXjZQX3UzOs&ab_channel=CodeWithHarry"
+    },
+    {
+      "title": "Thenewboston",
+      "link": "https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBsvRxJJOzG4r4k_zLKrnxl"
+    },
+    {
+      "title": "Android Basics in Kotlin",
+      "link": "https://developer.android.com/courses/android-basics-kotlin/course"
     }
-]
+  ]
+  

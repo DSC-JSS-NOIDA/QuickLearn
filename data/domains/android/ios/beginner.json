@@ -1,6 +1,22 @@
 [
     {
-        "title": "Android",
-        "link": "https://developer.mozilla.org/"
+        "title": "Swift Standard Library",
+        "link": "https://developer.apple.com/documentation/swift/swift_standard_library"
+    },
+    {
+        "title": "Swift Getting Started ",
+        "link": "https://swift.org/getting-started/"
+    },
+    {
+        "title": "CodeWithChris",
+        "link": "https://www.youtube.com/playlist?list=PLMRqhzcHGw1b89DXHOVA77ozWXWmuBkWX"
+    },
+    {
+        "title": "Swift Tutorials For Beginners(Full)",
+        "link": "https://www.youtube.com/playlist?list=PLWZIhpNhtvfqBd00bF3ouroGHMPe-iroO"
+    },
+    {
+        "title": "freeCodeCamp.org",
+        "link": "https://www.youtube.com/watch?v=comQ1-x2a1Q&ab_channel=freeCodeCamp.org"
     }
 ]

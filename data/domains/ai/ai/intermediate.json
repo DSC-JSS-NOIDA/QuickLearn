@@ -1,6 +1,14 @@
 [
     {
-        "title": "C++",
-        "link": "https://developer.mozilla.org/"
+        "title": "IBM Applied AI",
+        "link": "https://www.coursera.org/professional-certificates/applied-artifical-intelligence-ibm-watson-ai"
+    },
+    {
+        "title": "Artificial Intelligence: Principles and Techniques ",
+        "link": "https://www.youtube.com/playlist?list=PLoROMvodv4rO1NB9TD4iUZ3qghGEGtqNX"
+    },
+    {
+        "title": "Azure AI Fundamentals (freeCodeCamp.org)",
+        "link": "https://www.youtube.com/watch?v=OwZHNH8EfSU&ab_channel=freeCodeCamp.org"
     }
 ]
