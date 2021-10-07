@@ -113,13 +113,12 @@
               your comfort. It will be super easy for you to know about any
               resource. Hope you like our services. Cheers.
             </p>
-            
+
             <a href="./contribution.html">
               <button class="btn px-3 py-2 mt-2" id="contributionBtn">
                 See Contribution Guidlines
               </button>
             </a>
-            
           </div>
         </div>
       </div>
@@ -208,7 +207,7 @@
         </h2>
 
         <!-- link to resource page -->
-          <a href="./resource.html" class="mybutton"><span></span>START LEARNING</a>
+        <a href="./resource.html" class="butn"><span></span>START LEARNING</a>
       </div>
     </section>
     <!-- Footer Section -->
@@ -291,18 +290,18 @@
     ></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
-        $(document).ready(function(e){
-            $('.mybutton').on('mouseenter',function(e){
-                x=e.pageX - $(this).offset().left;
-                y=e.pageY - $(this).offset().top;
-                $(this).find('span').css({top:y, left:x})
-            })
-            $('.mybutton').on('mouseout',function(e){
-                x=e.pageX - $(this).offset().left;
-                y=e.pageY - $(this).offset().top;
-                $(this).find('span').css({top:y, left:x})
-            })
-        })
+      $(document).ready(function (e) {
+        $(".mybutton").on("mouseenter", function (e) {
+          x = e.pageX - $(this).offset().left;
+          y = e.pageY - $(this).offset().top;
+          $(this).find("span").css({ top: y, left: x });
+        });
+        $(".mybutton").on("mouseout", function (e) {
+          x = e.pageX - $(this).offset().left;
+          y = e.pageY - $(this).offset().top;
+          $(this).find("span").css({ top: y, left: x });
+        });
+      });
     </script>
     <script src="./js/index.js"></script>
   </body>

@@ -284,10 +284,61 @@ footer {
   margin-left: 10%;
 }
 
-#footHeading{
+#footHeading {
   font-family: "Poppins", serif;
   font-weight: bold;
   font-size: 15px;
   color: var(--primary-title);
   margin-left: 2%;
+}
+.butn:hover {
+  background-color: #ff7a00;
+  color: #fff;
+  transition-delay: 0.4s;
+}
+.butn:hover::before,
+.butn:hover::after {
+  width: calc(100% - 6px);
+  height: calc(100% - 6px);
+  opacity: 1;
+}
+
+.butn {
+  padding: 16px 46px;
+  background: none;
+  border: 2px solid #131313;
+  color: #131313;
+  font-size: 20px;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s;
+  width: 250px;
+  height: 70px;
+  margin-left: 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.butn::before,
+.butn::after {
+  --offset: 2px;
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  transition: all 0.3s;
+  opacity: 0;
+}
+.butn::before {
+  border-top: 2px solid #ff7a00;
+  border-left: 2px solid #ff7a00;
+  top: var(--offset);
+  left: var(--offset);
+}
+.butn::after {
+  border-bottom: 2px solid #ff7a00;
+  border-right: 2px solid #ff7a00;
+  bottom: var(--offset);
+  right: var(--offset);
 }
