@@ -5,13 +5,40 @@ const resourceBox = document.getElementById("resourceBox");
 const contributionGuidline = document.getElementById("contributionGuideline");
 // Resource Showcase Section
 const beginnerResourceBox = document.getElementById("beginnerResourceBox");
-const intermediateResourceBox = document.getElementById("intermediateResourceBox");
+const intermediateResourceBox = document.getElementById(
+  "intermediateResourceBox"
+);
 const advancedResourceBox = document.getElementById("advancedResourceBox");
 // const domains = ["web","web","web"];
 const programming = ["c++", "java", "python"];
 const programmingLength = programming.length;
-const domains = ["c++", "java", "python", "frontend", "backend", "mern", "android", "flutter", "ios", "react_native", "general",
-  "illustrations","motion","photo","sound","ui-ux","video","ai","computer_vision","deep_learning","machine_learning","big_data","statistics"];
+const domains = [
+  "c++",
+  "java",
+  "python",
+  "frontend",
+  "backend",
+  "mern",
+  "android",
+  "flutter",
+  "ios",
+  "react_native",
+  "general",
+  "illustrations",
+  "motion",
+  "photo",
+  "sound",
+  "ui-ux",
+  "video",
+
+  "ai",
+  "computer_vision",
+  "deep_learning",
+  "machine_learning",
+  "big_data",
+  "statistics",
+  "blockchain",
+];
 let bres = "";
 let bdata = "";
 let ires = "";
@@ -29,10 +56,10 @@ contributionBtn.addEventListener("click", (e) => {
     selectBtn[j].style.color = "black";
   }
   for (let i = 0; i < category.length; i++) {
-    let x = category[i].querySelector('.select-option');
+    let x = category[i].querySelector(".select-option");
     x.style.display = "none";
   }
-})
+});
 // Select Category Btn
 for (let i = 0; i < selectCategoryBtn.length; i++) {
   selectCategoryBtn[i].addEventListener("click", async (e) => {
@@ -44,16 +71,30 @@ for (let i = 0; i < selectCategoryBtn.length; i++) {
     advancedResourceBox.innerHTML = "";
     const value = selectCategoryBtn[i].value;
 
-     /* beginner*/
-     bres = await fetch(`./data/domains/${value}/${domains[i]}/beginner.json`);
-     bdata = await bres.json();
-     /* intermediate */
-     ires = await fetch(`./data/domains/${value}/${domains[i]}/intermediate.json`);
-     idata = await ires.json();
-    console.log(idata);
-     /* advanced */
-     ares = await fetch(`./data/domains/${value}/${domains[i]}/advanced.json`);
-    adata = await ares.json();
+    if (value == "Blockchain") {
+      console.log("hello");
+      /* beginner*/
+      bres = await fetch(`./data/domains/${value}/beginner.json`);
+      bdata = await bres.json();
+      /* intermediate */
+      ires = await fetch(`./data/domains/${value}/intermediate.json`);
+      idata = await ires.json();
+      /* advanced */
+      ares = await fetch(`./data/domains/${value}/advanced.json`);
+      adata = await ares.json();
+    } else {
+      /* beginner*/
+      bres = await fetch(`./data/domains/${value}/${domains[i]}/beginner.json`);
+      bdata = await bres.json();
+      /* intermediate */
+      ires = await fetch(
+        `./data/domains/${value}/${domains[i]}/intermediate.json`
+      );
+      idata = await ires.json();
+      /* advanced */
+      ares = await fetch(`./data/domains/${value}/${domains[i]}/advanced.json`);
+      adata = await ares.json();
+    }
     
     /* beginner data */
     // later we can have loader
@@ -80,7 +121,7 @@ for (let i = 0; i < selectCategoryBtn.length; i++) {
                 src="./assets/images/empty.jpg"
                 class="card-img-top img-sz mx-auto"
                 alt="..."
-              />`
+              />`;
       }
       /* Intermediate Resource Box */
 
@@ -134,8 +175,5 @@ for (let i = 0; i < selectCategoryBtn.length; i++) {
               />`;
       }
     }, 300);
-
-
-  })
-
+  });
 }

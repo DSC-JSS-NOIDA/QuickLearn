@@ -10,5 +10,9 @@
     {
         "title": "Tutorials Point",
         "link": "https://www.tutorialspoint.com/cplusplus/index.html"
+    },
+     {
+        "title": "C++ resources",
+         "link": "https://www.learncpp.com/"
     }
 ]

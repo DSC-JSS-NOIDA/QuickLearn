@@ -14,5 +14,9 @@
     {
         "title":"ANNetGPGPU",
         "link":"https://github.com/ANNetGPGPU/ANNetGPGPU"
+    },
+     {
+        "title":"AI resources",
+        "link":"http://scikit-learn.org/stable/"
     }
 ]
