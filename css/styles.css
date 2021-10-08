@@ -26,9 +26,11 @@ html {
   scroll-behavior: smooth;
 }
 /* Navbar Section */
+
 #quickLearnLogoImg {
   width: 150px;
 }
+
 #navResourceBtn {
   box-sizing: border-box;
   margin-left: auto;
@@ -114,6 +116,9 @@ html {
   height: 900px;
   padding: 30px;
   filter: brightness(80%);
+  background-image: url("../assets/images/bg-cta.jpg");
+  background-size: cover;
+  background-position: top center;
 }
 #resourceReferenceHeading {
   font-size: 4rem;
