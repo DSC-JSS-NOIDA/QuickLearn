@@ -16,7 +16,8 @@ html,
 body {
   width: 100%;
   height: 100%;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
+  overflow: visible;
   z-index: -10;
   transition: 2s;
   background-color: var(--primary-background);
@@ -220,18 +221,6 @@ html {
   border: 2px solid var(--primary-title);
 }
 /* Footer */
-footer {
-  border-top: 2px solid var(--primary-border-card);
-  width: 100%;
-  color: #746464;
-  text-align: center;
-  flex: none;
-  position: sticky;
-  top: 100%;
-  padding-top: 10px;
-  padding-bottom: 5px;
-  align-items: center;
-}
 .fc {
   width: fit-content;
   /* box-shadow: 2px 2px 30px rgb(226, 223, 223); */
@@ -307,4 +296,183 @@ footer {
   font-size: 15px;
   color: var(--primary-title);
   margin-left: 2%;
+}
+
+.myfooter{
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins',sans-serif;
+  box-sizing: border-box;
+  background: #eef8ff;
+  width: 100%;
+background: var(--primary-title);
+  color:#fff;
+  padding: 100px 0 30px;
+  font-size: 13px;
+  line-height: 20px; 
+}
+
+.myrow{
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.mycol{
+  flex-basis: 25%;
+  padding: 10px;
+}
+
+.mycol:nth-child(2), .mycol:nth-child(3){
+  flex-basis: 15%;
+}
+
+.logo{
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+.mycol h3{
+  width: fit content;
+  margin-bottom: 40px;
+  position: relative;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.email-id{
+  width: fit-content;
+  border-bottom: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+.myli{
+  margin-bottom: 12px;
+  list-style-type: none;
+}
+
+.myli a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.footerform{
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 50px;
+}
+
+.footerform .far{
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.forminput{
+  width: 100%;
+  background: transparent;
+  color: #ccc;
+  border: 0;
+  outline: none;
+}
+
+.footerform button{
+  background: transparent ;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.footerform button .fas{
+  font-size: 16px;
+  color: #ccc;
+
+}
+
+.social-icons .fab{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  color: #000;
+  background: #fff;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.lastline{
+  width: 90%;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  margin: 20px auto;
+}
+
+.copyright{
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.underline{
+  width: 25%;
+  height: 5px;
+  background: #767676;
+  border-radius: 3px;
+  position: absolute;
+  top: 25px;
+  left: 0;
+  overflow: hidden;
+}
+
+.underline span{
+  width: 15px;
+  height: 100%;
+  background: #fff;
+  border-radius: 3px;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  animation: moving 2s linear infinite;
+}
+
+@keyframes moving{
+  0%{
+      left: -20px;
+  }
+
+  100%{
+      left: 100%;
+  }
+}
+
+@media (max-width: 700px){
+  .mycol{
+      flex-basis: 100%;
+      
+  }
+  
+  .mycol:nth-child(2), .mycol:nth-child(3){
+      flex-basis: 15%;
+  }
+  
+}
+
+.defbug{
+  padding-left: 0%;
+}
+
+.hyperlinkfix{
+  text-decoration: none;
+  /* color: #f4b400; */
+  color: black;
+}
+
+.hyperlinkfix:hover{
+  color: yellow;
 }
