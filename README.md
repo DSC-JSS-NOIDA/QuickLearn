@@ -52,6 +52,19 @@ A collection of resources categorised by tech domains, languages, expertise and 
 | 1.    | [master](https://github.com/DSC-JSS-NOIDA/foss-events/tree/master)   | contains the frontend code |
 | 2.    | [backend](https://github.com/DSC-JSS-NOIDA/foss-events/tree/backend) | contains all backend code  | -->
 
+## Our Contributors  !! ✨
+### Thanks to these wonderful people: ✨
+
+<table>
+	<tr>
+		<td>
+			<a href="https://github.com/DSC-JSS-NOIDA/QuickLearn/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=DSC-JSS-NOIDA/QuickLearn" />
+</a>
+		</td>
+	</tr>
+</table>
+
 ## Get Started
 
 ### Steps for Contributing
