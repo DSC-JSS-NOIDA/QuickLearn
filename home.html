@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Personal Page</title>
+    <link rel="stylesheet" href="css/stylesheet.css" />
+    <script src="js/jshelper.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".toggle-bar").click(function() {
+                $(".menu").slideToggle(200);
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="partfolio-main">
+        <!---HEADER OF WEBSITE-->
+        <header>
+            <div class="container">
+                <!--navigasi of website-->
+                <nav>
+                    <!--logo menu website-->
+                    <div class="logo">MyWeb</div>
+
+                    <!--toggle bar-->
+                    <div class="toggle-bar">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <!--navigasi menu list-->
+                    <div class="menu">
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#service">Service</a></li>
+                            <li><a href="#cv">Riwayat</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li class="hire-btn"><a href="#">Hire!</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <!--Content Header of Website-->
+        <div class="main-content">
+            <div class="container">
+                <div class="main-content-wrapper">
+                    <div class="col-left">
+                        <span>Hi Saya Joko Ardiyanto</span>
+                        <h1>Trainer // Cloud Engineer Anthusiast</h1>
+                        <p>
+                            Halo saya joko ardianto mahasiswa Teknik Informatika di Universitas Boyolali dan saya spesialisasi di bidang simentik web dan teknologi cloud computing.Banyak pengalaman dan roadmap yang ingin saya coba terutama di bidang cloud computing yang mempelajari
+                            seputar server keinginan terbesar saya yaitu ikut ambil konstribusi dalam pengembangan pendidikan teknologi informasi.
+                        </p>
+                        <a href="#" class="btn-main">See My Work</a>
+                    </div>
+                    <div class="col-right">
+                        <img src="assets/img/joko.jpg" loading="lazy" alt="Display image" />
+                    </div>
+                </div>
+                <div class="experience-section" id="cv">
+                    <div class="experience-inner">
+                        <div class="col">
+                            <h3>4 Tahun</h3>
+                            <p>Pendidikan Sarjana</p>
+                        </div>
+                        <div class="col">
+                            <h3>6 Bulan</h3>
+                            <p>Kampus Merdeka</p>
+                        </div>
+                        <div class="col">
+                            <h3>3 Bulan</h3>
+                            <p>Magang di Techno</p>
+                        </div>
+                        <div class="col">
+                            <h3>3 Bulan</h3>
+                            <p>Training</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-service">
+            <h2 id="service">Project and Service</h2>
+            <div class="flex-container-colums">
+                <div class="flex-container-row">
+                    <img class="galery-img" src="assets/img/Domain.png" loading="lazy" alt="layanan" />
+                    <img class="galery-img" src="assets/img/Data Trends.png" loading="lazy" alt="layanan" />
+                    <img class="galery-img" src="assets/img/Dashboard-cuate.png" loading="lazy" alt="sof" />
+                </div>
+                <div class="flex-container-row">
+                    <img class="galery-img" src="assets/img/Cloud hosting.png" loading="lazy" alt="cloud" />
+                    <img class="galery-img" src="assets/img/Software engineer.png" loading="lazy" alt="s" />
+                    <img class="galery-img" src="assets/img/Website Creator.png" loading="lazy" alt="web" />
+                </div>
+            </div>
+        </div>
+        <div class="section-form">
+            <h1 id="contact">Contact Us</h1>
+            <div class="border"></div>
+            <div class="box-form">
+                <form class="contact-form">
+                    <input type="text" class="contact-form-text" placeholder="Your name" />
+                    <input type="email" class="contact-form-text" placeholder="Your email" />
+                    <input type="text" class="contact-form-text" placeholder="Your name" />
+                    <textarea class="contact-form-text" placeholder="Your Message"></textarea>
+                    <input type="submit" class="contact-form-btn" value="Send" />
+                </form>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container-footer">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>Portofolio</h4>
+                        <ul>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#">Privasi</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#cv">Curiculum Vitea</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Help</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Comment</a></li>
+                            <li><a href="#">Get Link</a></li>
+                            <li><a href="#cv">Blogger</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Post</h4>
+                        <ul>
+                            <li><a href="#">Galery</a></li>
+                            <li><a href="#">Komputer</a></li>
+                            <li><a href="#">Programming</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Follow Us</h4>
+                        <div class="social-links">
+                            <ul>
+                                <li>
+                                    <a href="https://www.facebook.com/JokoArdianto" target="_blank">Facebook</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.instagram.com/ardianto.joko"
+                      target="_blank"
+                      >Instagram</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.twitter.com/@ardhi_joko"
+                      target="_blank"
+                      >Twitter</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://api.whatsapp.com/send?phone=6282232298601&text=Halo Saya telah mengunjungi portal web anda"
+                      target="_blank"
+                      >WhatsApps</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
