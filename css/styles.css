@@ -101,12 +101,32 @@ html {
   text-align: center;
 }
 .card {
+  padding: 10px;
   transition: all 0.2s ease-in;
 }
-.card:hover {
-  transform: scale(1.05);
-  box-shadow: 0px 0px 5px #f0eee4;
+.fix1{
+  background-color: #c5df95;
+  
 }
+.fix2{
+  background-color: #dee3de;
+
+}
+.fix3{
+  background-color: #383838;
+
+}
+.fix4{
+  background-color:#b7ece5;
+}
+.move:hover {
+  transform: scale(1.05);
+  transform: translateX(120px);
+  box-shadow: 0px 0px 5px #f0eee4;
+  font-size: 25px;
+}
+
+
 .card-body {
   min-height: 150px;
 }
