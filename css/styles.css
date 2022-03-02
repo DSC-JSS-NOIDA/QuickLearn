@@ -316,6 +316,19 @@ textarea.contact-input-tags {
   width: 50%;
 }
 
+.social-icons .fa {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  /* color: #000; */
+  background: #000;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
 /* Footer */
 footer {
   border-top: 2px solid var(--primary-border-card);
