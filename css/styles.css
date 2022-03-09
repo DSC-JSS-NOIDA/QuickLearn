@@ -478,4 +478,57 @@ footer {
   #social-section li {
     width: 100%;
   }
+
 }
+/* newsletter */
+form {
+  border: 4px solid #f1f1f1;
+}
+
+/* Add some padding and a grey background color to containers */
+.container h2{
+  padding: 20px;
+  
+  margin-top: 65px;
+  text-align: center;
+  font-size: 3.2rem;
+  color: #045de9;
+}
+
+.container p{
+  color: brown;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+  width: 95%;
+  padding: 15px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Add margins to the checkbox */
+input[type=checkbox] {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  border: none;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+
