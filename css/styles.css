@@ -20,6 +20,8 @@ body {
   z-index: -10;
   transition: 2s;
   background-color: var(--primary-background);
+  scroll-behavior: smooth;
+text-decoration: none;
 }
 
 html {
@@ -340,6 +342,31 @@ footer {
   color: var(--primary-title);
   font-size: 1.2rem;
 }
+
+
+.scroll-up-btn{
+  width: 4rem;
+  height: 4rem;
+  background-color:#6940d3;
+  position: fixed;
+  bottom: 3rem;
+  right: 4rem;
+  border-radius: 50%;
+  font-size: 1.7rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.5s;
+  text-decoration: none;
+}
+
+.scroll-up-btn:hover{
+  background-color:#321d68;
+  color: #fff;
+}
+
+
 /* Responsiveness */
 @media screen and (max-width: 768px) {
   #mainHeading {
