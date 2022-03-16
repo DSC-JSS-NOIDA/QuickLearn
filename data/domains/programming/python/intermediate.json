@@ -1,7 +1,7 @@
 [
     {
         "title": "Code With Harry",
-        "link": "https://www.youtube.com/watch?v=gfDE2a7MKjA&t=185s"
+        "link": "https://www.youtube.com/playlist?list=PLu0W_9lII9aiJWQ7VhY712fuimEpQZYp4"
     },
     {
         "title": "learnpython.org",
@@ -10,5 +10,19 @@
     {
         "title": "Hackerrank",
         "link": "https://www.hackerrank.com/domains/python"
+    },
+    {
+        "title": "Free Code Camp",
+        "link": "https://www.youtube.com/watch?v=HGOBQPFzWKo&t=30s"
+    },
+    {
+        "title": "Tech with Tim",
+        "link": "https://www.youtube.com/playlist?list=PLzMcBGfZo4-nhWva-6OVh1yKWHBs4o_tv"
+    },
+    {
+        "title": "Intermediate Python Projects" ,
+        "link": "https://www.youtube.com/watch?v=o5sb8ehRSYA"
     }
+    
+
 ]

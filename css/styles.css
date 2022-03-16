@@ -22,10 +22,20 @@ body {
     background-color: var(--primary-background);
 }
 
+
 html {
     scroll-behavior: smooth;
 }
 
+/* styling under feature explore section */
+a{
+  text-decoration: none;
+  color:inherit;
+}
+
+/* a:hover{
+  color:inherit;
+} */
 
 /* Navbar Section */
 
@@ -125,9 +135,29 @@ html {
     transition: all 0.2s ease-in;
 }
 
-.card:hover {
+/* .card:hover {
     transform: scale(1.05);
     box-shadow: 0px 0px 5px #f0eee4;
+
+  transition: all 0.2s ease-in;
+  padding: 1.1rem;
+  cursor: pointer;
+} */
+/* css for image inside card */
+.card-img-top {
+  margin: 0.25rem;
+  padding: 0.25rem;
+  border-radius: 0.2rem;
+}
+/* card hover effect */
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 5px #6940d3;
+}
+/* hover effect for image when card is hover */
+.card:hover .card-img-top {
+  border: 2px solid #6940d3;
+  border-radius: 0.8rem;
 }
 
 .card-body {
@@ -396,14 +426,63 @@ footer {
     font-size: 1.2rem;
 }
 
+/* Footer CSS */
+#footer{
+  background-color: rgb(255 5 5 / 29%);
+  padding: 20px;
+}
 
 /* Responsiveness */
 
 @media screen and (max-width: 768px) {
+
     #mainHeading {
         font-size: 2rem;
     }
+
+  #resourceReferenceBox{
+    background-size: 829px;
+    height: fit-content;
+  }
+  #resourceReferenceHeading{
+    font-size: 4rem;
+  }
+
 }
+
+/* Code Snippets */
+.code{
+  background: #383838;
+  color: #fff;
+  padding : 5px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.copy-btn{
+  height: 40px;
+  cursor: pointer;
+  outline: 0;
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 16px;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.copy-btn:hover {
+  color: #fff;
+  background-color: #0b5ed7;
+  border-color: #0a58ca;
+}
+/* Code Snippet CSS Over */
 
 .mybutton {
     margin: 0;
@@ -561,3 +640,11 @@ footer {
     color: #1a0832;
     font-size: 14px;
 }
+
+/* Fixing text overflow in cybersecurity */
+@media screen and (max-width:1200px) {
+  .card-title h5{
+    font-size: 1.5rem;
+  }
+}
+

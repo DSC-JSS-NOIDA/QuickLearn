@@ -33,7 +33,7 @@ const Body = document.getElementsByTagName("body");
 const para = document.getElementById("mainParagraph");
 const List = document.querySelectorAll("#contactList > li");
 const icon1 = document.getElementById("darkSwitch1");
-const icon2 = document.getElementById("darkSwitch2");
+const icon2 = document.getElementById("darkSwitch1");
 const sidebar = document.getElementById("sidebar");
 const List2 = document.querySelectorAll("button.link-dark");
 const text = document.getElementById("categoryText");
@@ -60,7 +60,6 @@ function dark_mode() {
         }
     }
     else {
-        icon2.classList.toggle("fa-sun");
         Body[0].classList.toggle("dark");
         sidebar.classList.toggle("dark-side-bar");
         for (i = 0; i < List2.length; i++) {
@@ -124,7 +123,15 @@ if (Number(sessionStorage.getItem("switch"))) {
     }
 }
 
-
+function copy(id){
+    const text = document.getElementById(id.slice(0,id.length-1)).innerText;
+    document.getElementById(id).innerText = "Copied";
+    const elem = document.createElement('textarea');
+    elem.value = text;
+    document.body.appendChild(elem);
+    navigator.clipboard.writeText(elem.value);
+    document.body.removeChild(elem);
+}
 
 
 

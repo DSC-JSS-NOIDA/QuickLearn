@@ -6,5 +6,13 @@
     {
       "title": "Edureka!",
       "link": "https://youtube.com/playlist?list=PL9ooVrP1hQOEeFvW5KaSea6mrlEU6TZ9s"
+    },
+    {
+      "title": "udemy",
+      "link": "https://www.udemy.com/topic/robotics/"
+    },
+    {
+      "title": "FutureLearn",
+      "link": "https://www.futurelearn.com/courses/begin-robotics"
     }
 ]

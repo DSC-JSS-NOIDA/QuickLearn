@@ -107,19 +107,19 @@ for (let i = 0; i < selectCategoryBtn.length; i++) {
       if (bdata != "") {
         for (let i = 0; i < bdata.length; i++) {
           beginnerResourceBox.innerHTML += ` 
-        <div class="col-6 col-md-3">
-        <div class="card m-3" style="width: 15rem">
-          <img
-            src="./assets/images/explore.jpg"
-            class="card-img-top img-sz mx-auto"
-            alt="..."
-          />
-          <div class="card-body text-center">
-            <h5 class="card-title">${bdata[i].title}</h5>
-            <a href="${bdata[i].link}" class="btn view-more-btn" target="_blank">View More</a>
+        <div class="col-6 col-md-4">
+          <div class="card m-3" style="width: 100%">
+            <img
+              src="./assets/images/explore.jpg"
+              class="card-img-top img-sz mx-auto"
+              alt="..."
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">${bdata[i].title}</h5>
+              <a href="${bdata[i].link}" class="btn view-more-btn" target="_blank">View More</a>
+            </div>
           </div>
-        </div>
-      </div>`;
+         </div>`;
         }
       } else {
         beginnerResourceBox.innerHTML += `<img
@@ -133,8 +133,8 @@ for (let i = 0; i < selectCategoryBtn.length; i++) {
       if (idata != "") {
         for (let i = 0; i < idata.length; i++) {
           intermediateResourceBox.innerHTML += `
-        <div class="col-6 col-md-3">
-        <div class="card m-3" style="width: 15rem">
+        <div class="col-6 col-md-4">
+        <div class="card m-3" style="width: 100%">
           <img
             src="./assets/images/explore.jpg"
             class="card-img-top img-sz mx-auto"
@@ -158,8 +158,8 @@ for (let i = 0; i < selectCategoryBtn.length; i++) {
       if (adata != "") {
         for (let i = 0; i < adata.length; i++) {
           advancedResourceBox.innerHTML += `
-        <div class="col-6 col-md-3">
-        <div class="card m-3" style="width: 15rem">
+        <div class="col-6 col-md-4">
+        <div class="card m-3" style="width: 100%">
           <img
           src="./assets/images/explore.jpg"
             class="card-img-top img-sz mx-auto"
