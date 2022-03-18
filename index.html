@@ -109,21 +109,23 @@
   </section>
   <!-- Feature Section Starts -->
   <section id="features">
-    <div class="container mt-5 p-3">
+    <div class="container-fluid mt-5 p-3">
       <h2 id="featureHeading">Features</h2>
       <!-- <hr style="border:4px solid blue;"/> -->
       <!--Create a Feature Tray of 3-4 Items-->
       <div class="d-flex container flex-wrap justify-content-center">
+        <a href="./resource.html">
         <div class="card m-3" style="width: 18rem">
-          <img src="./assets/images/explore.jpg" class="card-img-top img-sz mx-auto" alt="..." />
+          <img src="./assets/images/explore.jpg" class="card-img-top img-sz mx-auto rounded-circle" alt="..." />
           <div class="card-body text-center">
-            <h5 class="card-title">Explore..</h5>
+            
+            <h5 class="card-title">Explore ... </h5>
             <p class="card-text">Find the domain you want to explore</p>
           </div>
         </div>
-
+      </a>
         <div class="card m-3" style="width: 18rem">
-          <img src="./assets/images/choose.png" class="card-img-top img-sz mx-auto" alt="..." />
+          <img src="./assets/images/choose.png" class="card-img-top img-sz mx-auto rounded-circle" alt="..." />
           <div class="card-body text-center">
             <h5 class="card-title">Choosing made easy</h5>
             <p class="card-text">
@@ -131,11 +133,9 @@
             </p>
           </div>
         </div>
-      </div>
 
-      <div class="d-flex container flex-wrap justify-content-center">
         <div class="card m-3" style="width: 18rem">
-          <img src="./assets/images/clear.png" class="card-img-top img-sz mx-auto" alt="..." />
+          <img src="./assets/images/clear.png" class="card-img-top img-sz mx-auto rounded-circle" alt="..." />
           <div class="card-body text-center">
             <h5 class="card-title">Comprehensible Content</h5>
             <p class="card-text">
@@ -145,7 +145,7 @@
         </div>
 
         <div class="card m-3" style="width: 18rem">
-          <img src="./assets/images/typing.jpg" class="card-img-top img-sz mx-auto" alt="..." />
+          <img src="./assets/images/typing.jpg" class="card-img-top img-sz mx-auto rounded-circle" alt="..." />
           <div class="card-body text-center">
             <h5 class="card-title">Learn Quick!</h5>
             <p class="card-text">
@@ -153,8 +153,11 @@
             </p>
           </div>
         </div>
+
       </div>
+    
     </div>
+  
   </section>
 
   <!--Feature Section Ends -->
@@ -206,12 +209,65 @@
             </div>
             <div class="mt-2">
               <button id="contactBtn" class="btn btn-md" type="submit">Submit</button>
+
+  <section id="footer">
+    <div class="container">
+      <h2 id="contactHeading" style="font-size: 40px;">Join Us</h2>
+      <h5 class="text-center" style="font-size: 20px; color: #ffff; font-weight: 500; padding: 10px">In case a query pops in your head or you are looking  for a collaboration, feel free to reach out to us.<br>Just drop in a mail,call us up or join us at our office for a nice coffee. <br> <I>ps: we really make some delicious ones!</I>  </h5>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <form action="https://formspree.io/f/xdoynnyq" method="POST" id="my-form">
+            <div class="input-container">
+              <!-- <label class="contact-inputs" for="validationCustom01"></label> -->
+              <input type="text" class="form-control form-control-lg contact-input-tags border-0 border-bottom rounded-0 shadow-none" id="validationCustom01"
+              placeholder="Enter your name" name="name" autocomplete="off">
+            </div>
+            <div class="input-container mt-2">
+              <!-- <label class="contact-inputs" for="validationCustom02"></label> -->
+              <input type="email" class="form-control form-control-lg contact-input-tags border-0 border-bottom rounded-0 shadow-none" id="validationCustom02"
+              placeholder="Enter your email address" name="email" autocomplete="off">
+            </div>
+            <div class="input-container mt-2">
+              <!-- <label class="contact-inputs" for="validationCustom03"></label> -->
+              <textarea type="text" class="form-control form-control-lg contact-input-tags border-0 border-bottom rounded-0 shadow-none" id="validationCustom03"
+              placeholder="Enter your message here . . ." rows="4" name="message"></textarea>
+            </div>
+            <div class="mt-2 mb-2">
+              <button id="contactBtn" class="btn btn-lg btn-ouline-primary"  type="submit">Submit</button>
+
             </div>
           </form>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <ul class="list-group list-group-flush lead">
+            <li class="list-group-item">
+              <span class="fw-bold"> <a href="https://www.dscjss.in/" target="_blank" ><i
+                class="fa fa-2x fa-map-marker mr-5 social-icon fs-4" style="color: #6940d3;" aria-hidden="true"></i></a> Main Location: </span> Noida
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold"> <a href="mailto:dscjssnoida@gmail.com" target="_blank" ><i class="fa fa-2x fa-envelope mr-5 social-icon fs-4" style="color: #6940d3;"   aria-hidden="true"></i></a> Mail us: </span> dscjssnoida@gmail.com
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold"> <a href="tel:+91 9876543310"><i
+                  class="fa fa-2x fa-phone mr-5 social-icon fs-4" style="color: #6940d3;" aria-hidden="true"></i></a> Phone: </span> +91 9876543310
+                </li>
+              </ul>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div style="width: 100%;" class="container">
+      <div id="contact" class="col mb-2 d-flex flex-row align-items-centre justify-content-between">
+        <div class="col-md-6 mt-2">
           <div id="status"></div>
         </div>
 
         <div class="container " style="margin-left: 50px; margin-bottom: 30px;">
+
           <div class="col-md-12 mt-2 row ">
             <div class="row-md">
               <ul class="list-group list-group-flush lead">
@@ -260,11 +316,44 @@
         </ul>
       </div>
 
+          <div class="col-md-12 mt-2 row " >
+              <div class="row-md">
+              </div>
+              <div class="col-md"></div>
+          </div>
+        </div>
+      </div>
+        <div id="social-media-icons" class="d-flex justify-content-center " style="margin-left:40px;">
+          <ul class="list-unstyled list-inline">
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/dscjssnoida/" target="_blank" title="Facebook"><i
+                  class="fa fa-2x fa-facebook-square social-media" aria-hidden="true"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.linkedin.com/company/dsc-jssaten/" target="_blank" title="Linkedin"><i
+                  class="fa fa-2x fa-linkedin-square social-media" aria-hidden="true"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://twitter.com/DSCJSSATEN" target="_blank" title="Twitter"><i
+                  class="fa fa-2x fa-twitter social-media" aria-hidden="true"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/DSC-JSS-NOIDA" target="_blank" title="Github"><i
+                  class="fa fa-2x fa-github social-media" aria-hidden="true"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com/dscjssaten/?igshid=9ubqtp1ssqsi" target="_blank" title="Instagram"><i
+                  class="fa fa-2x fa-instagram social-media" aria-hidden="true"></i></a>
+            </li>
+          </ul>
+        </div>
+
+
 
   </section>
   <footer>
     <div class="footer d-flex flex-coloumn justify-content-center p-1">
-      Made with ❤ By <a href="https://dscjss.in">DSC JSSATEN</a>
+      Made with ❤ By <a href="https://dscjss.in"> DSC JSSATEN </a>
       <a href="https://github.com/dsc-jss-noida" classname=" text-black github-footer" rel="noopener noreferrer"
         target="_blank">
       </a>

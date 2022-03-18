@@ -10,5 +10,18 @@
     {
         "title": "Tutorials Point",
         "link": "https://www.tutorialspoint.com/python/index.htm"
+    },
+    {
+        "title": "Code With Harry",
+        "link": "https://www.youtube.com/watch?v=aqvDTCpNRek&list=PLu0W_9lII9agICnT8t4iYVSZ3eykIAOME"
+    },
+    {
+        "title": "Programming with Mosh",
+        "link": "https://www.youtube.com/watch?v=_uQrJ0TkZlc"
+    },
+    {
+        "title": "Basic Python Projects" ,
+        "link": "https://www.youtube.com/watch?v=8ext9G7xspg&t=7s"
     }
+    
 ]

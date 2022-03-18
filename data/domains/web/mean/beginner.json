@@ -1,0 +1,18 @@
+[
+    {
+        "title": "MongoDB",
+        "link": "https://docs.mongodb.com/"
+    },
+    {
+        "title": "Express Js",
+        "link": "https://expressjs.com/"
+    },
+    {
+        "title": "Angular",
+        "link": "https://angular.io/start"
+    },
+    {
+        "title": "Node Js",
+        "link": "https://nodejs.dev/learn"
+    }
+]

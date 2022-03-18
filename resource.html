@@ -9,7 +9,7 @@
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-  <!------------------- FAVICON -------------------->
+  <!-- ---------------- FAVICON ------------------ -->
   <link rel="shortcut icon" type="image/jpg" href="assets/images/favicon.png" />
   <!-- Custom Stylesheet -->
   <link rel="stylesheet" href="./css/styles.css" />
@@ -72,6 +72,9 @@
             </button>
             <button class="btn select-category-btn" value="web">
               MERN
+            </button>
+            <button class="btn select-category-btn" value="web">
+              MEAN
             </button>
           </div>
         </li>
@@ -198,11 +201,19 @@
         Fork and clone the Repo by typing the following commands in the
         terminal
       </li>
+      <!-- To add code snippets in future put the code inside <div> with class as Code and give ID to the code as any number and give the button as ID number+b
+        Eg: (1,1b) , (2,2b) etc
+      -->
 
-      <div class="mx-4 my-2 fc">
-        <div class="points">$ git clone https://github.com/DSC-JSS-NOIDA/QuickLearn.git</div>
-        <div class="points">$ cd QuickLearn</div>
+
+      <div class="code">
+        <div class="mx-4 my-2 fc" id="1">
+          <div class="">$ git clone https://github.com/&ltyour-github-username&gt/QuickLearn.git</div>
+          <div class="">$ cd QuickLearn</div>
+        </div>
+        <button class="copy-btn" id="1b" onclick="copy(this.id)">Copy</button>
       </div>
+
       <li class="font">
         Now to add your resource to website, add an object with keys same as
         listed in existing objects in the file.
@@ -214,15 +225,26 @@
       </li>
       <li class="font">Make changes to the code</li>
       <li class="font">Stage your changes using:</li>
-      <div class="mx-4 my-2 fc points">$ git add .
+      
+      <div class="code">
+        <div class="mx-4 my-2 fc" id="2">$ git add .</div>
+        <button class="copy-btn" onclick="copy(this.id)" id="2b">Copy</button>
       </div>
-      <li class="font">Commit your changes using:
-      </li>
-      <div class="mx-4 my-2 fc points">$ git commit -m "add any comment"
+
+      <li class="font">Commit your changes using:</li>
+
+      <div class="code">
+        <div class="mx-4 my-2 fc" id="3">$ git commit -m "add any comment"</div>
+        <button class="copy-btn" onclick="copy(this.id)" id="3b">Copy</button>
       </div>
+
       <li class="font">Push the changes to the forked repository using:</li>
-      <div class="mx-4 my-2 fc points">$ git push
+      
+      <div class="code">
+        <div class="mx-4 my-2 fc" id="4">$ git push</div>
+        <button class="copy-btn" onclick="copy(this.id)" id="4b">Copy</button>
       </div>
+
       <li class="font">Navigate to the original repository and make a pull request</li>
 
 
