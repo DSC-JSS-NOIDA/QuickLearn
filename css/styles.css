@@ -27,6 +27,17 @@ text-decoration: none;
 
 }
 
+/* .home{
+  height:90vh;
+} */
+
+input,
+textarea{
+  outline-style:none;
+  border: 1px solid var(--primary-title) !important;
+  border-radius: 5px !important;
+}
+
 
 html {
   scroll-behavior: smooth;
@@ -73,7 +84,9 @@ a:hover{
   font-size: 20px;
 }
 #infoImg1 {
-  width: 60%;
+  width: 100%;
+  height:auto;
+  margin-top: -20px;
   margin-left: 10%;
 }
 #exploreBtn {
@@ -122,6 +135,8 @@ a:hover{
   cursor: pointer;
   background-color: #b1b5ae;
   border-radius: 1.25rem;
+  box-shadow: 0px 0px 5px #6940d3;
+
 }
 /* css for image inside card */
 .card-img-top {
@@ -315,7 +330,7 @@ a:hover{
   border: 2px solid var(--primary-title);
 }
 /*Contact*/
-#contactHeading {
+/* #contactHeading {
   color: var(--primary-title);
   color: black;
   font-size: 3.5rem;
@@ -336,18 +351,61 @@ textarea.contact-input-tags {
   background-color: var(--primary-title);
   border: 2px solid var(--primary-title);
   color: white;
-  border-radius: 45px;
-}
+  /* border-radius: 45px; */
+
 
 #contactBtn:hover {
   background-color: white;
   border: 2px solid var(--primary-title);
   color: var(--primary-title);
+} */
+#my-form{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
 }
+
+#contactHeading{
+  color: var(--primary-title);
+}
+
+#contactSubheading{
+  color: #778899;
+}
+
+#contactBtn {
+  border: 1px var(--primary-title) solid;
+  color: var(--primary-title);
+}
+
+#contactBtn:hover {
+  background-color: var(--primary-title);
+  color: white;
+  transition: all 0.3s ease-in;
+}
+
+.form-inputs{
+  border: 1.5px var(--primary-title) solid;
+}
+
 
 #social-section li {
   width: 50%;
 }
+
+.social-icons{
+  font-size: 23px;
+  padding: .7rem;
+  color: white;
+  background-color: var(--primary-title);
+  border: 1px solid rgb(114, 114, 114);
+  border-radius: 50%;
+}
+.social-icons:hover{
+  background-color: white;
+  color: var(--primary-title);
+  cursor: pointer;
+}
+
 
 /* Footer */
 footer {
@@ -408,15 +466,48 @@ footer {
 
 /* Responsiveness */
 @media screen and (max-width: 768px) {
-  #mainHeading {
-    font-size: 2rem;
+  header{
+    height:auto;
+    margin-bottom: 20px;
   }
+  #mainHeading {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  #hackfest .row{
+    flex-direction: column;
+  }
+  #infoImg1,
+  #infoImg2 {
+    margin-left: 0;
+    width:65%;
+    display: block;
+    margin: auto;
+  }
+
   #resourceReferenceBox{
+    align-items: center;
+    text-align: center;
     background-size: 829px;
     height: fit-content;
   }
   #resourceReferenceHeading{
     font-size: 4rem;
+  }
+
+  #contactBtn{
+    width:100%;
+  }
+
+  #contributionBtn,
+  #exploreBtn {
+    width:100%;
+  }
+
+  #aboutUs .row{
+    flex-direction: column-reverse;
   }
 }
 

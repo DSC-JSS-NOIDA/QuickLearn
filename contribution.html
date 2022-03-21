@@ -68,6 +68,8 @@
             </div>
         </div>
         <li class="font">
+            Add the original repository as a remote named upstream.
+
             Now add a reference to the original repository(by typing following command).
         </li>
 
@@ -114,7 +116,21 @@
             $ git commit -m "< type_Message>
         </div>
 
+        <li class="font">
+            Fetch the newest work from upstream.
+        </li>
+        <div class="mx-4 my-2 fc">
+            $ git fetch upstream
+        </div>
+        <li class="font">
+            Merge the main branch of that repository into your topic branch.
+        </li>
+        <div class="mx-4 my-2 fc">
+            $ git merge upstream/master
+        </div>
+
         <li class="font">Push the committed changes in your feature branch to your remote repo:</li>
+
         <div class="mx-4 my-2 fc">
             $ git push -u origin < branch name you gave earlier>
         </div>

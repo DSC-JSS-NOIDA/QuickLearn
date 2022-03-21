@@ -130,6 +130,21 @@ $ git push
 ```
 
 - Navigate to the original repository and make a pull request
+```
+Showing Your Remotes
+
+$ git remote
+
+$ git remote -v
+``` 
+Adding Remote Repositories
+```
+git remote add <shortname> <url>
+```
+Fetching and Pulling from Your Remotes
+```
+$ git fetch <remote>
+```
 
 ## Resources
 
