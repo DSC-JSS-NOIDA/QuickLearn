@@ -1,11 +1,11 @@
 :root {
-  --primary-background: #fff;
-  --primary-border-card: rgba(0, 0, 0, 0.125);
+  --primary-background: rgb(131, 182, 83);
+  --primary-border-card: rgba(150, 120, 120, 0.125);
   --primary-date: grey;
-  --primary-title: #6940d3;
-  --primary-label: black;
+  --primary-title: #e71d0f;
+  --primary-label: rgb(107, 49, 49);
   --primary-organisation: black;
-  --primary-input-border: #e1e4e8;
+  --primary-input-border: #252c36;
   --primary-input-background: #fff;
   --primary-contact-background: #dee3de;
   --primary-search-dropdown: #f0eee4;
@@ -20,7 +20,6 @@ body {
   z-index: -10;
   transition: 2s;
   background-color: var(--primary-background);
-  
 }
 
 /* .home{
@@ -28,33 +27,32 @@ body {
 } */
 
 input,
-textarea{
-  outline-style:none;
+textarea {
+  outline-style: none;
   border: 1px solid var(--primary-title) !important;
   border-radius: 5px !important;
 }
-
 
 html {
   scroll-behavior: smooth;
 }
 
 /* styling under feature explore section */
-a{
+a {
   text-decoration: none;
-  color:inherit;
+  color: inherit;
 }
 
-a:hover{
-  color:inherit;
+a:hover {
+  color: rgb(214, 122, 127);
 }
 /* Navbar Section */
 #quickLearnLogoImg {
   width: 100%;
 }
 #navResourceBtn {
-  box-sizing: border-box;
-  padding-left: 1%;
+  box-sizing: content-box;
+  padding-left: 5%;
   padding-right: 1%;
   margin-left: auto;
   min-width: 18%;
@@ -81,7 +79,7 @@ a:hover{
 }
 #infoImg1 {
   width: 100%;
-  height:auto;
+  height: auto;
   margin-top: -20px;
   margin-left: 10%;
 }
@@ -126,13 +124,12 @@ a:hover{
   text-align: center;
 }
 .card {
-  transition: all 0.2s ease-in;
+  transition: margin-right 2s ease-in-out 0.5s;
   padding: 1.1rem;
   cursor: pointer;
   background-color: #b1b5ae;
   border-radius: 1.25rem;
   box-shadow: 0px 0px 5px #6940d3;
-
 }
 /* css for image inside card */
 .card-img-top {
@@ -151,7 +148,7 @@ a:hover{
   border-radius: 0.8rem;
 }
 .card-body {
-  min-height: 150px;
+  min-height: 170px;
 }
 .text-center {
   display: flex;
@@ -164,7 +161,7 @@ a:hover{
 .card-title {
   justify-content: center;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 /* Reference Section */
@@ -349,22 +346,21 @@ textarea.contact-input-tags {
   color: white;
   /* border-radius: 45px; */
 
-
 #contactBtn:hover {
   background-color: white;
   border: 2px solid var(--primary-title);
   color: var(--primary-title);
-} */
-#my-form{
+}
+*/ #my-form {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 10px;
 }
 
-#contactHeading{
+#contactHeading {
   color: var(--primary-title);
 }
 
-#contactSubheading{
+#contactSubheading {
   color: #778899;
 }
 
@@ -379,29 +375,27 @@ textarea.contact-input-tags {
   transition: all 0.3s ease-in;
 }
 
-.form-inputs{
+.form-inputs {
   border: 1.5px var(--primary-title) solid;
 }
-
 
 #social-section li {
   width: 50%;
 }
 
-.social-icons{
+.social-icons {
   font-size: 23px;
-  padding: .7rem;
+  padding: 0.7rem;
   color: white;
   background-color: var(--primary-title);
   border: 1px solid rgb(114, 114, 114);
   border-radius: 50%;
 }
-.social-icons:hover{
+.social-icons:hover {
   background-color: white;
   color: var(--primary-title);
   cursor: pointer;
 }
-
 
 /* Footer */
 footer {
@@ -428,14 +422,14 @@ footer {
   font-size: 1.2rem;
 }
 /* Footer CSS */
-#footer{
+#footer {
   background-color: rgb(255 5 5 / 29%);
   padding: 20px;
 }
 /* Responsiveness */
 @media screen and (max-width: 768px) {
-  header{
-    height:auto;
+  header {
+    height: auto;
     margin-bottom: 20px;
   }
   #mainHeading {
@@ -444,52 +438,52 @@ footer {
     margin-top: 40px;
   }
 
-  #hackfest .row{
+  #hackfest .row {
     flex-direction: column;
   }
   #infoImg1,
   #infoImg2 {
     margin-left: 0;
-    width:65%;
+    width: 65%;
     display: block;
     margin: auto;
   }
 
-  #resourceReferenceBox{
+  #resourceReferenceBox {
     align-items: center;
     text-align: center;
     background-size: 829px;
     height: fit-content;
   }
-  #resourceReferenceHeading{
+  #resourceReferenceHeading {
     font-size: 4rem;
   }
 
-  #contactBtn{
-    width:100%;
+  #contactBtn {
+    width: 100%;
   }
 
   #contributionBtn,
   #exploreBtn {
-    width:100%;
+    width: 100%;
   }
 
-  #aboutUs .row{
+  #aboutUs .row {
     flex-direction: column-reverse;
   }
 }
 
 /* Code Snippets */
-.code{
+.code {
   background: #383838;
   color: #fff;
-  padding : 5px;
+  padding: 5px;
   border-radius: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.copy-btn{
+.copy-btn {
   height: 40px;
   cursor: pointer;
   outline: 0;
@@ -503,8 +497,9 @@ footer {
   border: 1px solid transparent;
   padding: 6px 12px;
   font-size: 16px;
-  border-radius: .25rem;
-  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 .copy-btn:hover {
   color: #fff;
@@ -635,8 +630,8 @@ footer {
 }
 
 /* Fixing text overflow in cybersecurity */
-@media screen and (max-width:1200px) {
-  .card-title h5{
+@media screen and (max-width: 1200px) {
+  .card-title h5 {
     font-size: 1.5rem;
   }
 }
