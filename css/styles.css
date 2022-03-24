@@ -1,5 +1,5 @@
 :root {
-  --primary-background: rgb(131, 182, 83);
+  --primary-background: rgb(226, 19, 122);
   --primary-border-card: rgba(150, 120, 120, 0.125);
   --primary-date: grey;
   --primary-title: #e71d0f;
@@ -48,7 +48,7 @@ a:hover {
 }
 /* Navbar Section */
 #quickLearnLogoImg {
-  width: 100%;
+  width: 80%;
 }
 #navResourceBtn {
   box-sizing: content-box;
@@ -94,7 +94,7 @@ a:hover {
 #exploreBtn:hover {
   border: 3px solid var(--primary-title);
   color: var(--primary-title);
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 /* Dsc Corner */
 #infoImg2 {
@@ -126,8 +126,8 @@ a:hover {
 .card {
   transition: margin-right 2s ease-in-out 0.5s;
   padding: 1.1rem;
-  cursor: pointer;
-  background-color: #b1b5ae;
+  cursor: progress;
+  background-color: #3b1a5a;
   border-radius: 1.25rem;
   box-shadow: 0px 0px 5px #6940d3;
 }
@@ -318,7 +318,7 @@ a:hover {
   transition: 0.03s linear all;
 }
 .view-more-btn:hover {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   color: var(--primary-title);
   border: 2px solid var(--primary-title);
 }
@@ -361,7 +361,7 @@ textarea.contact-input-tags {
 }
 
 #contactSubheading {
-  color: #778899;
+  color: #1d2833;
 }
 
 #contactBtn {
@@ -456,16 +456,16 @@ footer {
     height: fit-content;
   }
   #resourceReferenceHeading {
-    font-size: 4rem;
+    font-size: 80%;
   }
 
   #contactBtn {
-    width: 100%;
+    width: 50%;
   }
 
   #contributionBtn,
   #exploreBtn {
-    width: 100%;
+    width: 50%;
   }
 
   #aboutUs .row {
@@ -583,7 +583,7 @@ footer {
 
 /* Dark Mode */
 .dark {
-  background-color: black;
+  background-color: rgb(141, 171, 199);
   color: white;
 }
 
