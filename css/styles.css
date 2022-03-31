@@ -91,6 +91,9 @@ a:hover{
   margin-top: -20px;
   margin-left: 10%;
 }
+#exploreResource{
+  align-items: center;
+}
 #exploreBtn {
   background-color: var(--primary-title);
   border: 3px solid var(--primary-title);
@@ -219,11 +222,10 @@ a:hover{
   transition: 0.5s ease-in-out;
 }
 #resourceReferenceHeading {
+  display: flex;
   font-size: 5rem;
   line-height: 5.5rem;
   color: white;
-  margin-left: 3%;
-
   z-index: 100;
   text-shadow: 2px 6px #6940d3;
 }
