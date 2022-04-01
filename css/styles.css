@@ -79,6 +79,7 @@ a:hover{
 #mainHeading {
   font-family: "Poppins", serif;
   font-weight: bolder;
+  text-align: left;
   font-size: 3rem;
   color: var(--primary-title);
 }
@@ -90,9 +91,6 @@ a:hover{
   height:auto;
   margin-top: -20px;
   margin-left: 10%;
-}
-#exploreResource{
-  align-items: center;
 }
 #exploreBtn {
   background-color: var(--primary-title);
@@ -228,6 +226,8 @@ a:hover{
   color: white;
   z-index: 100;
   text-shadow: 2px 6px #6940d3;
+  text-align: left;
+  margin-left: 2.7%;
 }
 
 #referenceButton {
@@ -449,7 +449,6 @@ footer {
   }
   #mainHeading {
     font-size: 1.8rem;
-    text-align: center;
     margin-top: 40px;
   }
 
