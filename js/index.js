@@ -133,5 +133,27 @@ function copy(id){
     document.body.removeChild(elem);
 }
 
+$('form').submit(function () {
 
+    // Get the Login Name value and trim it
+    var name = $.trim($('#validationCustom01').val());
+    console.log(name);
+    var email = $.trim($('#validationCustom02').val());
+    console.log(email);
+    var txt =$.trim($('#validationCustom03').val());
+
+    // Check if empty of not
+    if (name === ' ') {
+        alert('Name is empty.');
+        return false;
+    }
+    else if (email === ' ') {
+        alert('Enter valid email address');
+        return false;
+    }
+    else if (txt === ' ') {
+        alert('Text area is empty.');
+        return false;
+    }
+});
 
