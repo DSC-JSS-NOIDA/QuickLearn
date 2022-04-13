@@ -328,15 +328,20 @@ a:hover{
 /*Contact*/
 #contactHeading {
   color: var(--primary-title);
-  color: black;
-  font-size: 3.5rem;
+  color: #6940D3;
+  font-size: 6rem;
   font-family: "Poppins", sans-serif;
   font-weight: bolder;
   text-align: center;
 }
 
 .contact-input-tags {
-  border-radius: 45px;
+  border-radius: 50px;
+  background-color: #D3D3D3;
+}
+.contact-input-tags:hover {
+  transform: scale(1.03);
+ 
 }
 
 textarea.contact-input-tags {
@@ -347,7 +352,7 @@ textarea.contact-input-tags {
   background-color: var(--primary-title);
   border: 2px solid var(--primary-title);
   color: white;
-  /* border-radius: 45px; */
+  border-radius: 45px;
 }
 
 #contactBtn:hover {
@@ -356,6 +361,17 @@ textarea.contact-input-tags {
   color: var(--primary-title);
 }
 
+.list-group-item{
+  background-color: #D3D3D3;
+  border-radius: 5px;
+
+  border: 1px solid black;
+  margin: 4px;
+}
+.list-group-item:hover{
+  transform: scale(1.02);
+
+}
 #social-section li {
   width: 50%;
 }
@@ -386,7 +402,7 @@ footer {
 }
 /* Footer CSS */
 #footer{
-  background-color: rgb(255 5 5 / 29%);
+  background-color: 	#b6a6a6;
   padding: 20px;
 }
 /* Responsiveness */
