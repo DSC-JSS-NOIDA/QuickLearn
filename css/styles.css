@@ -58,6 +58,42 @@ a:hover{
   z-index: 10;
   background-color: #f1f1f2;
 }
+
+#navbar ul{
+  display:flex;
+  font-family: 'Baloo Bhaijaan 2', cursive;
+}
+#navbar::before{
+  content:"";
+  background-color:white;
+  position:absolute;
+  top:0px;
+  left:0px;
+  height:100%;
+  width:100%;
+  z-index:-1;
+  opacity:0.50;
+}
+
+#navbar ul li{
+  list-style:none;
+  font-size:1.3rem;
+
+
+}
+
+#navbar ul li a{
+  color:black;
+  display:block;
+  padding:3px 22px;
+  border-radius:20px;
+  text-decoration:none;
+
+}
+#navbar ul li a:hover{
+  color:black;
+  background-color:white;
+}
 #navResourceBtn {
   box-sizing: border-box;
   padding-left: 1%;
@@ -69,6 +105,7 @@ a:hover{
   border: 2px solid var(--primary-title);
   color: white;
   transition: 0.1s linear all;
+  font-size:20px;
 }
 #navResourceBtn:hover {
   border: 2px solid var(--primary-title);
@@ -98,6 +135,7 @@ a:hover{
   font-size: 1.3rem;
   transition: 0.1s linear all;
   width: 50%;
+  border-radius:15px;
 }
 #exploreBtn:hover {
   border: 3px solid var(--primary-title);
@@ -116,6 +154,7 @@ a:hover{
   font-size: 1.3rem;
   transition: 0.1s linear all;
   width: 70%;
+  border-radius:15px;
 }
 #contributionBtn:hover {
   border: 3px solid var(--primary-title);
