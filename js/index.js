@@ -36,6 +36,7 @@ const icon1 = document.getElementById("darkSwitch1");
 const icon2 = document.getElementById("darkSwitch1");
 const sidebar = document.getElementById("sidebar");
 const List2 = document.querySelectorAll("button.link-dark");
+const list = document.getElementById("categoryList")
 const text = document.getElementById("categoryText");
 const hr = document.getElementsByClassName("catHr");
 const head = document.getElementById("contriHead");
@@ -69,6 +70,7 @@ function dark_mode() {
             hr[i].classList.toggle("dark-hr");
         }
         text.classList.toggle("dark-text");
+        list.classList.toggle("dark-side-bar");
         head.classList.toggle("dark-head");
         for (i = 0; i < List3.length; i++) {
             List3[i].classList.toggle("dark-list-3");

@@ -20,7 +20,6 @@ body {
   z-index: -10;
   transition: 2s;
   background-color: var(--primary-background);
-  
 }
 
 /* .home{
@@ -28,31 +27,30 @@ body {
 } */
 
 input,
-textarea{
-  outline-style:none;
+textarea {
+  outline-style: none;
   border: 1px solid var(--primary-title) !important;
   border-radius: 5px !important;
 }
-
 
 html {
   scroll-behavior: smooth;
 }
 
 /* styling under feature explore section */
-a{
+a {
   text-decoration: none;
-  color:inherit;
+  color: inherit;
 }
 
-a:hover{
-  color:inherit;
+a:hover {
+  color: inherit;
 }
 /* Navbar Section */
 #quickLearnLogoImg {
   width: 100%;
 }
-.nav{
+.nav {
   position: sticky;
   top: 0%;
   z-index: 10;
@@ -87,7 +85,7 @@ a:hover{
 }
 #infoImg1 {
   width: 100%;
-  height:auto;
+  height: auto;
   margin-top: -20px;
   margin-left: 10%;
 }
@@ -137,7 +135,6 @@ a:hover{
   background-color: #96a6ce5b;
   border-radius: 1.25rem;
   box-shadow: 5px 5px 10px #b69ef1;
-
 }
 /* css for image inside card */
 .card-img-top {
@@ -156,7 +153,7 @@ a:hover{
   border-radius: 0.8rem;
 }
 .card-body {
-  min-height: 150px;
+  min-height: 145px;
 }
 .text-center {
   display: flex;
@@ -293,6 +290,7 @@ a:hover{
 }
 #resourceContainer {
   display: flex;
+  padding: 1rem;
 }
 /* Initially for Contribution Guidlines */
 #resourceBox {
@@ -307,6 +305,12 @@ a:hover{
 .category .select-option {
   display: none;
 }
+.category .btn-style {
+  transition: all 0.2s;
+}
+.category .btn-style:hover {
+  background: #dacff6;
+}
 .select-category-btn {
   display: block;
   width: 100%;
@@ -315,7 +319,7 @@ a:hover{
   text-align: left;
   font-weight: 800;
   font-size: 1.2rem;
-  font-family: monospace;
+  /* font-family: monospace; */
 }
 .select-category-btn:hover {
   background-color: var(--primary-contact-background);
@@ -355,22 +359,21 @@ textarea.contact-input-tags {
   color: white;
   /* border-radius: 45px; */
 
-
 #contactBtn:hover {
   background-color: white;
   border: 2px solid var(--primary-title);
   color: var(--primary-title);
-} */
-#my-form{
+}
+*/ #my-form {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 10px;
 }
 
-#contactHeading{
+#contactHeading {
   color: var(--primary-title);
 }
 
-#contactSubheading{
+#contactSubheading {
   color: #778899;
 }
 
@@ -388,29 +391,27 @@ textarea.contact-input-tags {
   transition: all 0.3s ease-in;
 }
 
-.form-inputs{
+.form-inputs {
   border: 1.5px var(--primary-title) solid;
 }
-
 
 #social-section li {
   width: 50%;
 }
 
-.social-icons{
+.social-icons {
   font-size: 23px;
-  padding: .7rem;
+  padding: 0.7rem;
   color: white;
   background-color: var(--primary-title);
   border: 1px solid rgb(114, 114, 114);
   border-radius: 50%;
 }
-.social-icons:hover{
+.social-icons:hover {
   background-color: white;
   color: var(--primary-title);
   cursor: pointer;
 }
-
 
 /* Footer */
 footer {
@@ -437,14 +438,14 @@ footer {
   font-size: 1.2rem;
 }
 /* Footer CSS */
-#footer{
+#footer {
   background-color: rgb(255 5 5 / 29%);
   padding: 20px;
 }
 /* Responsiveness */
 @media screen and (max-width: 768px) {
-  header{
-    height:auto;
+  header {
+    height: auto;
     margin-bottom: 20px;
   }
   #mainHeading {
@@ -453,52 +454,53 @@ footer {
     margin-top: 40px;
   }
 
-  #hackfest .row{
+  #hackfest .row {
     flex-direction: column;
   }
   #infoImg1,
   #infoImg2 {
     margin-left: 0;
-    width:65%;
+    width: 65%;
     display: block;
     margin: auto;
   }
 
-  #resourceReferenceBox{
+  #resourceReferenceBox {
     align-items: center;
     text-align: center;
     background-size: 829px;
     height: fit-content;
   }
-  #resourceReferenceHeading{
+  #resourceReferenceHeading {
     font-size: 4rem;
   }
 
-  #contactBtn{
-    width:100%;
+  #contactBtn {
+    width: 100%;
   }
 
   #contributionBtn,
   #exploreBtn {
-    width:100%;
+    width: 100%;
   }
 
-  #aboutUs .row{
+  #aboutUs .row {
     flex-direction: column-reverse;
   }
 }
 
 /* Code Snippets */
-.code{
+.code {
   background: #383838;
   color: #fff;
-  padding : 5px;
+  padding: 5px;
   border-radius: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+    font-family: monospace;
 }
-.copy-btn{
+.copy-btn {
   height: 40px;
   cursor: pointer;
   outline: 0;
@@ -512,8 +514,9 @@ footer {
   border: 1px solid transparent;
   padding: 6px 12px;
   font-size: 16px;
-  border-radius: .25rem;
-  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 .copy-btn:hover {
   color: #fff;
@@ -614,7 +617,10 @@ footer {
 }
 
 .dark-list-2 {
-  background-color: white;
+  background-color: #383838;
+  color: white;
+  box-shadow: 1px 1px 5px var(--primary-title);
+
 }
 
 .dark-text {
@@ -636,7 +642,7 @@ footer {
   color: #6940d3;
 }
 
-.list-group-item{
+.list-group-item {
   width: 500px;
   height: auto;
   text-align: left;
@@ -647,7 +653,6 @@ footer {
   padding-left: 40px;
 }
 
-
 /*Dark Mode CSS Ends*/
 
 @media screen and (max-width: 380px) {
@@ -657,9 +662,8 @@ footer {
 }
 
 /* Fixing text overflow in cybersecurity */
-@media screen and (max-width:1200px) {
-  .card-title h5{
+@media screen and (max-width: 1200px) {
+  .card-title h5 {
     font-size: 1.5rem;
   }
 }
-
