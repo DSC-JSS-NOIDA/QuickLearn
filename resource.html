@@ -2,325 +2,328 @@
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-  <!-- ---------------- FAVICON ------------------ -->
-  <link rel="shortcut icon" type="image/jpg" href="assets/images/favicon.png" />
-  <!-- Custom Stylesheet -->
-  <link rel="stylesheet" href="./css/styles.css" />
-  <!--Font Aswesome-->
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
-  <!--Bootstrap Icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
-  <!--Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
-  <title>Quick Learner</title>
-  <style>
-    .img-sz {
-      width: 10rem;
-      height: 8rem;
-    }
-  </style>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <!-- ---------------- FAVICON ------------------ -->
+    <link rel="shortcut icon" type="image/jpg" href="assets/images/favicon.png" />
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!--Font Aswesome-->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <!--Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <!--Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <title>Quick Learner</title>
+    <style>
+        .img-sz {
+            width: 10rem;
+            height: 8rem;
+        }
+    </style>
 </head>
 
 <body id="resource">
-  <!--Navbar Section -->
-  <nav class="nav p-3 ">
-    <a class="nav-link active" aria-current="page" href="./index.html" style="display: block; max-width: 150px;"><img
-        id="quickLearnLogoImg" src="./assets/images/logo.svg" alt="logo_img" /></a>
-    <a class="nav-link btn" href="./index.html" id="navResourceBtn">Home</a>
-    <span class="btn" onclick="dark_mode()" style="display: block; margin-left: 2px; color: #6940d3;" href="#"><i
+    <!--Navbar Section -->
+    <nav class="nav p-3 ">
+        <a class="nav-link active" aria-current="page" href="./index.html" style="display: block; max-width: 150px;"><img id="quickLearnLogoImg" src="./assets/images/logo.svg" alt="logo_img" /></a>
+        <a class="nav-link btn" href="./index.html" id="navResourceBtn">Home</a>
+        <span class="btn" onclick="dark_mode()" style="display: block; margin-left: 2px; color: #6940d3;" href="#"><i
         id="darkSwitch2" class="fas fa-moon"></i></span>
-  </nav>
-  <div class="container-fluid my-3" id="resourceContainer">
-    <div id="sidebar" class="d-flex flex-column flex-shrink-0 p-3 m-3 mx-4">
-      <h4 id="categoryText">Categories</h4>
-      <hr class="catHr" />
-      <ul id="categoryList" class="nav nav-pills flex-column mb-auto">
-        <li>
-          <button class="link-dark contribution-btn" id="contributeBtn">Contribution Button</button>
-        </li>
-        <li class="category">
-          <button class="link-dark btn-style">Programming</button>
-          <div class="select-option">
-            <button class="btn select-category-btn shadow-none" value="programming">
+    </nav>
+    <div class="container-fluid my-3" id="resourceContainer">
+        <div id="sidebar" class="d-flex flex-column flex-shrink-0 p-3 m-3 mx-4">
+            <h4 id="categoryText">Categories</h4>
+            <hr class="catHr" />
+            <ul id="categoryList" class="nav nav-pills flex-column mb-auto">
+                <li>
+                    <button class="link-dark contribution-btn" id="contributeBtn">Contribution Button</button>
+                </li>
+                <li class="category">
+                    <button class="link-dark btn-style">Programming</button>
+                    <div class="select-option">
+                        <button class="btn select-category-btn shadow-none" value="programming">
               C++
             </button>
-            <button class="btn select-category-btn shadow-none" value="programming">
+                        <button class="btn select-category-btn shadow-none" value="programming">
               Java
             </button>
-            <button class="btn select-category-btn shadow-none" value="programming">
+                        <button class="btn select-category-btn shadow-none" value="programming">
               Python
             </button>
-            <button class="btn select-category-btn shadow-none" value="programming">
+                        <button class="btn select-category-btn shadow-none" value="programming">
               Javascript
             </button>
-            <button class="btn select-category-btn" value="programming">
+                        <button class="btn select-category-btn" value="programming">
               PHP
             </button>
-          </div>
-        </li>
-        <li class="category">
-          <button class="link-dark btn-style">Web Development</button>
-          <div class="select-option">
-            <button class="btn select-category-btn shadow-none" value="web">
+                    </div>
+                </li>
+                <li class="category">
+                    <button class="link-dark btn-style">Web Development</button>
+                    <div class="select-option">
+                        <button class="btn select-category-btn shadow-none" value="web">
               Frontend
             </button>
-            <button class="btn select-category-btn shadow-none" value="web">
+                        <button class="btn select-category-btn shadow-none" value="web">
               Backend
             </button>
-            <button class="btn select-category-btn shadow-none" value="web">
+                        <button class="btn select-category-btn shadow-none" value="web">
               MEAN
             </button>
-            <button class="btn select-category-btn shadow-none" value="web">
+                        <button class="btn select-category-btn shadow-none" value="web">
               MERN
             </button>
-            <button class="btn select-category-btn shadow-none" value="web">
+                        <button class="btn select-category-btn shadow-none" value="web">
               MEVN
             </button>
-            <button class="btn select-category-btn" value="web">
+                        <button class="btn select-category-btn" value="web">
               Ruby on Rails
             </button>
-          </div>
-        </li>
-        <li class="category">
-          <button class="link-dark btn-style ">Mobile Development</button>
-          <div class="select-option">
-            <button class="btn select-category-btn shadow-none" value="android">
+                    </div>
+                </li>
+                <li class="category">
+                    <button class="link-dark btn-style ">Mobile Development</button>
+                    <div class="select-option">
+                        <button class="btn select-category-btn shadow-none" value="android">
               Android
             </button>
-            <button class="btn select-category-btn shadow-none" value="android">
+                        <button class="btn select-category-btn shadow-none" value="android">
               Flutter
             </button>
-            <button class="btn select-category-btn shadow-none" value="android">
+                        <button class="btn select-category-btn shadow-none" value="android">
               IOS
             </button>
-            <button class="btn select-category-btn shadow-none" value="android">
+                        <button class="btn select-category-btn shadow-none" value="android">
               React Native
             </button>
-          </div>
-        </li>
-        <li class="category">
+                    </div>
+                </li>
+                <li class="category">
 
-          <button class="link-dark btn-style shadow-none">Designing</button>
+                    <button class="link-dark btn-style shadow-none">Designing</button>
 
-          <button class="link-dark btn-style">Application Programming Interface</button>
-          <div class="select-option">
-            <button class="btn select-category-btn" value="api">
+                    <button class="link-dark btn-style">Application Programming Interface</button>
+                    <div class="select-option">
+                        <button class="btn select-category-btn" value="api">
               API
             </button>
-          </div>
-        </li>
-        <li class="category">
-          <button class="link-dark btn-style">Designing</button>
+                    </div>
+                </li>
+                <li class="category">
+                    <button class="link-dark btn-style">Designing</button>
 
-          <div class="select-option">
-            <button class="btn select-category-btn shadow-none" value="design">
+                    <div class="select-option">
+                        <button class="btn select-category-btn shadow-none" value="design">
               General
             </button>
-            <button class="btn select-category-btn shadow-none" value="design">
+                        <button class="btn select-category-btn shadow-none" value="design">
               Illustrations
             </button>
-            <button class="btn select-category-btn shadow-none" value="design">
+                        <button class="btn select-category-btn shadow-none" value="design">
               Motion
             </button>
-            <button class="btn select-category-btn shadow-none" value="design">
+                        <button class="btn select-category-btn shadow-none" value="design">
               Photo
             </button>
-            <button class="btn select-category-btn shadow-none" value="design">
+                        <button class="btn select-category-btn shadow-none" value="design">
               Sound
             </button>
-            <button class="btn select-category-btn shadow-none" value="design">
+                        <button class="btn select-category-btn shadow-none" value="design">
               UI/UX
             </button>
-            <button class="btn select-category-btn shadow-none" value="design">
+                        <button class="btn select-category-btn shadow-none" value="design">
               Video
             </button>
-          </div>
-        </li>
-        <li class="category">
-          <button class="link-dark btn-style">
+                    </div>
+                </li>
+                <li class="category">
+                    <button class="link-dark btn-style">
             Artificial Intelligience
           </button>
-          <div class="select-option">
-            <button class="btn select-category-btn shadow-none" value="ai">AI</button>
-            <button class="btn select-category-btn shadow-none" value="ai">ML</button>
-            <button class="btn select-category-btn shadow-none" value="ai">
+                    <div class="select-option">
+                        <button class="btn select-category-btn shadow-none" value="ai">AI</button>
+                        <button class="btn select-category-btn shadow-none" value="ai">ML</button>
+                        <button class="btn select-category-btn shadow-none" value="ai">
               Computer Vision
             </button>
-            <button class="btn select-category-btn shadow-none" value="ai">
+                        <button class="btn select-category-btn shadow-none" value="ai">
               Deep Learning
             </button>
-          </div>
-        </li>
-        <li class="category">
-          <button class="link-dark btn-style">Data Science</button>
-          <div class="select-option">
-            <button class="btn select-category-btn shadow-none" value="data_science">
+                    </div>
+                </li>
+                <li class="category">
+                    <button class="link-dark btn-style">Data Science</button>
+                    <div class="select-option">
+                        <button class="btn select-category-btn shadow-none" value="data_science">
               Statistics
             </button>
-            <button class="btn select-category-btn shadow-none" value="data_science">
+                        <button class="btn select-category-btn shadow-none" value="data_science">
               Big Data
             </button>
-          </div>
-        </li>
-        <li class="category">
-          <button class="link-dark btn-style">Data Structures & Algorithms</button>
-          <div class="select-option">
-            <button class="btn select-category-btn" value="data_structure_&_algorithm">
+                    </div>
+                </li>
+                <li class="category">
+                    <button class="link-dark btn-style">Data Structures & Algorithms</button>
+                    <div class="select-option">
+                        <button class="btn select-category-btn" value="data_structure_&_algorithm">
               Data structures & Algorithms
             </button>
-          </div>
-        </li>
-        <li class="category">
-          <button class="link-dark btn-style">Database Management</button>
-          <div class="select-option">
-            <button class="btn select-category-btn" value="database_management">
+                    </div>
+                </li>
+                <li class="category">
+                    <button class="link-dark btn-style">Database Management</button>
+                    <div class="select-option">
+                        <button class="btn select-category-btn" value="database_management">
               Database Management
             </button>
-          </div>
-        </li>
-        <li class="category">
-          <button class="link-dark btn-style">Blockchain Development</button>
-          <div class="select-option">
-            <button class="btn select-category-btn shadow-none" value="Blockchain">
+                    </div>
+                </li>
+                <li class="category">
+                    <button class="link-dark btn-style">Blockchain Development</button>
+                    <div class="select-option">
+                        <button class="btn select-category-btn shadow-none" value="Blockchain">
               Blockchain
             </button>
-          </div>
-        </li>
-        <li class="category">
-          <button class="link-dark btn-style">Ethical Hacking</button>
-          <div class="select-option">
-            <button class="btn select-category-btn shadow-none" value="ethical_hacking">
+                    </div>
+                </li>
+                <li class="category">
+                    <button class="link-dark btn-style">Ethical Hacking</button>
+                    <div class="select-option">
+                        <button class="btn select-category-btn shadow-none" value="ethical_hacking">
               Ethical Hacking
             </button>
-          </div>
-        </li>
-        <li class="category">
-          <button class="link-dark btn-style">Game Development</button>
-          <div class="select-option">
-            <button class="btn select-category-btn shadow-none" value="Game_dev">
+                    </div>
+                </li>
+                <li class="category">
+                    <button class="link-dark btn-style">Game Development</button>
+                    <div class="select-option">
+                        <button class="btn select-category-btn shadow-none" value="Game_dev">
               Game Development
             </button>
-          </div>
-        </li>
-        <li class="category">
-          <button class="link-dark btn-style">Robotics</button>
-          <div class="select-option">
-            <button class="btn select-category-btn shadow-none" value="robotics">
+                    </div>
+                </li>
+                <li class="category">
+                    <button class="link-dark btn-style">Robotics</button>
+                    <div class="select-option">
+                        <button class="btn select-category-btn shadow-none" value="robotics">
               Robotics
             </button>
-          </div>
-        </li>
-        <li class="category">
-          <button class="link-dark btn-style">CyberSecurity</button>
-          <div class="select-option">
-            <button class="btn select-category-btn shadow-none" value="CyberSecurity">
+                    </div>
+                </li>
+                <li class="category">
+                    <button class="link-dark btn-style">
+            Cloud Computing
+          </button>
+                    <div class="select-option">
+                        <button class="btn select-category-btn shadow-none" value="aws">AWS</button>
+                        <button class="btn select-category-btn shadow-none" value="azure">Microsoft AZURE</button>
+                        <button class="btn select-category-btn shadow-none" value="gcp">
+              Google Cloud Platform (GCP)
+            </button>
+                    </div>
+                </li>
+                <li class="category">
+                    <button class="link-dark btn-style">CyberSecurity</button>
+                    <div class="select-option">
+                        <button class="btn select-category-btn shadow-none" value="CyberSecurity">
               CyberSecurity
             </button>
-          </div>
-        </li>
-      </ul>
-      <hr class="catHr" />
-    </div>
-    <!-- Sidebar Ends -->
-    <div class="container mt-3" id="contributionGuideline">
-      <h2 id="contriHead">Contribution Guidelines</h2>
+                    </div>
+                </li>
+            </ul>
+            <hr class="catHr" />
+        </div>
+        <!-- Sidebar Ends -->
+        <div class="container mt-3" id="contributionGuideline">
+            <h2 id="contriHead">Contribution Guidelines</h2>
 
-      <div class="contributionHead font my-2">
-        Follow the steps below to start contributing. We hope you have fun!
-      </div>
-      <li class="font">
-        Fork and clone the Repo by typing the following commands in the
-        terminal
-      </li>
-      <!-- To add code snippets in future put the code inside <div> with class as Code and give ID to the code as any number and give the button as ID number+b
+            <div class="contributionHead font my-2">
+                Follow the steps below to start contributing. We hope you have fun!
+            </div>
+            <li class="font">
+                Fork and clone the Repo by typing the following commands in the terminal
+            </li>
+            <!-- To add code snippets in future put the code inside <div> with class as Code and give ID to the code as any number and give the button as ID number+b
         Eg: (1,1b) , (2,2b) etc
       -->
 
 
-      <div class="code">
-        <div class="mx-4 my-2 fc" id="1">
-          <div class="">$ git clone https://github.com/&ltyour-github-username&gt/QuickLearn.git</div>
-          <div class="">$ cd QuickLearn</div>
+            <div class="code">
+                <div class="mx-4 my-2 fc" id="1">
+                    <div class="">$ git clone https://github.com/&ltyour-github-username&gt/QuickLearn.git</div>
+                    <div class="">$ cd QuickLearn</div>
+                </div>
+                <button class="copy-btn" id="1b" onclick="copy(this.id)">Copy</button>
+            </div>
+
+            <li class="font">
+                Now to add your resource to website, add an object with keys same as listed in existing objects in the file.
+            </li>
+            <li class="font">Save and commit your code.</li>
+            <li class="font">
+                Push to your fork of the repository , navigate to original repository and make a pull request.
+            </li>
+            <li class="font">Make changes to the code</li>
+            <li class="font">Stage your changes using:</li>
+
+            <div class="code">
+                <div class="mx-4 my-2 fc" id="2">$ git add .</div>
+                <button class="copy-btn" onclick="copy(this.id)" id="2b">Copy</button>
+            </div>
+
+            <li class="font">Commit your changes using:</li>
+
+            <div class="code">
+                <div class="mx-4 my-2 fc" id="3">$ git commit -m "add any comment"</div>
+                <button class="copy-btn" onclick="copy(this.id)" id="3b">Copy</button>
+            </div>
+
+            <li class="font">Push the changes to the forked repository using:</li>
+
+            <div class="code">
+                <div class="mx-4 my-2 fc" id="4">$ git push</div>
+                <button class="copy-btn" onclick="copy(this.id)" id="4b">Copy</button>
+            </div>
+
+            <li class="font">Navigate to the original repository and make a pull request</li>
+
+
+            </ol>
         </div>
-        <button class="copy-btn" id="1b" onclick="copy(this.id)">Copy</button>
-      </div>
-
-      <li class="font">
-        Now to add your resource to website, add an object with keys same as
-        listed in existing objects in the file.
-      </li>
-      <li class="font">Save and commit your code.</li>
-      <li class="font">
-        Push to your fork of the repository , navigate to original
-        repository and make a pull request.
-      </li>
-      <li class="font">Make changes to the code</li>
-      <li class="font">Stage your changes using:</li>
-      
-      <div class="code">
-        <div class="mx-4 my-2 fc" id="2">$ git add .</div>
-        <button class="copy-btn" onclick="copy(this.id)" id="2b">Copy</button>
-      </div>
-
-      <li class="font">Commit your changes using:</li>
-
-      <div class="code">
-        <div class="mx-4 my-2 fc" id="3">$ git commit -m "add any comment"</div>
-        <button class="copy-btn" onclick="copy(this.id)" id="3b">Copy</button>
-      </div>
-
-      <li class="font">Push the changes to the forked repository using:</li>
-      
-      <div class="code">
-        <div class="mx-4 my-2 fc" id="4">$ git push</div>
-        <button class="copy-btn" onclick="copy(this.id)" id="4b">Copy</button>
-      </div>
-
-      <li class="font">Navigate to the original repository and make a pull request</li>
-
-
-      </ol>
+        <div class="container mt-3" id="resourceBox">
+            <!--Beginner Resource Box-->
+            <h4 class="resource-heading">Beginner</h4>
+            <div class="row" id="beginnerResourceBox"></div>
+            <!--Intermediate Resource Box -->
+            <h4 class="resource-heading">Intermediate</h4>
+            <div class="row mt-2" id="intermediateResourceBox"></div>
+            <!--Advanced Resource Box -->
+            <h4 class="resource-heading">Advanced</h4>
+            <div class="row mt-2" id="advancedResourceBox"></div>
+        </div>
     </div>
-    <div class="container mt-3" id="resourceBox">
-      <!--Beginner Resource Box-->
-      <h4 class="resource-heading">Beginner</h4>
-      <div class="row" id="beginnerResourceBox"></div>
-      <!--Intermediate Resource Box -->
-      <h4 class="resource-heading">Intermediate</h4>
-      <div class="row mt-2" id="intermediateResourceBox"></div>
-      <!--Advanced Resource Box -->
-      <h4 class="resource-heading">Advanced</h4>
-      <div class="row mt-2" id="advancedResourceBox"></div>
-    </div>
-  </div>
 
-  <footer>
-    <div class="footer d-flex flex-coloumn justify-content-center">
-      Made with ❤ By <a href="https://dscjss.in">DSC JSSATEN</a>
-      <a href="https://github.com/dsc-jss-noida" classname=" text-black github-footer" rel="noopener noreferrer"
-        target="_blank">
-      </a>
-    </div>
-    <img src="./assets/images/gdsc-logo.png" style="display: block; width: 250px; margin: 10px auto"
-      classname="m-5 img-logo" alt="gdsc_logo" />
-  </footer>
-  <!-- Footer Section Ends -->
-  <!-- Option 1: Bootstrap Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-  <script src="./js/index.js"></script>
-  <script src="./js/getResource.js"></script>
-  <script src="https://kit.fontawesome.com/d5f8b6c1a9.js" crossorigin="anonymous"></script>
+    <footer>
+        <div class="footer d-flex flex-coloumn justify-content-center">
+            Made with ❤ By <a href="https://dscjss.in">DSC JSSATEN</a>
+            <a href="https://github.com/dsc-jss-noida" classname=" text-black github-footer" rel="noopener noreferrer" target="_blank">
+            </a>
+        </div>
+        <img src="./assets/images/gdsc-logo.png" style="display: block; width: 250px; margin: 10px auto" classname="m-5 img-logo" alt="gdsc_logo" />
+    </footer>
+    <!-- Footer Section Ends -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/getResource.js"></script>
+    <script src="https://kit.fontawesome.com/d5f8b6c1a9.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
