@@ -66,9 +66,13 @@
 
 <body>
   <!--Navbar Section -->
-  <nav class="nav p-3 flex-nowrap">
+  <nav class="nav p-3 flex-nowrap" id="navbar">
     <a class="nav-link active" style="display: block; max-width: 150px;" aria-current="page" href="#"><img
         id="quickLearnLogoImg" src="./assets/images/logo.svg" alt="logo_img" /></a>
+        <ul style="display:flex; justify-content:center;align-items:center">
+          <li class="item"><a href="#features">Features</a></li>
+          <li class="item"><a href="#contactus">Contact Us</a></li>
+      </ul>
     <a class="nav-link btn" href="./resource.html" id="navResourceBtn">Resources</a>
     <span class="btn" onclick="dark_mode()" style="display: block; margin-left: 2px; color: #6940d3;" href="#"><i
         id="darkSwitch1" class="fas fa-moon"></i></span>
@@ -211,6 +215,7 @@
 
   <!-- contact us section -->
   <section id="contactus">
+    <div class="container-fluid" style="background-image:url('assets/images/contact2.png'); background-repeat:no-repeat; ">
     <!-- heading container -->
     <div class="container my-5">
       <h2 class="mb-4 fs-1 text-center" id="contactHeading">
@@ -265,7 +270,8 @@
             <div class="mt-2 mb-2">
               <button 
                 id="contactBtn" 
-                class="btn btn-lg"  
+                class="btn btn-lg" 
+                style="border-radius:15px" 
                 type="submit"
               >
                 Submit
@@ -310,6 +316,7 @@
         </div>
         <!-- oci ends here -->
     </div>
+  </div>
   </section>
 
   <!-- contact us section ends here -->
