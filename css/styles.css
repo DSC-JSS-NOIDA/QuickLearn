@@ -407,10 +407,19 @@ textarea.contact-input-tags {
   border: 1px solid rgb(114, 114, 114);
   border-radius: 50%;
 }
-.social-icons:hover {
+.social-icons:hover, #top:hover {
   background-color: white;
   color: var(--primary-title);
   cursor: pointer;
+}
+#top {
+  font-size: 10px;
+  padding: 0.7rem;
+  color: white;
+  background-color: var(--primary-title);
+  border: 1px solid rgb(114, 114, 114);
+  border-radius: 50%;
+  margin-bottom: 10px;
 }
 
 /* Footer */
@@ -651,6 +660,9 @@ footer {
 .list-group-item p {
   text-align: left;
   padding-left: 40px;
+}
+#top{
+
 }
 
 /*Dark Mode CSS Ends*/

@@ -135,5 +135,7 @@ function copy(id){
     document.body.removeChild(elem);
 }
 
-
-
+function backTotop() {
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0; 
+} 
