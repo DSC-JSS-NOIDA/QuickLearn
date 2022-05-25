@@ -27,10 +27,12 @@
       width: 10rem;
       height: 8rem;
     }
-    ::-webkit-scrollbar{
+
+    ::-webkit-scrollbar {
       width: 12px;
     }
-    ::-webkit-scrollbar-thumb{
+
+    ::-webkit-scrollbar-thumb {
       background: #6f42c1;
       border-radius: 30px;
     }
@@ -39,13 +41,18 @@
 
 <body id="resource">
   <!--Navbar Section -->
-  <nav class="nav p-3 ">
-    <a class="nav-link active" aria-current="page" href="./index.html" style="display: block; max-width: 150px;"><img
-        id="quickLearnLogoImg" src="./assets/images/logo.svg" alt="logo_img" /></a>
-    <a class="nav-link btn" href="./index.html" id="navResourceBtn">Home</a>
-    <span class="btn" onclick="dark_mode()" style="display: block; margin-left: 2px; color: #6940d3;" href="#"><i
-        id="darkSwitch2" class="fas fa-moon"></i></span>
+  <nav>
+    <a class="nav-link active qlimg" aria-current="page" href="./index.html"><img id="quickLearnLogoImg"
+        src="./assets/images/logo.svg" alt="logo_img" /></a>
+    <span class="options">
+      <a class="nav-link btn" href="./contribution.html" id="navBtn">Contribution Guidlines</a>
+      <a class="nav-link btn" href="./resource.html" id="navBtn">Resources</a>
+      <a class="nav-link btn" href="./index.html#contactus" id="navBtn">Contact Us</a>
+      <span class="btn" onclick="dark_mode()" style="display: block; margin-left: 2px; color: #6940d3;" href="#"><i
+          id="darkSwitch1" class="fas fa-moon"></i></span>
+    </span>
   </nav>
+  <div class="space"></div>
   <div class="container-fluid my-3" id="resourceContainer">
     <div id="sidebar" class="d-flex flex-column flex-shrink-0 p-3 m-3 mx-4">
       <h4 id="categoryText">Categories</h4>
