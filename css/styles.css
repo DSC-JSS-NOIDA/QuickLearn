@@ -450,6 +450,14 @@ textarea.contact-input-tags {
   cursor: pointer;
 }
 
+#logo {
+  font-family: cursive;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 10px;
+  color: rgb(81, 93, 105) !important;
+}
+
 /* Footer */
 footer {
   border-top: 2px solid var(--primary-border-card);
