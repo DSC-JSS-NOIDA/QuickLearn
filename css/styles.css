@@ -12,6 +12,11 @@
   --primmary-shadow: rgb(133, 130, 130);
 }
 
+.list-group-item {
+  width: 300px !important;
+  height: auto;
+}
+
 html,
 body {
   width: 100%;
