@@ -16,7 +16,31 @@
         "title": "freecodecamp.org",
         "link": "https://youtu.be/mU6anWqZJcc"  ,
         "type": "video"
+    },
+
+    {
+        "title": "Codepen",
+        "link": "https://codepen.io/",
+        "type": "docs"
+    },
+
+    {
+        "title": "Javascript 30",
+        "link": "https://javascript30.com/",
+        "type": "docs"
+    }, 
+
+    {
+        "title": "Front End Mentor",
+        "link": "https://www.frontendmentor.io/",
+        "type": "docs"
+    },
+    
+    {
+        "title": "Code Wars",
+        "link": "https://www.codewars.com/",
+        "type": "docs"
     }
-  
+    
    
 ]
