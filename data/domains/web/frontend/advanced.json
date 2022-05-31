@@ -40,10 +40,17 @@
         "link": "https://jestjs.io/",
         "type": "docs"
     },
-   {
+    {
         "title": "Front-end roadmap",
         "link": "https://roadmap.sh/frontend",
         "type": "docs"
-   }
+    },
+
+    {
+       "title":"Ace Front End",
+       "link": "https://www.acefrontend.com/",
+       "type":"docs"
+    }
+
 
 ]

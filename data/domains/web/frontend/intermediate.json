@@ -42,6 +42,11 @@
       "title": "Conquering Responsive Layouts by Kevin Powell",
       "link": "https://courses.kevinpowell.co/courses/conquering-responsive-layouts",
       "type": "docs"
-    }
+    },
 
+    {
+        "title": "CSS Battle",
+        "link": "https://cssbattle.dev/",
+        "type": "docs"
+    }
 ]
