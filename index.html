@@ -63,22 +63,27 @@
 
 <body>
   <!--Navbar Section -->
-  <nav class="nav p-3 flex-nowrap">
-    
-    <a href="#" id="logo" class="navbar-brand  font-weight-bold">
-          Quick Learn
-    </a>
-    <a class="nav-link btn" href="./resource.html" id="navResourceBtn">Resources</a>
-    <span class="btn" onclick="dark_mode()" style="display: block; margin-left: 2px; color: #6940d3;" href="#"><i
-        id="darkSwitch1" class="fas fa-moon"></i></span>
+  <nav>
+    <a class="nav-link active qlimg" aria-current="page" href="#"><img id="quickLearnLogoImg"
+        src="./assets/images/logo.svg" alt="logo_img" /></a>
+    <span class="options">
+      <a class="nav-link btn" href="./contribution.html" id="navBtn">Contribution Guidlines</a>
+      <a class="nav-link btn" href="./resource.html" id="navBtn">Resources</a>
+      <a class="nav-link btn" href="#contactus" id="navBtn">Contact Us</a>
+      <span class="btn" onclick="dark_mode()" style="display: block; margin-left: 2px; color: #6940d3;" href="#"><i
+          id="darkSwitch1" class="fas fa-moon"></i></span>
+    </span>
   </nav>
-  <!-- Header Section -->
+
+  <div class="space"></div>
+
   <header>
     <div class="container" id="aboutUs">
       <!-- Text Section -->
       <div class="row">
         <div class="
               col-12 col-md-6
+              mt-5
               px-3
               d-flex
               flex-column
