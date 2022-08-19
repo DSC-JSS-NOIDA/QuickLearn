@@ -400,13 +400,26 @@ textarea.contact-input-tags {
   width: 50%;
 }
 
-
-#logo{
-  font-family:cursive;
+#logo {
+  font-family: cursive;
   font-size: 25px;
   font-weight: bold;
   margin-left: 10px;
   color: rgb(81, 93, 105) !important;
+}
+
+.social-icons {
+  font-size: 23px;
+  padding: 0.7rem;
+  color: white;
+  background-color: var(--primary-title);
+  border: 1px solid rgb(114, 114, 114);
+  border-radius: 50%;
+}
+.social-icons:hover {
+  background-color: white;
+  color: var(--primary-title);
+  cursor: pointer;
 }
 
 /* Footer */
@@ -494,7 +507,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-    font-family: monospace;
+  font-family: monospace;
 }
 .copy-btn {
   height: 40px;
@@ -616,7 +629,6 @@ footer {
   background-color: #383838;
   color: white;
   box-shadow: 1px 1px 5px var(--primary-title);
-
 }
 
 .dark-text {
