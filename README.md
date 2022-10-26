@@ -1,6 +1,12 @@
 <!-- <div align="center"> <img align="center" alt="dschackfest" src="https://user-images.githubusercontent.com/42115530/94295926-a5741880-ff7f-11ea-890b-39ad20ac0f21.png" height='150' width='350'></div> -->
 
-<div align="center"> <img align="center" alt="dschackfest" src="https://res.cloudinary.com/de4by5q8o/image/upload/v1633197681/hackfest2021_ocjn5n.svg" height='150' width='350'></div>
+<div>
+    <img align=top src="https://miro.medium.com/max/1400/1*c4YgRXYQayOVWxV37ourrw.png" height="100" width="50%"/>
+    <img align=top src="https://res.cloudinary.com/de4by5q8o/image/upload/v1633197681/hackfest2021_ocjn5n.svg" height="100" width="49%"/>
+<div>
+<br>
+
+
 
 ## QuickLearn
 
@@ -52,6 +58,10 @@ A collection of resources categorised by tech domains, languages, expertise and 
 | 1.    | [master](https://github.com/DSC-JSS-NOIDA/foss-events/tree/master)   | contains the frontend code |
 | 2.    | [backend](https://github.com/DSC-JSS-NOIDA/foss-events/tree/backend) | contains all backend code  | -->
 
+
+<hr>
+
+
 ## Our Contributors  !! ✨
 ### Thanks to these wonderful people: ✨
 
@@ -66,6 +76,12 @@ A collection of resources categorised by tech domains, languages, expertise and 
 </table>
 
 ## Get Started
+
+### Demo <a href="https://drive.google.com/file/d/1Z6bihDrFMUPy8j5nIqzwnqP4pl_OgPXc/view" style="text-decoration:none;">🎥</a>
+
+#### Website for this repository : <https://dsc-jss-noida.github.io/QuickLearn/>
+
+<br>
 
 ### Steps for Contributing
 
@@ -184,7 +200,7 @@ $ git pull upstream main
 <a href="https://www.facebook.com/dscjssnoida/" target="_blank">
 <img src=https://img.shields.io/badge/facebook-%232E87FB.svg?&style=for-the-badge&logo=facebook&logoColor=white alt=facebook style="margin-bottom: 5px;" />
 </a>
-<a href="https://www.instagram.com/dscjssaten/?igshid=9ubqtp1ssqsi" target="_blank">
+<a href="https://instagram.com/gdscjssaten?igshid=YmMyMTA2M2Y=" target="_blank">
 <img src=https://img.shields.io/badge/instagram-%23000000.svg?&style=for-the-badge&logo=instagram&logoColor=white alt=instagram style="margin-bottom: 5px;" />
 </a>
  <a href="https://discord.gg/PWEtw7gq" target="_blank">
@@ -203,3 +219,4 @@ $ git pull upstream main
 ## License
 
 Licensed under the [MIT license](LICENSE).
+

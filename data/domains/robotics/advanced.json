@@ -1,10 +1,12 @@
 [
     {
       "title": "Coursera",
-      "link": "https://www.coursera.org/learn/robotics-flight"
+      "link": "https://www.coursera.org/learn/robotics-flight",
+      "type": "video"
     },
     {
       "title": "intelitek",
-      "link": "https://intelitek.com/advanced-robotics/"
+      "link": "https://intelitek.com/advanced-robotics/",
+      "type": "video"
     }
 ]

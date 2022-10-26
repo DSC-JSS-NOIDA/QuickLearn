@@ -1,36 +1,44 @@
 [
     {
       "title": "FreeCodeCamp.org",
-      "link": "https://www.youtube.com/watch?v=fis26HvvDII&ab_channel=freeCodeCamp.org"
+      "link": "https://www.youtube.com/watch?v=fis26HvvDII&ab_channel=freeCodeCamp.org",
+      "type": "video"
     },
   
     {
       "title": "Google Developers India",
-      "link": "https://www.youtube.com/playlist?list=PLlyCyjh2pUe9wv-hU4my-Nen_SvXIzxGB"
+      "link": "https://www.youtube.com/playlist?list=PLlyCyjh2pUe9wv-hU4my-Nen_SvXIzxGB",
+      "type": "video"
     },
     {
       "title": "Intents",
-      "link": "https://developer.android.com/guide/components/intents-filters"
+      "link": "https://developer.android.com/guide/components/intents-filters",
+      "type": "docs"
     },
     {
       "title": "Complex UI design",
-      "link": "https://proandroiddev.com/designing-complex-ui-using-android-constraintlayout-cb0606823da0"
+      "link": "https://proandroiddev.com/designing-complex-ui-using-android-constraintlayout-cb0606823da0",
+      "type": "docs"
     },
     {
       "title": "CodeWithHarry",
-      "link": "https://www.youtube.com/watch?v=mXjZQX3UzOs&ab_channel=CodeWithHarry"
+      "link": "https://www.youtube.com/watch?v=mXjZQX3UzOs&ab_channel=CodeWithHarry",
+      "type": "video"
     },
     {
       "title": "Thenewboston",
-      "link": "https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBsvRxJJOzG4r4k_zLKrnxl"
+      "link": "https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBsvRxJJOzG4r4k_zLKrnxl",
+      "type": "video"
     },
     {
       "title": "Android Basics in Kotlin",
-      "link": "https://developer.android.com/courses/android-basics-kotlin/course"
+      "link": "https://developer.android.com/courses/android-basics-kotlin/course",
+      "type": "docs"
     },
     {
       "title": "Android Basics Udacity",
-      "link": "https://www.udacity.com/course/android-developer-nanodegree-by-google--nd801"
+      "link": "https://www.udacity.com/course/android-developer-nanodegree-by-google--nd801",
+      "type": "video"
     }
   ]
   

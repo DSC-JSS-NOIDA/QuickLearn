@@ -1,18 +1,22 @@
 [
     {
         "title": "The Net Ninja",
-        "link": "https://youtube.com/playlist?list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ"
+        "link": "https://youtube.com/playlist?list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ",
+        "type": "video"
     },
     {
         "title": "Devspot",
-        "link": "https://youtu.be/ToPdSd42UKA"
+        "link": "https://youtu.be/ToPdSd42UKA",
+        "type": "video"
     },
     {
         "title": "Flutter Documentation",
-        "link": "https://flutter.dev/docs"
+        "link": "https://flutter.dev/docs",
+        "type": "docs"
     },
     {
         "title": "freeCodeCamp.org",
-        "link": "https://youtu.be/pTJJsmejUOQ"
+        "link": "https://youtu.be/pTJJsmejUOQ",
+        "type": "video"
     }
 ]

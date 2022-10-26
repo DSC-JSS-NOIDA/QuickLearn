@@ -15,11 +15,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/font-awesome.min.css">
   <!--Bootstrap Icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
-<!-- animate css -->
-<link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+  <!-- animate css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
   <!----- FAVICON ------->
 
@@ -36,38 +33,41 @@
       width: 10rem;
       height: auto;
     }
-
   </style>
 
-   <!--scroll bar-->
+  <!--scroll bar-->
 
   <style type="text/css">
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      text-align: center;
+      font-family: calibri;
+    }
 
-  *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-align: center;
-    font-family: calibri;
-  }
-  ::-webkit-scrollbar{
-    width: 12px;
-  }
-  ::-webkit-scrollbar-thumb{
-    background: #6f42c1;
-    border-radius: 30px;
-  }
-    </style>
+    ::-webkit-scrollbar {
+      width: 12px;
+    }
 
-   <!--scroll bar-->
+    ::-webkit-scrollbar-thumb {
+      background: #6f42c1;
+      border-radius: 30px;
+    }
+  </style>
 
+  <!--scroll bar-->
+  <!-- <script defer src="validate.js"></script>
+ -->
 </head>
 
 <body>
   <!--Navbar Section -->
   <nav class="nav p-3 flex-nowrap">
-    <a class="nav-link active" style="display: block; max-width: 150px;" aria-current="page" href="#"><img
-        id="quickLearnLogoImg" src="./assets/images/logo.svg" alt="logo_img" /></a>
+    
+    <a href="#" id="logo" class="navbar-brand  font-weight-bold">
+          Quick Learn
+    </a>
     <a class="nav-link btn" href="./resource.html" id="navResourceBtn">Resources</a>
     <span class="btn" onclick="dark_mode()" style="display: block; margin-left: 2px; color: #6940d3;" href="#"><i
         id="darkSwitch1" class="fas fa-moon"></i></span>
@@ -144,15 +144,15 @@
       <!--Create a Feature Tray of 3-4 Items-->
       <div class="d-flex container flex-wrap justify-content-center">
         <a href="./resource.html">
-        <div class="card m-3" style="width: 18rem">
-          <img src="./assets/images/1.png" class="card-img-top img-sz mx-auto rounded-circle" alt="..." />
-          <div class="card-body text-center">
-            
-            <h5 class="card-title">Explore ... </h5>
-            <p class="card-text">Find the domain you want to explore</p>
+          <div class="card m-3" style="width: 18rem">
+            <img src="./assets/images/1.png" class="card-img-top img-sz mx-auto rounded-circle" alt="..." />
+            <div class="card-body text-center">
+
+              <h5 class="card-title">Explore ... </h5>
+              <p class="card-text">Find the domain you want to explore</p>
+            </div>
           </div>
-        </div>
-      </a>
+        </a>
         <div class="card m-3" style="width: 18rem">
           <img src="./assets/images/2.png" class="card-img-top img-sz mx-auto rounded-circle" alt="..." />
           <div class="card-body text-center">
@@ -184,9 +184,9 @@
         </div>
 
       </div>
-    
+
     </div>
-  
+
   </section>
 
   <!--Feature Section Ends -->
@@ -212,65 +212,63 @@
   <section id="contactus">
     <!-- heading container -->
     <div class="container my-5">
-      <h2 class="mb-3 fs-1 text-center" id="contactHeading">
+      <h2 class="mb-4 fs-1 text-center" id="contactHeading">
         Contact Us
       </h2>
 
-      <h5 class="text-start text-md-center fs-6" id="contactSubheading">
-        In case a query pops in your head or you are looking  for a collaboration, feel free to reach out to us.<br>
-        Just drop in a mail,call us up or join us at our office for a nice coffee. <br> 
-        <I>ps: we really make some delicious ones!</I>  
+      <h5 class="text-start text-md-center fs-4" id="contactSubheading">
+        In case a query pops in your head or you are looking for a collaboration, feel free to reach out to us.<br>
+        Just drop in a mail,call us up or join us at our office for a nice coffee. <br>
+        <I>ps: we really make some delicious ones!</I>
       </h5>
     </div>
     <!-- heading container ends here -->
-    
+
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 col-md-12 mb-5">
+        <div class="col-lg-7 col-md-12 mb-5">
           <!-- form container -->
-          <form class="p-4" action="https://formspree.io/f/xdoynnyq" method="POST" id="my-form" autocomplete="off">
+          <form class="p-4 needs-validation" action="https://formspree.io/f/xdoynnyq" method="POST" id="my-form"
+            autocomplete="off" novalidate>
             <!-- Name -->
             <div class="input-container mb-3">
-              <input 
-                type="text" 
-                class="form-control form-control-lg form-inputs" 
-                id="validationCustom01"
-                placeholder="Full Name" 
-                name="name" 
-              />
+              <input type="text" class="form-control form-control-lg form-inputs" id="validationCustom01"
+                placeholder="Full Name" name="name" required />
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+              <div class="invalid-feedback">
+                Please choose a valid username
+              </div>
             </div>
 
             <!-- Email Address -->
             <div class="input-container mb-3">
-              <input 
-                type="email" 
-                class="form-control form-control-lg form-inputs" 
-                id="validationCustom02"
-                placeholder="email@address.com" 
-                name="email" 
-              />
+              <input type="email" class="form-control form-control-lg form-inputs" id="validationCustom02"
+                placeholder="email@address.com" name="email" required />
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+              <div class="invalid-feedback">
+                Please choose a valid email id
+              </div>
             </div>
 
             <!-- Message -->
             <div class="input-container mb-3">
-              <textarea 
-                type="text" 
-                class="form-control form-control-lg form-inputs" 
-                id="validationCustom03"
-                placeholder="Message" 
-                rows="4" 
-                name="message"
-              >
-              </textarea>
+              <textarea type="text" class="form-control form-control-lg form-inputs" 
+id="validationCustom03" placeholder="Enter your message" rows="4" name="message" required></textarea>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+              <div class="invalid-feedback">
+                Please add a valid message
+              </div>
             </div>
 
             <!-- submit button -->
             <div class="mt-2 mb-2">
-              <button 
-                id="contactBtn" 
-                class="btn btn-lg"  
-                type="submit"
-              >
+              <button id="contactBtn" class="btn btn-lg" type="submit">
                 Submit
               </button>
             </div>
@@ -279,40 +277,43 @@
         </div>
 
         <!-- oci -->
-        <div class = 'col-12 col-lg-6 mb-5 mt-lg-4'>
+        <div class='col-12 col-lg-5 mb-4 mt-lg-4 oci'>
           <ul class="list-group">
-            <li class = 'list-group-item'>
+            <li class='list-group-item' style="align-self: start;">
               <p class="mb-0 py-2">
                 <strong>
-                  <a href="https://www.dscjss.in/" target="_blank" ><i
-                    class="fa fa-2x fa-map-marker mr-5 social-icon fs-4" style="color: #6940d3;" aria-hidden="true"></i></a>
-                </strong> 
-                Noida
+                  <a href="https://www.dscjss.in/" target="_blank"><i
+                      class="fa fa-2x fa-map-marker mr-5 social-icon fs-4" style="color: #6940d3;"
+                      aria-hidden="true"></i></a>
+                </strong>
+                &nbsp; Noida
               </p>
             </li>
 
-            <li class = 'list-group-item'>
+            <li class='list-group-item' style="align-self: start; ">
               <p class="mb-0 py-2">
                 <strong>
-                  <a href="mailto:dscjssnoida@gmail.com" target="_blank" ><i class="fa fa-2x fa-envelope mr-5 social-icon fs-4" style="color: #6940d3;"   aria-hidden="true"></i></a>
-                </strong> 
-                dscjssnoida@gmail.com
+                  <a href="mailto:dscjssnoida@gmail.com" target="_blank"><i
+                      class="fa fa-2x fa-envelope mr-5 social-icon fs-4" style="color: #6940d3;"
+                      aria-hidden="true"></i></a>
+                </strong>
+                &nbsp; dscjssnoida@gmail.com
               </p>
             </li>
 
-            <li class="list-group-item">
+            <li class="list-group-item" style="align-self: start;">
               <p class="mb-0 py-2">
                 <strong>
-                  <a href="tel:+91 9876543310"><i
-                    class="fa fa-2x fa-phone mr-5 social-icon fs-4" style="color: #6940d3;" aria-hidden="true"></i></a>
-                </strong> 
-                +91 9876543310
+                  <a href="tel:+91 9876543310"><i class="fa fa-2x fa-phone mr-5 social-icon fs-4"
+                      style="color: #6940d3;" aria-hidden="true"></i></a>
+                </strong>
+                &nbsp; +91 9876543310
               </p>
             </li>
-          </ul>          
+          </ul>
         </div>
         <!-- oci ends here -->
-    </div>
+      </div>
   </section>
 
   <!-- contact us section ends here -->
@@ -320,43 +321,43 @@
   <!-- Footer Section -->
   <section>
     <div style="width: 100%;" class="container">
-      <div id="contact" class="col mb-2 d-flex flex-row align-items-centre justify-content-between">
+      <div id="contact" class="col mb-2 d-flex flex-row align-items-left justify-content-between">
         <div class="col-md-6 mt-2">
           <div id="status"></div>
         </div>
 
-        <div class="container " style="margin-left: 50px; margin-bottom: 30px;">
-          <div class="col-md-12 mt-2 row " >
-              <div class="row-md">
-              </div>
-              <div class="col-md"></div>
+        <div class="container" style="margin-left: 50px; margin-bottom: 30px;">
+          <div class="col-md-11 mt-3 row ">
+            <div class="row-md"></div>
+            <div class="col-md"></div>
           </div>
         </div>
+
       </div>
-        <div id="social-media-icons" class="d-flex justify-content-center " style="margin-left:40px;">
-          <ul class="list-unstyled list-inline">
-            <li class="list-inline-item">
-              <a href="https://www.facebook.com/dscjssnoida/" target="_blank" title="Facebook"><i
-                  class="fab fa-facebook social-media social-icons" aria-hidden="true"></i></a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://www.linkedin.com/company/dsc-jssaten/" target="_blank" title="Linkedin"><i
-                  class="fa fa-linkedin social-media social-icons" aria-hidden="true"></i></a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://twitter.com/DSCJSSATEN" target="_blank" title="Twitter"><i
-                  class="fa fa-twitter social-media social-icons" aria-hidden="true"></i></a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://github.com/DSC-JSS-NOIDA" target="_blank" title="Github"><i
-                  class="fa fa-github social-media social-icons" aria-hidden="true"></i></a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://www.instagram.com/dscjssaten/?igshid=9ubqtp1ssqsi" target="_blank" title="Instagram"><i
-                  class="fa fa-instagram social-media social-icons" aria-hidden="true"></i></a>
-            </li>
-          </ul>
-        </div>
+      <div id="social-media-icons" class="d-flex justify-content-center " style="margin-left:40px;">
+        <ul class="list-unstyled list-inline">
+          <li class="list-inline-item">
+            <a href="https://www.facebook.com/dscjssnoida/" target="_blank" title="Facebook"><i
+                class="fab fa-facebook social-media social-icons" aria-hidden="true"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.linkedin.com/company/dsc-jssaten/" target="_blank" title="Linkedin"><i
+                class="fa fa-linkedin social-media social-icons" aria-hidden="true"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://twitter.com/DSCJSSATEN" target="_blank" title="Twitter"><i
+                class="fa fa-twitter social-media social-icons" aria-hidden="true"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://github.com/DSC-JSS-NOIDA" target="_blank" title="Github"><i
+                class="fa fa-github social-media social-icons" aria-hidden="true"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.instagram.com/dscjssaten/?igshid=9ubqtp1ssqsi" target="_blank" title="Instagram"><i
+                class="fa fa-instagram social-media social-icons" aria-hidden="true"></i></a>
+          </li>
+        </ul>
+      </div>
 
 
   </section>
@@ -376,8 +377,25 @@
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  
+
   <script>
+
+    (function () {
+      'use strict'
+      var forms = document.querySelectorAll('.needs-validation')
+      Array.prototype.slice.call(forms)
+        .forEach(function (form) {
+          form.addEventListener('submit', function (event) {
+            if (!form.checkValidity()) {
+              event.preventDefault()
+              event.stopPropagation()
+            }
+
+            form.classList.add('was-validated')
+          }, false)
+        })
+    })()
+
     $(document).ready(function (e) {
       $('.mybutton').on('mouseenter', function (e) {
         x = e.pageX - $(this).offset().left;

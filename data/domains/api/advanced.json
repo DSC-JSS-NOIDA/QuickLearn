@@ -1,0 +1,23 @@
+[   
+    {
+        "title" : "Rest API | Web Service Tutorial",
+        "link" : "https://youtu.be/BZi44GOD8kY?t=1",
+        "type": "video"
+    },
+    {
+    "title": "Python API Development ",
+    "link": "https://youtu.be/0sOvCWFmrtA?t=98",
+    "type": "video"
+    },
+    {
+    "title": ".NET 5 REST API Tutorial - Build From Scratch With C#",
+    "link": "https://youtu.be/ZXdFisA_hOY?t=1",
+    "type": "video"
+    },
+    {
+        "title": "Microservices with FastAPI",
+        "link": "https://youtu.be/Cy9fAvsXGZA?t=23",
+        "type": "video"
+    }
+
+]

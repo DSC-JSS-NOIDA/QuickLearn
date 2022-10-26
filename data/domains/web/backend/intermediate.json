@@ -1,22 +1,27 @@
 [
     {
         "title": "Free Code Camp",
-        "link": "https://www.freecodecamp.org/learn/back-end-development-and-apis/"
+        "link": "https://www.freecodecamp.org/learn/back-end-development-and-apis/",
+        "type": "docs"
     },
     {
         "title":"MongoDB",
-        "link":"https://docs.mongodb.com/"
+        "link":"https://docs.mongodb.com/",
+        "type": "docs"
     },
     {
         "title": "MDN DOCS",
-        "link": "https://developer.mozilla.org/"
+        "link": "https://developer.mozilla.org/",
+        "type": "docs"
     },
     {
         "title": "Academind",
-        "link": "https://www.youtube.com/watch?v=65a5QQ3ZR2g"
+        "link": "https://www.youtube.com/watch?v=65a5QQ3ZR2g",
+        "type": "video"
     },
     {
         "title": "Express Js",
-        "link": "https://expressjs.com/"
+        "link": "https://expressjs.com/",
+        "type": "docs"
     }
 ]

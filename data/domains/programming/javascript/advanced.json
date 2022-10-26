@@ -1,14 +1,17 @@
 [
     {
         "title": "Javascript Core Language",
-        "link": "https://www.pluralsight.com/paths/javascript-core-language"
+        "link": "https://www.pluralsight.com/paths/javascript-core-language",
+        "type": "docs"
     },
     {
         "title": "The Modern Javascript Tutorial",
-        "link": "https://javascript.info/"
+        "link": "https://javascript.info/",
+        "type": "docs"
     },
     {
         "title": "Javascript The Advance Concepts",
-        "link": "https://www.udemy.com/course/advanced-javascript-concepts/"
+        "link": "https://www.udemy.com/course/advanced-javascript-concepts/",
+        "type": "video"
     }
 ]

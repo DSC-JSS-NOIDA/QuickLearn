@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Developing a CMS",
+        "link": "https://www.youtube.com/watch?v=kn_3wAQEFFE",
+        "type": "video"
+    },
+    {
+        "title": "GeeksForGeeks",
+        "link": "https://www.geeksforgeeks.org/tag/php-oop/",
+        "type": "docs"
+    },
+    {
+        "title": "Developing Inventory Management Application",
+        "link": "https://www.freecodecamp.org/news/making-an-awesome-inventory-management-application-in-php-and-mysql-from-start-to-finish-90bc5996680a/",
+        "type": "video"
+    }
+]

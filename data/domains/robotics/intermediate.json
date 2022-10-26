@@ -1,10 +1,12 @@
 [
     {
       "title": "Coursera",
-      "link": "https://www.coursera.org/specializations/modernrobotics"
+      "link": "https://www.coursera.org/specializations/modernrobotics",
+      "type": "video"
     },
     {
       "title": "RoboKart",
-      "link": "https://robokart.com/courses-details.php?id=16"
+      "link": "https://robokart.com/courses-details.php?id=16",
+      "type": "video"
     }
 ]

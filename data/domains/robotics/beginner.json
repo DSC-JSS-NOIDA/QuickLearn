@@ -1,18 +1,22 @@
 [
     {
       "title": "Coursera",
-      "link": "https://www.coursera.org/specializations/robotics"
+      "link": "https://www.coursera.org/specializations/robotics",
+      "type": "video"
     },
     {
       "title": "Edureka!",
-      "link": "https://youtube.com/playlist?list=PL9ooVrP1hQOEeFvW5KaSea6mrlEU6TZ9s"
+      "link": "https://youtube.com/playlist?list=PL9ooVrP1hQOEeFvW5KaSea6mrlEU6TZ9s",
+      "type": "video"
     },
     {
       "title": "udemy",
-      "link": "https://www.udemy.com/topic/robotics/"
+      "link": "https://www.udemy.com/topic/robotics/",
+      "type": "video"
     },
     {
       "title": "FutureLearn",
-      "link": "https://www.futurelearn.com/courses/begin-robotics"
+      "link": "https://www.futurelearn.com/courses/begin-robotics",
+      "type": "video"
     }
 ]

@@ -1,15 +1,18 @@
 [
     {
         "title": "Node JS",
-        "link": "https://nodejs.dev/learn"
+        "link": "https://nodejs.dev/learn",
+        "type": "docs"
     },
     {
         "title": "Express JS",
-        "link": "https://expressjs.com/"
+        "link": "https://expressjs.com/",
+        "type": "docs"
     },
     {
         "title": "The Net Ninja",
-        "link": "https://www.youtube.com/watch?v=zb3Qk8SG5Ms"
+        "link": "https://www.youtube.com/watch?v=zb3Qk8SG5Ms",
+        "type": "video"
     }
 
 ]

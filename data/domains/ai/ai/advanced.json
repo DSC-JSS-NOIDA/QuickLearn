@@ -1,22 +1,27 @@
 [
     {
         "title": "AI in Practice (edx)",
-        "link": "https://www.edx.org/professional-certificate/delftx-ai-in-practice"
+        "link": "https://www.edx.org/professional-certificate/delftx-ai-in-practice",
+        "type": "video"
     },
     {
         "title": "Machine learning and artificial intelligence (Google)",
-        "link": "https://cloud.google.com/training/machinelearning-ai"
+        "link": "https://cloud.google.com/training/machinelearning-ai",
+        "type": "docs"
     },
     {
         "title": "Advanced AI: Deep Reinforcement Learning (Udemy)",
-        "link": "https://www.udemy.com/course/deep-reinforcement-learning-in-python/"
+        "link": "https://www.udemy.com/course/deep-reinforcement-learning-in-python/",
+        "type": "video"
     },
     {
         "title":"ANNetGPGPU",
-        "link":"https://github.com/ANNetGPGPU/ANNetGPGPU"
+        "link":"https://github.com/ANNetGPGPU/ANNetGPGPU",
+        "type": "docs"
     },
      {
         "title":"AI resources",
-        "link":"http://scikit-learn.org/stable/"
+        "link":"http://scikit-learn.org/stable/",
+        "type": "docs"
     }
 ]

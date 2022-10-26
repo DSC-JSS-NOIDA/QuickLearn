@@ -1,10 +1,12 @@
 [
     {
         "title": "C++",
-        "link": "https://developer.mozilla.org/"
+        "link": "https://developer.mozilla.org/",
+        "type": "docs"
     },
     {
         "title": "Edureka!",
-        "link": "https://youtube.com/playlist?list=PL9ooVrP1hQOFrYxqxb0NJCdCABPZNo0pD"
+        "link": "https://youtube.com/playlist?list=PL9ooVrP1hQOFrYxqxb0NJCdCABPZNo0pD",
+        "type": "video"
     }
 ]

@@ -1,39 +1,48 @@
 [
     {
       "title": "Kotlin ",
-      "link": "https://developer.mozilla.org/"
+      "link": "https://developer.mozilla.org/",
+      "type": "docs"
     },
     {
       "title": "HyperSkill(App Devlopment)",
-      "link": "https://hyperskill.org/tracks/16"
+      "link": "https://hyperskill.org/tracks/16",
+      "type": "docs"
     },
     {
       "title": "HyperSkill (Kotlin Developer)",
-      "link": "https://www.youtube.com/watch?v=F9UC9DY-vIU&ab_channel=freeCodeCamp.org"
+      "link": "https://www.youtube.com/watch?v=F9UC9DY-vIU&ab_channel=freeCodeCamp.org",
+      "type": "video"
     },
     {
       "title": "Android Basics in Kotlin",
-      "link": "https://developer.android.com/courses/android-basics-kotlin/course"
+      "link": "https://developer.android.com/courses/android-basics-kotlin/course",
+      "type": "docs"
     },
     {
       "title": "Jetpack Compose",
-      "link": "https://developer.android.com/courses/pathways/compose"
+      "link": "https://developer.android.com/courses/pathways/compose",
+      "type": "docs"
     },
     {
       "title": "Accessibility",
-      "link": "https://developer.android.com/courses/pathways/make-your-android-app-accessible"
+      "link": "https://developer.android.com/courses/pathways/make-your-android-app-accessible",
+      "type": "docs"
     },
     {
       "title": "Tutorials Point",
-      "link": "https://www.tutorialspoint.com/android/index.htm"
+      "link": "https://www.tutorialspoint.com/android/index.htm",
+      "type": "docs"
     },
     {
       "title": "Sensors",
-      "link": "https://developer.android.com/guide/topics/sensors/sensors_overview"
+      "link": "https://developer.android.com/guide/topics/sensors/sensors_overview",
+      "type": "docs"
     },
     {
       "title": "Andriod Jet-map",
-      "link": "https://developer.mozilla.org/"
+      "link": "https://developer.mozilla.org/",
+      "type": "docs"
     }
   ]
   

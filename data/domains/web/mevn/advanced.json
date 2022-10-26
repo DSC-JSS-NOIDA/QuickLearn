@@ -1,14 +1,17 @@
 [
     {
         "title": "API Refrence",
-        "link": "https://vuejs.org/api/"
+        "link": "https://vuejs.org/api/",
+        "type": "docs"
     },
     {
         "title": "Vue - The Complete Guide (incl. Router & Composition API)",
-        "link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/?couponCode=D_0422"
+        "link": "https://www.udemy.com/course/vuejs-2-the-complete-guide/?couponCode=D_0422",
+        "type": "video"
     },
     {
         "title": "Vue Js Style Guide",
-        "link": "https://v2.vuejs.org/v2/style-guide/?redirect=true"
+        "link": "https://v2.vuejs.org/v2/style-guide/?redirect=true",
+        "type": "docs"
     }
 ]

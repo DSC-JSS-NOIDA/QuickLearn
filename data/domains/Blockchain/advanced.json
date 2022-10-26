@@ -1,10 +1,12 @@
 [
   {
     "title": "freeCodeCamp.org",
-    "link": "https://www.youtube.com/watch?v=M576WGiDBdQ"
+    "link": "https://www.youtube.com/watch?v=M576WGiDBdQ",
+    "type": "video"
   },
   {
     "title": "MIT OpenCourseWare",
-    "link": "https://www.youtube.com/playlist?list=PLUl4u3cNGP63UUkfL0onkxF6MYgVa04Fn"
+    "link": "https://www.youtube.com/playlist?list=PLUl4u3cNGP63UUkfL0onkxF6MYgVa04Fn",
+    "type": "video"
   }
 ]

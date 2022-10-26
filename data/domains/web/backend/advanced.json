@@ -1,22 +1,27 @@
 [
     {
         "title": "Socket.IO",
-        "link": "https://socket.io/"
+        "link": "https://socket.io/",
+        "type": "docs"
     },
     {
         "title": "MochaJS testing library",
-        "link": "https://mochajs.org/"
+        "link": "https://mochajs.org/",
+        "type": "docs"
     },
     {
         "title": "ChaiJS assertion library",
-        "link": "https://www.chaijs.com/"
+        "link": "https://www.chaijs.com/",
+        "type": "docs"
     },
     {
         "title": "MDN DOCS",
-        "link": "https://developer.mozilla.org/"
+        "link": "https://developer.mozilla.org/",
+        "type": "docs"
     },
     {
         "title": "Nodejs Website Tutorials",
-        "link": "https://nodejs.dev/learn"
+        "link": "https://nodejs.dev/learn",
+        "type": "docs"
     }
 ]

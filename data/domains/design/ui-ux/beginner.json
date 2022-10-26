@@ -1,22 +1,27 @@
 [
     {
         "title": "Designing",
-        "link": "https://developer.mozilla.org/"
+        "link": "https://developer.mozilla.org/",
+        "type": "docs"
     },
      {
         "title": "Video Tutorial",
-        "link": "https://www.youtube.com/watch?v=g6rQFP9zCAM&t=2999s"
+        "link": "https://www.youtube.com/watch?v=g6rQFP9zCAM&t=2999s",
+        "type": "video"
     },
     {
         "title" : "Blogs",
-        "link" : "https://uxdesign.cc/how-to-become-a-ui-ux-designer-self-taught-8a511170fd7c"
+        "link" : "https://uxdesign.cc/how-to-become-a-ui-ux-designer-self-taught-8a511170fd7c",
+        "type": "docs"
     },
     {
         "title" : "Inspirations",
-        "link" : "https://www.behance.net/"
+        "link" : "https://www.behance.net/",
+        "type": "docs"
     },
     {
     "title" : "Basics of UX Design",
-        "link" : "https://uxdesign.cc/how-to-become-a-ui-ux-designer-self-taught-8a511170fd7c"
+        "link" : "https://uxdesign.cc/how-to-become-a-ui-ux-designer-self-taught-8a511170fd7c",
+        "type": "docs"
     }
 ]

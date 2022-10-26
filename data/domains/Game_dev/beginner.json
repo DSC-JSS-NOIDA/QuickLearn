@@ -1,18 +1,22 @@
 [
   {
     "title": "Coursera",
-    "link": "https://www.coursera.org/learn/introduction-programming-unity"
+    "link": "https://www.coursera.org/learn/introduction-programming-unity",
+    "type": "video"
   },
   {
     "title": "Game-Dev Beginner",
-    "link": "https://youtu.be/gB1F9G0JXOo"
+    "link": "https://youtu.be/gB1F9G0JXOo",
+    "type": "video"
   },
   {
     "title": "Coursera",
-    "link": "https://www.coursera.org/learn/more-programming-unity"
+    "link": "https://www.coursera.org/learn/more-programming-unity",
+    "type": "video"
   },
     {
       "title": "Coursera",
-      "link": "https://www.coursera.org/projects/introduction-to-basic-game-development-using-scratch"
+      "link": "https://www.coursera.org/projects/introduction-to-basic-game-development-using-scratch",
+      "type": "video"
     }
   ]

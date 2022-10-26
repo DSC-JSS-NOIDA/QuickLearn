@@ -1,10 +1,12 @@
 [
     {
       "title": "GreatLearning",
-      "link": "https://www.greatlearning.in/academy/learn-for-free/courses/introduction-to-ethical-hacking"
+      "link": "https://www.greatlearning.in/academy/learn-for-free/courses/introduction-to-ethical-hacking",
+      "type": "video"
     },
     {
       "title": "Edureka",
-      "link": "https://youtube.com/playlist?list=PL9ooVrP1hQOFNILGSLOiflM9kKnEM16Ox"
+      "link": "https://youtube.com/playlist?list=PL9ooVrP1hQOFNILGSLOiflM9kKnEM16Ox",
+      "type": "video"
     }
   ]

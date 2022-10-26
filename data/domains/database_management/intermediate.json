@@ -1,0 +1,19 @@
+[
+    {
+    "title": " W3schools-My SQL ",
+    "link": "https://www.w3schools.com/mySQl/default.asp",
+    "type": "docs"
+    },
+    {
+    "title": " W3schools-SQL",
+    "link": "https://www.w3schools.com/sql/",
+    "type": "docs"
+    },
+    {
+    "title": "PostgreSQL Tutorial Guide",
+    "link": "https://www.postgresqltutorial.com/",
+    "type": "docs"
+    }
+    
+
+]

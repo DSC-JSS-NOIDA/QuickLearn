@@ -1,14 +1,37 @@
 [
     {
         "title": "Code With Harry",
-        "link": "https://www.youtube.com/playlist?list=PLu0W_9lII9agS67Uits0UnJyrYiXhDS6q"
+        "link": "https://www.youtube.com/playlist?list=PLu0W_9lII9agS67Uits0UnJyrYiXhDS6q",
+        "type": "video"
     },
     {
         "title": "javatpoint",
-        "link": "https://www.javatpoint.com/java-tutorial"
+        "link": "https://www.javatpoint.com/java-tutorial",
+        "type": "docs"
     },
     {
         "title": "Hackerrank",
-        "link": "https://www.hackerrank.com/domains/java"
+        "link": "https://www.hackerrank.com/domains/java",
+        "type": "docs"
+    },
+    {
+        "title": "FreeCodeCamp",
+        "link": "https://youtu.be/grEKMHGYyns",
+        "type": "video"
+    },
+    {
+        "title": "Simplilearn",
+        "link": "https://youtu.be/CFD9EFcNZTQ",
+        "type": "video"
+    },
+    {
+        "title": "Java Cheatsheet",
+        "link": "https://hackr.io/blog/java-cheat-sheet",
+        "type": "docs"
+    },
+    {
+        "title": "Java repository",
+        "link": "https://github.com/theabhishek07/Object_Oriented_Programming",
+        "type": "docs"
     }
 ]

@@ -1,27 +1,33 @@
 [
     {
         "title": "GeeksForGeeks",
-        "link": "https://www.geeksforgeeks.org/python-programming-language/"
+        "link": "https://www.geeksforgeeks.org/python-programming-language/",
+        "type": "docs"
     },
     {
         "title": "Python Documentation",
-        "link": "https://docs.python.org/3/"
+        "link": "https://docs.python.org/3/",
+        "type": "docs"
     },
     {
         "title": "FreeCodeCamp",
-        "link": "https://www.youtube.com/watch?v=rfscVS0vtbw"
+        "link": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+        "type": "video"
     },
     {
         "title": "Extern Code",
-        "link": " https://www.youtube.com/watch?v=7v_TVJHodiI"
+        "link": " https://www.youtube.com/watch?v=7v_TVJHodiI",
+        "type": "video"
     },
     {
         "title": "Advanced Python Projects",
-        "link": "https://www.youtube.com/playlist?list=PLpp8-k7G_6Y3Wj1suZQ-9lATFzFuGw93x"
+        "link": "https://www.youtube.com/playlist?list=PLpp8-k7G_6Y3Wj1suZQ-9lATFzFuGw93x",
+        "type": "video"
     },
     {
         "title": "Object Oriented Programming with Python",
-        "link": "https://www.youtube.com/watch?v=Ej_02ICOIgs"
+        "link": "https://www.youtube.com/watch?v=Ej_02ICOIgs",
+        "type": "video"
         
     }
 ]

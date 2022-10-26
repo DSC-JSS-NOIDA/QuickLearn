@@ -1,22 +1,27 @@
 [
     {
         "title": "GeeksForGeeks",
-        "link": "https://www.geeksforgeeks.org/c-plus-plus/"
+        "link": "https://www.geeksforgeeks.org/c-plus-plus/",
+        "type": "docs"
     },
     {
         "title": "C++ Documentation",
-        "link": "https://www.cplusplus.com/doc/tutorial/"
+        "link": "https://www.cplusplus.com/doc/tutorial/",
+        "type": "docs"
     },
     {
         "title": "FreeCodeCamp",
-        "link": "https://www.freecodecamp.org/news/tag/c-2/"
+        "link": "https://www.freecodecamp.org/news/tag/c-2/",
+        "type": "docs"
     },
     {
         "title": "ProblemSet",
-        "link": "https://cses.fi/problemset/"
+        "link": "https://cses.fi/problemset/",
+        "type": "docs"
     },
     {
         "title": "c++ adv resources",
-        "link": "https://medium.com/javarevisited/10-advanced-c-books-and-courses-for-experienced-programmers-a90c3942471a"
+        "link": "https://medium.com/javarevisited/10-advanced-c-books-and-courses-for-experienced-programmers-a90c3942471a",
+        "type": "docs"
     }
 ]

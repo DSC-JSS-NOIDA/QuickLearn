@@ -2,38 +2,46 @@
     {
 
         "title": "Pepcoding",
-        "link": "https://www.youtube.com/playlist?list=PL-Jc9J83PIiEeD3I4VXETPDmzJ3Z1rWb4"
+        "link": "https://www.youtube.com/playlist?list=PL-Jc9J83PIiEeD3I4VXETPDmzJ3Z1rWb4",
+        "type": "video"
     },
     {
 
         "title": "React",
-        "link": "https://www.coursera.org/learn/front-end-react"
+        "link": "https://www.coursera.org/learn/front-end-react",
+        "type": "video"
     },
     {
 
         "title": "Traversy Media",
-        "link": "https://www.youtube.com/watch?v=hdI2bqOjy3c&list=PLillGF-RfqbbnEGy3ROiLWk7JMCuSyQtX"
+        "link": "https://www.youtube.com/watch?v=hdI2bqOjy3c&list=PLillGF-RfqbbnEGy3ROiLWk7JMCuSyQtX",
+        "type": "video"
     },
     {
         "title": "React",
-        "link": "https://reactjs.org/"
+        "link": "https://reactjs.org/",
+        "type": "docs"
 
     },
     {
         "title": "Vue",
-        "link": "https://vuejs.org/"
+        "link": "https://vuejs.org/",
+        "type": "docs"
     },
     {
         "title": "Angular",
-        "link": "https://angular.io/"
+        "link": "https://angular.io/",
+        "type": "docs"
     },
     {
         "title": "CSS Tricks",
-        "link": "https://css-tricks.com/"
+        "link": "https://css-tricks.com/",
+        "type": "docs"
     },
     {
       "title": "Conquering Responsive Layouts by Kevin Powell",
-      "link": "https://courses.kevinpowell.co/courses/conquering-responsive-layouts"
+      "link": "https://courses.kevinpowell.co/courses/conquering-responsive-layouts",
+      "type": "docs"
     }
 
 ]

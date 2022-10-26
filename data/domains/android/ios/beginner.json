@@ -1,22 +1,27 @@
 [
     {
         "title": "Swift Standard Library",
-        "link": "https://developer.apple.com/documentation/swift/swift_standard_library"
+        "link": "https://developer.apple.com/documentation/swift/swift_standard_library",
+        "type": "docs"
     },
     {
         "title": "Swift Getting Started ",
-        "link": "https://swift.org/getting-started/"
+        "link": "https://swift.org/getting-started/",
+        "type": "docs"
     },
     {
         "title": "CodeWithChris",
-        "link": "https://www.youtube.com/playlist?list=PLMRqhzcHGw1b89DXHOVA77ozWXWmuBkWX"
+        "link": "https://www.youtube.com/playlist?list=PLMRqhzcHGw1b89DXHOVA77ozWXWmuBkWX",
+        "type": "video"
     },
     {
         "title": "Swift Tutorials For Beginners(Full)",
-        "link": "https://www.youtube.com/playlist?list=PLWZIhpNhtvfqBd00bF3ouroGHMPe-iroO"
+        "link": "https://www.youtube.com/playlist?list=PLWZIhpNhtvfqBd00bF3ouroGHMPe-iroO",
+        "type": "video"
     },
     {
         "title": "freeCodeCamp.org",
-        "link": "https://www.youtube.com/watch?v=comQ1-x2a1Q&ab_channel=freeCodeCamp.org"
+        "link": "https://www.youtube.com/watch?v=comQ1-x2a1Q&ab_channel=freeCodeCamp.org",
+        "type": "video"
     }
 ]

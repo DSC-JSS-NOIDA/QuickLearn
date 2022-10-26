@@ -1,52 +1,64 @@
 [
     {
       "title": "FireBase",
-      "link": "https://firebase.google.com/docs?gclid=CjwKCAjwkvWKBhB4EiwA-GHjFj4wqezYPqdBtXiFmtE1aIAG1oDLfsD0mYBm2Nz6GLq7hXsplUs3rRoCB4MQAvD_BwE&gclsrc=aw.ds"
+      "link": "https://firebase.google.com/docs?gclid=CjwKCAjwkvWKBhB4EiwA-GHjFj4wqezYPqdBtXiFmtE1aIAG1oDLfsD0mYBm2Nz6GLq7hXsplUs3rRoCB4MQAvD_BwE&gclsrc=aw.ds",
+      "type": "docs"
     },
     {
       "title": "Rest API",
-      "link": "https://www.youtube.com/watch?v=GZvSYJDk-us&ab_channel=freeCodeCamp.org"
+      "link": "https://www.youtube.com/watch?v=GZvSYJDk-us&ab_channel=freeCodeCamp.org",
+      "type": "video"
     },
     {
       "title": "Unit Testing",
-      "link": "https://developer.android.com/training/testing/unit-testing"
+      "link": "https://developer.android.com/training/testing/unit-testing",
+      "type": "docs"
     },
     
     {
       "title": "Flutter",
-      "link": "https://flutter.dev/docs"
+      "link": "https://flutter.dev/docs",
+      "type": "docs"
     },
     {
       "title": "React Native",
-      "link": "https://reactnative.dev/docs/getting-started"
+      "link": "https://reactnative.dev/docs/getting-started",
+      "type": "docs"
     },
     {
       "title": "Project Ideas",
-      "link": "https://nevonprojects.com/project-ideas/android-project-ideas/"
+      "link": "https://nevonprojects.com/project-ideas/android-project-ideas/",
+      "type": "docs"
     },
     {
       "title": "Archtectural Code",
-      "link": "https://developer.android.com/jetpack/guide"
+      "link": "https://developer.android.com/jetpack/guide",
+      "type": "docs"
     },
     {
       "title": "Android Application Development (Full)",
-      "link": "https://www.youtube.com/watch?v=roDz8mMvbIg&list=PLknSwrodgQ72X4sKpzf5vT8kY80HKcUSe&ab_channel=AndroidDeveloper"
+      "link": "https://www.youtube.com/watch?v=roDz8mMvbIg&list=PLknSwrodgQ72X4sKpzf5vT8kY80HKcUSe&ab_channel=AndroidDeveloper",
+      "type": "video"
     },
     {
       "title": "Android roadmap",
-      "link": "https://roadmap.sh/android"
+      "link": "https://roadmap.sh/android",
+      "type": "docs"
     },
     {
       "title": "Android Studio (User Guide)",
-      "link": "https://developer.android.com/studio/intro"
+      "link": "https://developer.android.com/studio/intro",
+      "type": "docs"
     },
     {
       "title": "Advanced Android Design",
-      "link": "https://www.youtube.com/playlist?list=PLvcDz6v7QDFxG1jgTXawu5kx769Ln1BhK"
+      "link": "https://www.youtube.com/playlist?list=PLvcDz6v7QDFxG1jgTXawu5kx769Ln1BhK",
+      "type": "video"
     },
     {
       "title": "Advanced Android Development (CODELAB BASED)",
-      "link": "https://developer.android.com/courses/kotlin-android-advanced/overview"
+      "link": "https://developer.android.com/courses/kotlin-android-advanced/overview",
+      "type": "docs"
     }
   ]
   

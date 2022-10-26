@@ -1,0 +1,15 @@
+[
+    {
+        "title" : "Ruby on Rails Tutorial",
+        "link" : "https://www.railstutorial.org/book",
+        "type": "docs"
+
+    },
+
+    {
+        "title" : "Rails topics ",
+        "link" : "https://gorails.com/series",
+        "type": "docs"
+    }
+
+]

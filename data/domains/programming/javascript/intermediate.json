@@ -1,14 +1,17 @@
 [
     {
         "title": "Javascript | MDN",
-        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "type": "docs"
     },
     {
         "title": "Learn Intermediate Javascript",
-        "link": "https://www.codecademy.com/learn/learn-intermediate-javascript"
+        "link": "https://www.codecademy.com/learn/learn-intermediate-javascript",
+        "type": "docs"
     },
     {
         "title": "30 Days Vanilla Js Challenge",
-        "link": "https://javascript30.com/"
+        "link": "https://javascript30.com/",
+        "type": "docs"
     }
 ]

@@ -1,11 +1,13 @@
 [
     {
       "title": "FreeCodeCamp",
-      "link": "https://youtube.com/playlist?list=PLWKjhJtqVAbnklGh3FNRLECx_2D_vK3mu"
+      "link": "https://youtube.com/playlist?list=PLWKjhJtqVAbnklGh3FNRLECx_2D_vK3mu",
+      "type": "video"
     },
     {
       "title": "Edureka",
-      "link": "https://www.youtube.com/watch?v=2VSNn7UIXn8&list=PL9ooVrP1hQOFNILGSLOiflM9kKnEM16Ox"
+      "link": "https://www.youtube.com/watch?v=2VSNn7UIXn8&list=PL9ooVrP1hQOFNILGSLOiflM9kKnEM16Ox",
+      "type": "video"
     }
   ]
   

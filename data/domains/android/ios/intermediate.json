@@ -1,10 +1,12 @@
 [
     {
         "title": "Android",
-        "link": "https://developer.mozilla.org/"
+        "link": "https://developer.mozilla.org/",
+        "type": "docs"
     },
     {
         "title": "Devslopes ios",
-        "link": "https://www.youtube.com/watch?v=bZNAFkkUeKs&list=PLpZBns8dFbgyNxJyVftYp_lRaEsHlGrSl"
+        "link": "https://www.youtube.com/watch?v=bZNAFkkUeKs&list=PLpZBns8dFbgyNxJyVftYp_lRaEsHlGrSl",
+        "type": "video"
     }
 ]

@@ -1,18 +1,22 @@
 [
     {
         "title": "Learn Javascript",
-        "link": "https://www.codecademy.com/learn/introduction-to-javascript"
+        "link": "https://www.codecademy.com/learn/introduction-to-javascript",
+        "type": "docs"
     },
     {
         "title": "Javascipt Tutorial",
-        "link": "https://www.w3schools.com/js/"
+        "link": "https://www.w3schools.com/js/",
+        "type": "docs"
     },
     {
         "title": "Javascript",
-        "link": "https://www.javascript.com/"
+        "link": "https://www.javascript.com/",
+        "type": "docs"
     },
     {
         "title": "Javascript Crash Course",
-        "link": "https://www.youtube.com/watch?v=Qqx_wzMmFeA&t=243s"
+        "link": "https://www.youtube.com/watch?v=Qqx_wzMmFeA&t=243s",
+        "type": "video"
     }
 ]

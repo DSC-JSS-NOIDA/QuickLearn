@@ -1,6 +1,7 @@
 [
     {
         "title": "Android",
-        "link": "https://developer.mozilla.org/"
+        "link": "https://developer.mozilla.org/",
+        "type": "docs"
     }
 ]

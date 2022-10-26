@@ -1,18 +1,22 @@
 [
     {
         "title": "Programiz",
-        "link": "https://www.programiz.com/cpp-programming"
+        "link": "https://www.programiz.com/cpp-programming",
+        "type": "docs"
     },
     {
         "title": "W3Schools",
-        "link": "https://www.w3schools.com/CPP/default.asp"
+        "link": "https://www.w3schools.com/CPP/default.asp",
+        "type": "docs"
     },
     {
         "title": "Tutorials Point",
-        "link": "https://www.tutorialspoint.com/cplusplus/index.html"
+        "link": "https://www.tutorialspoint.com/cplusplus/index.htm",
+        "type": "docs"
     },
     {
         "title": "C++ resources",
-         "link": "https://www.learncpp.com/"
+         "link": "https://www.learncpp.com/",
+         "type": "docs"
     }
 ]

@@ -1,10 +1,18 @@
 [
   {
     "title": "Coursera",
-    "link": "https://www.coursera.org/learn/intermediate-object-oriented-programming-unity-games"
+    "link": "https://www.coursera.org/learn/intermediate-object-oriented-programming-unity-games",
+    "type": "video"
   },
     {
       "title": "Coursera",
-      "link": "https://www.coursera.org/specializations/cplusplusunrealgamedevelopment?aid=true"
+      "link": "https://www.coursera.org/specializations/cplusplusunrealgamedevelopment?aid=true",
+      "type": "video"
+    },
+    {
+      "title": "Javascript Games",
+      "link": "https://www.youtube.com/watch?v=riDzcEQbX6k&list=PLZlA0Gpn_vH_XnZHin-Vjma8KylU-N0X8&ab_channel=WebDevSimplified",
+      "type": "video"
     }
+    
   ]

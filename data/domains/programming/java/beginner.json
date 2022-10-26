@@ -1,24 +1,52 @@
 [
     {
         "title": "Programiz",
-        "link": "https://www.programiz.com/java-programming"
+        "link": "https://www.programiz.com/java-programming",
+        "type": "docs"
     },
     {
         "title": "W3Schools",
-        "link": "https://www.w3schools.com/java/"
+        "link": "https://www.w3schools.com/java/",
+        "type": "docs"
     },
     {
         "title": "Tutorials Point",
-        "link": "https://www.tutorialspoint.com/java/index.htm"
+        "link": "https://www.tutorialspoint.com/java/index.htm",
+        "type": "docs"
     },
     {
         "title": "Java resources",
-        "link": "https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html"
+        "link": "https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html",
+        "type": "docs"
     },
     {
         "title": "GeeksforGeeks",
-        "link": "https://www.geeksforgeeks.org/java/"
+        "link": "https://www.geeksforgeeks.org/java/",
+        "type": "docs"
+    },
+    {
+        "title": "Apna College",
+        "link": "https://youtu.be/UmnCZ7-9yDY",
+        "type": "video"
+    },
+    {
+        "title": "Programming with Mosh",
+        "link": "https://youtu.be/eIrMbAQSU34",
+        "type": "video"
+    },
+    {
+        "title": "Java Cheatsheet",
+        "link": "https://www.edureka.co/blog/cheatsheets/java-cheat-sheet/amp/",
+        "type": "docs"
+    },
+    {
+        "title": "Java Cheatsheet 2",
+        "link": "https://www.quickstart.com/blog/java-cheat-sheet/",
+        "type": "docs"
+    },
+    {
+        "title": "Java 8 repository",
+        "link": "https://github.com/winterbe/java8-tutorial",
+        "type": "docs"
     }
-    
-
 ]

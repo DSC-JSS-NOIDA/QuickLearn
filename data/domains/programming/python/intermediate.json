@@ -1,27 +1,33 @@
 [
     {
         "title": "Code With Harry",
-        "link": "https://www.youtube.com/playlist?list=PLu0W_9lII9aiJWQ7VhY712fuimEpQZYp4"
+        "link": "https://www.youtube.com/playlist?list=PLu0W_9lII9aiJWQ7VhY712fuimEpQZYp4",
+        "type": "video"
     },
     {
         "title": "learnpython.org",
-        "link": "https://www.learnpython.org/"
+        "link": "https://www.learnpython.org/",
+        "type": "docs"
     },
     {
         "title": "Hackerrank",
-        "link": "https://www.hackerrank.com/domains/python"
+        "link": "https://www.hackerrank.com/domains/python",
+        "type": "docs"
     },
     {
         "title": "Free Code Camp",
-        "link": "https://www.youtube.com/watch?v=HGOBQPFzWKo&t=30s"
+        "link": "https://www.youtube.com/watch?v=HGOBQPFzWKo&t=30s",
+        "type": "video"
     },
     {
         "title": "Tech with Tim",
-        "link": "https://www.youtube.com/playlist?list=PLzMcBGfZo4-nhWva-6OVh1yKWHBs4o_tv"
+        "link": "https://www.youtube.com/playlist?list=PLzMcBGfZo4-nhWva-6OVh1yKWHBs4o_tv",
+        "type": "video"
     },
     {
         "title": "Intermediate Python Projects" ,
-        "link": "https://www.youtube.com/watch?v=o5sb8ehRSYA"
+        "link": "https://www.youtube.com/watch?v=o5sb8ehRSYA",
+        "type": "video"
     }
     
 

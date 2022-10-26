@@ -1,14 +1,17 @@
 [
     {
         "title": "Designing",
-        "link": "https://developer.mozilla.org/"
+        "link": "https://developer.mozilla.org/",
+        "type": "docs"
     },
     {
         "title": "Roadmap for a good UI casestudy",
-        "link": "https://docs.google.com/document/d/10ltvM8DlJIzZgo0Njhw9d03Ng6kdZhhLvIE-ZsEzKds/edit?usp=sharing"
+        "link": "https://docs.google.com/document/d/10ltvM8DlJIzZgo0Njhw9d03Ng6kdZhhLvIE-ZsEzKds/edit?usp=sharing",
+        "type": "docs"
     },
      {
         "title": "UI Challenge",
-        "link": "https://docs.google.com/document/d/1rpY0TBfUQXxyFb5cgYiiXQ-aP4DcxIfcNULZpygX3Do/edit?usp=sharing"
+        "link": "https://docs.google.com/document/d/1rpY0TBfUQXxyFb5cgYiiXQ-aP4DcxIfcNULZpygX3Do/edit?usp=sharing",
+        "type": "docs"
     }
 ]

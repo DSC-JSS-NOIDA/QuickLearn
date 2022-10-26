@@ -1,0 +1,14 @@
+[
+    {
+        "title" : "Ruby on Rails -freecodecamp",
+        "link":  "https://www.youtube.com/watch?v=fmyvWz5TUWg",
+        "type": "video"
+    },
+
+    {
+        "title" : "Ruby on Rails- The Odin Project",
+        "link" : "https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-on-rails",
+        "type": "docs"
+    }
+
+]

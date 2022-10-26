@@ -1,18 +1,22 @@
 [
     {
         "title":"Code With Harry",
-        "link":"https://www.youtube.com/playlist?list=PLu0W_9lII9agpFUAlPFe_VNSlXW5uE0YL"
+        "link":"https://www.youtube.com/playlist?list=PLu0W_9lII9agpFUAlPFe_VNSlXW5uE0YL",
+        "type": "video"
     },
     {
         "title":"Learn C++",
-        "link":"https://www.learncpp.com/"
+        "link":"https://www.learncpp.com/",
+        "type": "docs"
     },
     {
         "title":"Hackerrank",
-        "link":"https://www.hackerrank.com/domains/cpp"
+        "link":"https://www.hackerrank.com/domains/cpp",
+        "type": "docs"
     },
     {
         "title":"c++ resources",
-        "link":"https://codecondo.com/best-resources-to-learn-c-c-programming-in-2020/"
+        "link":"https://codecondo.com/best-resources-to-learn-c-c-programming-in-2020/",
+        "type": "docs"
     }
 ]

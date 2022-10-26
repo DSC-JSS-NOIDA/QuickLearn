@@ -2,39 +2,48 @@
    
     {
         "title": "MDN Docs On JS",
-        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "type": "docs"
     },
     {
         "title": "React Documentation",
-        "link": "https://reactjs.org/docs/getting-started.html"
+        "link": "https://reactjs.org/docs/getting-started.html",
+        "type": "docs"
     },
     {
         "title": "JavaScript Info",
-        "link": "https://javascript.info/"
+        "link": "https://javascript.info/",
+        "type": "docs"
     },
     {
         "title": "FreeCodeCamp React BootCamp",
-        "link": "https://www.freecodecamp.org/learn/front-end-development-libraries/react/define-an-html-class-in-jsx"
+        "link": "https://www.freecodecamp.org/learn/front-end-development-libraries/react/define-an-html-class-in-jsx",
+        "type": "docs"
     },
     {
         "title": "React Project Ideas",
-        "link": "https://www.codementor.io/projects/reactjs"
+        "link": "https://www.codementor.io/projects/reactjs",
+        "type": "docs"
     },
     {
         "title": "ReactJs CheatSheet",
-        "link": "https://devhints.io/react"
+        "link": "https://devhints.io/react",
+        "type": "docs"
     },
     {
         "title": "Redux (Hooks) Crash Course",
-        "link": "https://youtu.be/9jULHSe41ls"
+        "link": "https://youtu.be/9jULHSe41ls",
+        "type": "video"
     },
     {
         "title": "Jest Testing Library",
-        "link": "https://jestjs.io/"
+        "link": "https://jestjs.io/",
+        "type": "docs"
     },
    {
         "title": "Front-end roadmap",
-        "link": "https://roadmap.sh/frontend"
+        "link": "https://roadmap.sh/frontend",
+        "type": "docs"
    }
 
 ]

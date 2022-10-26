@@ -1,14 +1,17 @@
 [
     {
         "title": "Python",
-        "link": "https://youtu.be/_uQrJ0TkZlc"
+        "link": "https://youtu.be/_uQrJ0TkZlc",
+        "type": "video"
     },
     {
         "title": "Machine Learning With Python",
-        "link": "https://youtu.be/RnFGwxJwx-0"
+        "link": "https://youtu.be/RnFGwxJwx-0",
+        "type": "video"
     },
     {
         "title": "Coursera",
-        "link": "https://www.coursera.org/learn/machine-learning"
+        "link": "https://www.coursera.org/learn/machine-learning",
+        "type": "video"
     }
 ]

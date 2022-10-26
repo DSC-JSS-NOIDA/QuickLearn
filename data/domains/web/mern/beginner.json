@@ -1,18 +1,22 @@
 [
     {
         "title":"MongoDB",
-        "link":"https://docs.mongodb.com/"
+        "link":"https://docs.mongodb.com/",
+        "type": "docs"
     },
     {
         "title": "Express JS",
-        "link": "https://expressjs.com/"
+        "link": "https://expressjs.com/",
+        "type": "docs"
     },
     {
         "title": "React",
-        "link": "https://reactjs.org/"
+        "link": "https://reactjs.org/",
+        "type": "docs"
     },
     {
         "title": "Node JS",
-        "link": "https://nodejs.dev/learn"
+        "link": "https://nodejs.dev/learn",
+        "type": "docs"
     }
 ]

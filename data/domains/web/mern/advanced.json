@@ -1,6 +1,7 @@
 [
     {
         "title": "Full Stack Open",
-        "link": "https://fullstackopen.com/en/"
+        "link": "https://fullstackopen.com/en/",
+        "type": "docs"
     }
 ]

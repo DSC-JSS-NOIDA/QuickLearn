@@ -1,27 +1,33 @@
 [
     {
         "title": "Programiz",
-        "link": "https://www.programiz.com/python-programming"
+        "link": "https://www.programiz.com/python-programming",
+        "type": "docs"
     },
     {
         "title": "W3Schools",
-        "link": "https://www.w3schools.com/python/"
+        "link": "https://www.w3schools.com/python/",
+        "type": "docs"
     },
     {
         "title": "Tutorials Point",
-        "link": "https://www.tutorialspoint.com/python/index.htm"
+        "link": "https://www.tutorialspoint.com/python/index.htm",
+        "type": "docs"
     },
     {
         "title": "Code With Harry",
-        "link": "https://www.youtube.com/watch?v=aqvDTCpNRek&list=PLu0W_9lII9agICnT8t4iYVSZ3eykIAOME"
+        "link": "https://www.youtube.com/watch?v=aqvDTCpNRek&list=PLu0W_9lII9agICnT8t4iYVSZ3eykIAOME",
+        "type": "video"
     },
     {
         "title": "Programming with Mosh",
-        "link": "https://www.youtube.com/watch?v=_uQrJ0TkZlc"
+        "link": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+        "type": "video"
     },
     {
         "title": "Basic Python Projects" ,
-        "link": "https://www.youtube.com/watch?v=8ext9G7xspg&t=7s"
+        "link": "https://www.youtube.com/watch?v=8ext9G7xspg&t=7s",
+        "type": "video"
     }
     
 ]

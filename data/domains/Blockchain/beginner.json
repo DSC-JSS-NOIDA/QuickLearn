@@ -1,26 +1,32 @@
 [
   {
     "title": "Coursera",
-    "link": "https://www.coursera.org/learn/blockchain-basics"
+    "link": "https://www.coursera.org/learn/blockchain-basics",
+    "type": "video"
   },
   {
     "title": "Edureka",
-    "link": "https://www.youtube.com/watch?v=QCvL-DWcojc"
+    "link": "https://www.youtube.com/watch?v=QCvL-DWcojc",
+    "type": "video"
   },
   {
     "title": "GeeksforGeeks",
-    "link": "https://www.geeksforgeeks.org/blockchain-technology-introduction/"
+    "link": "https://www.geeksforgeeks.org/blockchain-technology-introduction/",
+    "type": "docs"
   },
   {
     "title": "YouTube",
-    "link": "https://www.youtube.com/playlist?list=PLsyeobzWxl7oY6tZmnZ5S7yTDxyu4zDW-"
+    "link": "https://www.youtube.com/playlist?list=PLsyeobzWxl7oY6tZmnZ5S7yTDxyu4zDW-",
+    "type": "video"
   },
   {
     "title": "Cadena",
-    "link": "https://cadena.dev/"
+    "link": "https://cadena.dev/",
+    "type": "docs"
   },
   {
     "title": "Learn Web3",
-    "link":"https://www.learnweb3.io/"
+    "link":"https://www.learnweb3.io/",
+    "type": "docs"
   }
 ]

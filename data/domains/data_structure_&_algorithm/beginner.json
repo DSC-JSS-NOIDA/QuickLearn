@@ -1,0 +1,29 @@
+[
+    {
+        "title": "Data Structures",
+        "link": "https://www.javatpoint.com/data-structure-tutorial",
+        "type": "docs"
+    },
+
+    {
+        "title": "Types of Data Structures",
+        "link": "https://www.programiz.com/dsa/data-structure-types",
+        "type": "docs"
+    },
+
+    {
+        "title": "Data Structures and Algorithms for Beginners",
+        "link": "https://youtu.be/BBpAmxU_NQo",
+        "type": "video"
+    },
+    {
+        "title": "Intro to algorithms",
+        "link": "https://www.tutorialspoint.com/data_structures_algorithms/index.htm",
+        "type": "docs"
+    },
+    {
+        "title": "Apna College",
+        "link": "https://www.youtube.com/playlist?list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ",
+        "type": "video"
+    }
+]

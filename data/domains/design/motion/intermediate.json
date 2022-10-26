@@ -1,14 +1,17 @@
 [
     {
         "title": "Designing",
-        "link": "https://developer.mozilla.org/"
+        "link": "https://developer.mozilla.org/",
+        "type": "docs"
     },
     {
         "title":"Motion Design Platform",
-        "link": "https://www.fable.app/"
+        "link": "https://www.fable.app/",
+        "type": "docs"
     },
      {
         "title":"Motion Design Projects",
-        "link": "https://medium.com/ux-power-tools/a-25-step-program-for-becoming-a-great-designer-ae7e1714527e"
+        "link": "https://medium.com/ux-power-tools/a-25-step-program-for-becoming-a-great-designer-ae7e1714527e",
+        "type": "docs"
     }
 ]

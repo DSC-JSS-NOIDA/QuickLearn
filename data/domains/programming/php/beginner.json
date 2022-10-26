@@ -1,0 +1,17 @@
+[
+    {
+        "title": "W3Schools",
+        "link": "https://www.w3schools.com/php/",
+        "type": "docs"
+    },
+    {
+        "title": "Tutorials Point",
+        "link": "https://www.tutorialspoint.com/php/index.htm",
+        "type": "docs"
+    },
+    {
+        "title": "Java T Point",
+        "link": "https://www.javatpoint.com/php-tutorial",
+        "type": "docs"
+    }
+]

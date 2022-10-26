@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Working with PHP Superglobals",
+        "link": "https://teamtreehouse.com/library/working-with-get-and-post-in-php",
+        "type": "video"
+    },
+    {
+        "title": "Integrating PHP with databases",
+        "link": "https://teamtreehouse.com/library/integrating-php-with-databases",
+        "type": "video"
+    },
+    {
+        "title": "File Handling with PHP",
+        "link": "https://teamtreehouse.com/library/file-handling-with-php",
+        "type": "video"
+    }
+]

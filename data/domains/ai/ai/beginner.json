@@ -1,18 +1,22 @@
 [
     {
         "title": "AI For Everyone",
-        "link": "https://www.coursera.org/learn/ai-for-everyone"
+        "link": "https://www.coursera.org/learn/ai-for-everyone",
+        "type": "video"
     },
     {
         "title": "Edureka",
-        "link": "https://www.youtube.com/playlist?list=PL9ooVrP1hQOGHNaCT7_fwe9AabjZI1RjI"
+        "link": "https://www.youtube.com/playlist?list=PL9ooVrP1hQOGHNaCT7_fwe9AabjZI1RjI",
+        "type": "video"
     },
     {
         "title": "MIT 6.034 Artificial Intelligence",
-        "link": "https://www.youtube.com/playlist?list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi"
+        "link": "https://www.youtube.com/playlist?list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi",
+        "type": "video"
     },
     {
         "title": "AI Guidebook",
-        "link": "https://pair.withgoogle.com/guidebook"
+        "link": "https://pair.withgoogle.com/guidebook",
+        "type": "docs"
     }
 ]

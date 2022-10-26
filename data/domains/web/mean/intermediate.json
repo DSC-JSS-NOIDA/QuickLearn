@@ -1,6 +1,7 @@
 [
     {
         "title": "Angular Tutorial",
-        "link": "https://www.freecodecamp.org/news/learn-angular-full-course/"
+        "link": "https://www.freecodecamp.org/news/learn-angular-full-course/",
+        "type": "video"
     }
 ]

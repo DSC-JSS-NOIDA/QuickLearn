@@ -1,14 +1,17 @@
 [
     {
         "title":"Free Code Camp",
-        "link":"https://youtu.be/7CqJlxBYj-M"
+        "link":"https://youtu.be/7CqJlxBYj-M",
+        "type": "video"
     },
     {
         "title":"Redux",
-        "link":"https://redux.js.org/"
+        "link":"https://redux.js.org/",
+        "type": "docs"
     },
     {
         "title":"asynchronous javascript",
-        "link":"https://blogs.oracle.com/oraclemagazine/using-the-callback-pattern-and-the-async-module"
+        "link":"https://blogs.oracle.com/oraclemagazine/using-the-callback-pattern-and-the-async-module",
+        "type": "docs"
     }
 ]
