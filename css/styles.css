@@ -283,7 +283,16 @@ a:hover {
   width: fit-content;
   border-radius: 15px;
   box-shadow: 1px 1px 30px var(--primmary-shadow);
+
+  text-align: center;
 }
+
+#categoryList{
+  text-align: center;
+  list-style-type: none;
+  padding: 0.2rem 1rem;
+}
+
 #categoryText {
   font-weight: 600;
   font-size: 1.5rem;
@@ -291,7 +300,12 @@ a:hover {
 }
 #resourceContainer {
   display: flex;
+/*<<<<<<< kush_branch */
+  justify-content: space-between; 
+  padding: 3rem 1.3rem;
+/* ======= */
   padding: 1rem;
+
 }
 /* Initially for Contribution Guidlines */
 #resourceBox {
@@ -428,6 +442,8 @@ footer {
 }
 .font {
   font-weight: 600;
+  margin: 0.8rem 0rem;
+
 }
 .contributionHead {
   color: var(--primary-title);
@@ -439,6 +455,9 @@ footer {
   padding: 20px;
 }
 /* Responsiveness */
+/*<<<<<<< kush_branch */
+
+/* ======= */
 @media screen and (max-width: 768px) {
   header {
     height: auto;
@@ -484,6 +503,7 @@ footer {
     flex-direction: column-reverse;
   }
 }
+ /* >>>>>>> main */
 
 /* Code Snippets */
 .code {
@@ -651,6 +671,71 @@ footer {
 
 /*Dark Mode CSS Ends*/
 
+@media screen and (max-width: 768px) {
+  header{
+    height:auto;
+    margin-bottom: 20px;
+  }
+  #mainHeading {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  #hackfest .row{
+    flex-direction: column;
+  }
+  #infoImg1,
+  #infoImg2 {
+    margin-left: 0;
+    width:65%;
+    display: block;
+    margin: auto;
+  }
+
+  #resourceReferenceBox{
+    align-items: center;
+    text-align: center;
+    background-size: 829px;
+    height: fit-content;
+  }
+  #resourceReferenceHeading{
+    font-size: 4rem;
+  }
+
+  #contactBtn{
+    width:100%;
+  }
+
+  #contributionBtn,
+  #exploreBtn {
+    width:100%;
+  }
+
+  #aboutUs .row{
+    flex-direction: column-reverse;
+  }
+
+
+  #contributionGuideline{
+    margin-left: 0.3rem;
+
+  }
+  #sidebar{
+    margin-right: 2rem;
+  }
+  .code{
+    /* display: block; */
+  }
+ 
+  .copy-btn{
+    width: 4rem;
+    height: 2rem;
+    font-size: 0.8rem;
+  }
+
+}
+
 @media screen and (max-width: 380px) {
   #social-section li {
     width: 100%;
@@ -662,4 +747,116 @@ footer {
   .card-title h5 {
     font-size: 1.5rem;
   }
+}
+
+
+@media screen and (max-width:320px) {
+  html{
+    font-size: 52%;
+  }
+
+  #contributionGuideline{
+    /* margin-left: -0.8rem; */
+    /* margin-right: 0.2rem; */
+    width: fit-content;
+  }
+  #sidebar{
+    margin-right: 0.3rem;
+    font-size: 1rem;
+  }
+  .select-category-btn{
+    font-size: 1rem;
+  }
+  .code{
+    /* display: block; */
+    font-size: 0.9rem;
+  }
+  .font{
+    font-size: 0.7rem;
+  }
+  .copy-btn{
+    width: 4rem;
+    height: 2rem;
+    font-size: 0.2rem;
+    display: block;
+  }
+
+  /* #first_code{
+    font-size: 0.9rem;
+  } */
+}
+
+@media screen and (max-width:338px) {
+  html{
+    font-size: 55%;
+  }
+
+  #contributionGuideline{
+    /* margin-left: -0.8rem; */
+    /* margin-right: 0.2rem; */
+    width: fit-content;
+    /* background-color: rgb(239, 180, 144); */
+  }
+  #sidebar{
+    margin-right: 0.3rem;
+    /* font-size: 1rem; */
+  }
+  .code{
+    display: block;
+    font-size: 0.9rem;
+  }
+  .font{
+    font-size: 0.7rem;
+  }
+  .copy-btn{
+    width: 4rem;
+    height: 2rem;
+    font-size: 0.2rem;
+    display: block;
+  }
+}
+
+@media screen and (max-width:553px) {
+
+  html{
+    font-size: 80%;
+  }
+  #contributionGuideline{
+    margin-left: 0.3rem;
+
+  }
+  #sidebar{
+    margin-right: 2rem;
+  }
+ 
+ 
+  .copy-btn{
+    width: 4rem;
+    height: 2rem;
+    font-size: 0.8rem;
+  }
+  
+}
+
+@media screen and (max-width:442px) {
+
+  html{
+    font-size: 60%;
+  }
+  #contributionGuideline{
+    margin-left: 0.3rem;
+
+  }
+  #sidebar{
+    margin-right: 2rem;
+  }
+ 
+ 
+  .copy-btn{
+    width: 4rem;
+    height: 2rem;
+    font-size: 0.8rem;
+    display: block;
+  }
+  
 }
