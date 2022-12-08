@@ -1,6 +1,22 @@
 
 
 let category = document.getElementsByClassName('category');
+ $(document).ready(function() {
+    
+        var audio  = new Audio('https://s3-us-west-2.amazonaws.com/s.cdpn.io/242518/click.mp3');
+        var audio2 = new Audio('https://s3-us-west-2.amazonaws.com/s.cdpn.io/242518/clickUp.mp3')
+      
+        $(" #exploreBtn").mousedown(function() {
+          audio2.load();
+          audio2.play();
+        });
+   
+      
+    $(" #exploreBtn").mouseup(function() {
+      audio.load();
+      audio.play();
+    });
+  });
 
 const selectBtn = document.querySelectorAll(".btn-style");
 const contributionBtn = document.querySelector(".contribution-btn");
