@@ -258,7 +258,8 @@
             <div class="input-container mb-3">
               <textarea type="text" class="form-control form-control-lg form-inputs" 
 id="validationCustom03" placeholder="Enter your message" rows="4" name="message" required></textarea>
-              <div class="valid-feedback">
+              <!--added class msg-feed use to change in text--> 
+            <div class="valid-feedback msg-feed">
                 Looks good!
               </div>
               <div class="invalid-feedback">
@@ -408,6 +409,60 @@ id="validationCustom03" placeholder="Enter your message" rows="4" name="message"
         $(this).find('span').css({ top: y, left: x })
       })
     })
+
+
+
+const inputEl=document.querySelector('input[type="text"]')
+const msgEl=document.querySelector('textarea[type="text"]')
+const inputFeed=document.querySelector('.valid-feedback')
+const msgFeed=document.querySelector(".msg-feed")
+const submitbtn=document.getElementById("contactBtn")
+
+submitbtn.addEventListener("click",(e)=>{
+  formCheck(inputEl,inputFeed)
+formCheck(msgEl,msgFeed)
+const selectIcon=document.querySelector(".form-control")
+ })
+
+ //prevent from accepting space key value as input
+function formCheck(element,textContentElement){
+  if(element.value.trim()){
+    textContentElement.textContent="Looks good!"
+    inputFeed.style.color="#198754"
+  msgFeed.style.color="#198754"
+  }else{
+  textContentElement.textContent="Plz fill the form"
+  inputFeed.style.color="red"
+  msgFeed.style.color="red"
+  }
+}
+//envoke formcheck function while changing in input
+inputEl.addEventListener("input",()=>{
+  formCheck(inputEl,inputFeed)
+  displaySubmitBtn(inputEl,msgEl)
+})
+msgEl.addEventListener("input",()=>{
+  formCheck(msgEl,msgFeed)
+  displaySubmitBtn(inputEl,msgEl)
+ })
+
+//hiding submit btn if user input space key value
+function displaySubmitBtn(element,element2nd){
+ if(inputEl.value.trim() && element2nd.value.trim()){
+submitbtn.style.display="inline-block"
+//change in icon
+inputEl.style.backgroundImage=''
+msgEl.style.backgroundImage=''
+}else{
+submitbtn.style.display="none"
+inputEl.style.backgroundImage='none'
+msgEl.style.backgroundImage='none'
+}
+}
+
+
+
+
   </script>
   <script src="./js/index.js"></script>
   <script src="https://kit.fontawesome.com/d5f8b6c1a9.js" crossorigin="anonymous"></script>
