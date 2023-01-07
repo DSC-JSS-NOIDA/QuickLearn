@@ -22,6 +22,43 @@ body {
   background-color: var(--primary-background);
 }
 
+/*brand-img*/
+
+.brand-img{
+  border-radius: 100%;
+  width: 3rem;
+}
+
+/*book img*/
+.book-img{
+  display: block;
+  width: 12rem;
+  border-radius: 100%;
+  margin-left: 3rem;
+  margin-bottom: 4rem;
+  margin-top: auto;
+  margin-right: 55rem;
+  position: static;
+  z-index: 1;
+}
+
+/*for responsiveness*/
+@media(max-width: 767px){
+    .head-img{
+      margin-left: 7rem;
+      margin-top: 3rem;
+    }
+
+    .book-img{
+      margin: auto;
+    }
+
+    #resourceReferenceHeading{
+      text-align: center;
+    }
+} 
+
+
 /* .home{
   height:90vh;
 } */
