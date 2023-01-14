@@ -13,7 +13,7 @@
 [![Issues](https://img.shields.io/github/issues/DSC-JSS-NOIDA/QuickLearn)](https://github.com/DSC-JSS-NOIDA/QuickLearn/issues)
 [![PRs](https://img.shields.io/github/issues-pr/DSC-JSS-NOIDA/QuickLearn)](https://github.com/DSC-JSS-NOIDA/QuickLearn/pulls)
 [![Maintenance](https://img.shields.io/maintenance/yes/2021?color=green&logo=github)](https://github.com/DSC-JSS-NOIDA/)
-[![Forks](https://img.shields.io/github/forks/DSC-JSS-NOIDA/QuickLearn?style=social)](https://github.com/DSC-JSS-NOIDA/QuickLearn) [![Stars](https://img.shields.io/github/stars/DSC-JSS-NOIDA/QuickLearn?style=social)](https://github.com/DSC-JSS-NOIDA/QuickLearn) [![Watchers](https://img.shields.io/github/watchers/DSC-JSS-NOIDA/QuickLearn?style=social)](https://github.com/DSC-JSS-NOIDA/QuickLearn) [![Twitter Follow](https://img.shields.io/twitter/follow/DSCJSSATEN?style=social)](https://twitter.com/DSCJSSATEN)
+[![Forks](https://img.shields.io/github/forks/DSC-JSS-NOIDA/QuickLearn?style=social)](https://github.com/DSC-JSS-NOIDA/QuickLearn) [![Stars](https://img.shields.io/github/stars/DSC-JSS-NOIDA/QuickLearn?style=social)](https://github.com/DSC-JSS-NOIDA/QuickLearn) [![Watchers](https://img.shields.io/github/watchers/DSC-JSS-NOIDA/QuickLearn?style=social)](https://github.com/DSC-JSS-NOIDA/QuickLearn) [![Twitter Follow](https://img.shields.io/twitter/follow/DSCJSSATEN?style=social)](https://twitter.com/GDSCJSSATEN)
 
 A collection of resources categorised by tech domains, languages, expertise and much more. QuickLearn gives you a quick access to all the resources that you could need at a single place, within a click!
 
@@ -191,7 +191,7 @@ $ git pull upstream main
 <a href="https://github.com/DSC-JSS-NOIDA" target="_blank">
 <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
 </a>
-<a href="https://twitter.com/DSCJSSATEN" target="_blank">
+<a href="https://twitter.com/GDSCJSSATEN" target="_blank">
 <img src=https://img.shields.io/badge/twitter-%2300acee.svg?&style=for-the-badge&logo=twitter&logoColor=white alt=twitter style="margin-bottom: 5px;" />
 </a>
 <a href="https://www.linkedin.com/company/dsc-jssaten/" target="_blank">
