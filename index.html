@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="./css/styles.css" />
   <!--Font Aswesome-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/d15a4f9d20.js" crossorigin="anonymous"></script>
   <!--Bootstrap Icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
   <!-- animate css -->
@@ -64,10 +65,12 @@
 <body>
   <!--Navbar Section -->
   <nav class="nav p-3 flex-nowrap">
-    
-    <a href="#" id="logo" class="navbar-brand  font-weight-bold">
-          Quick Learn
-    </a>
+
+    <section id="section1">
+      <a href="/" id="logo" class="navbar-brand  font-weight-bold">
+        Quick Learn
+      </a>
+    </section>
     <a class="nav-link btn" href="./resource.html" id="navResourceBtn">Resources</a>
     <span class="btn" onclick="dark_mode()" style="display: block; margin-left: 2px; color: #6940d3;" href="#"><i
         id="darkSwitch1" class="fas fa-moon"></i></span>
@@ -256,8 +259,8 @@
 
             <!-- Message -->
             <div class="input-container mb-3">
-              <textarea type="text" class="form-control form-control-lg form-inputs" 
-id="validationCustom03" placeholder="Enter your message" rows="4" name="message" required></textarea>
+              <textarea type="text" class="form-control form-control-lg form-inputs" id="validationCustom03"
+                placeholder="Enter your message" rows="4" name="message" required></textarea>
               <div class="valid-feedback">
                 Looks good!
               </div>
@@ -332,9 +335,14 @@ id="validationCustom03" placeholder="Enter your message" rows="4" name="message"
             <div class="col-md"></div>
           </div>
         </div>
-
       </div>
-      <div id="social-media-icons" class="d-flex justify-content-center " style="margin-left:40px;">
+
+
+      <div class="scrollUp" style="width: 100%; text-align: end;">
+        <button><i class="fa fa-dark fa-arrow-up"></i></button>
+      </div>
+
+      <div id="social-media-icons" style="margin-left:40px;">
         <ul class="list-unstyled list-inline">
           <li class="list-inline-item">
             <a href="https://www.facebook.com/dscjssnoida/" target="_blank" title="Facebook"><i
@@ -357,7 +365,9 @@ id="validationCustom03" placeholder="Enter your message" rows="4" name="message"
                 class="fa fa-instagram social-media social-icons" aria-hidden="true"></i></a>
           </li>
         </ul>
+
       </div>
+
 
 
   </section>
