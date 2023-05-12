@@ -135,5 +135,10 @@ function copy(id){
     document.body.removeChild(elem);
 }
 
+let btn = document.querySelector(".scrollUp button");
 
+btn.addEventListener('click',function(){
+    // alert("hey");
+    document.body.scrollTop = 0;
+});
 

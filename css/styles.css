@@ -663,3 +663,11 @@ footer {
     font-size: 1.5rem;
   }
 }
+
+.scrollUp button{
+  background-color: #6c5ce7;
+  padding: 10px;
+  color: #fff;
+  outline: none;
+  border: none;
+}
