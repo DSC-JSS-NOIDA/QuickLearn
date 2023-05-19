@@ -400,6 +400,9 @@ textarea.contact-input-tags {
   width: 50%;
 }
 
+.social-icons:hover {
+  color: #6940d3 ;
+}
 
 #logo{
   font-family:cursive;
@@ -413,7 +416,8 @@ textarea.contact-input-tags {
 footer {
   border-top: 2px solid var(--primary-border-card);
   width: 100%;
-  color: #746464;
+  /* color: #746464; */
+  color: #000 ;
   text-align: center;
   flex: none;
   position: sticky;
