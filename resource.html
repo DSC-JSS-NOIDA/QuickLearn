@@ -34,6 +34,10 @@
       background: #6f42c1;
       border-radius: 30px;
     }
+
+  
+
+    
   </style>
 </head>
 
@@ -49,212 +53,222 @@
     <span class="btn" onclick="dark_mode()" style="display: block; margin-left: 2px; color: #6940d3;" href="#"><i
         id="darkSwitch2" class="fas fa-moon"></i></span>
   </nav>
+  <span style="margin: 15px;">
+    
+    <i class="bi bi-list fa-2x " id="menubtn" ></i>
+    
+  </span>
   <div class="container-fluid my-3" id="resourceContainer">
-    <div id="sidebar" class="d-flex flex-column flex-shrink-0 p-3 m-3 mx-4">
-      <h4 id="categoryText">Categories</h4>
-      <hr class="catHr" />
-      <ul id="categoryList" class="nav nav-pills flex-column mb-auto">
-        <li>
-          <button class="link-dark contribution-btn" id="contributeBtn">Contribution Button</button>
-        </li>
-        <li class="category">
-          <button class="link-dark btn-style">Programming</button>
-          <div class="select-option">
-            <button class="btn select-category-btn shadow-none" value="programming">
-              C++
-            </button>
-            <button class="btn select-category-btn shadow-none" value="programming">
-              Java
-            </button>
-            <button class="btn select-category-btn shadow-none" value="programming">
-              Python
-            </button>
-            <button class="btn select-category-btn shadow-none" value="programming">
-              Javascript
-            </button>
-            <button class="btn select-category-btn" value="programming">
-              PHP
-            </button>
-          </div>
-        </li>
-        <li class="category">
-          <button class="link-dark btn-style">Web Development</button>
-          <div class="select-option">
-            <button class="btn select-category-btn shadow-none" value="web">
-              Frontend
-            </button>
-            <button class="btn select-category-btn shadow-none" value="web">
-              Backend
-            </button>
-            <button class="btn select-category-btn shadow-none" value="web">
-              MEAN
-            </button>
-            <button class="btn select-category-btn shadow-none" value="web">
-              MERN
-            </button>
-            <button class="btn select-category-btn shadow-none" value="web">
-              MEVN
-            </button>
-            <button class="btn select-category-btn" value="web">
-              Ruby on Rails
-            </button>
-          </div>
-        </li>
-        <li class="category">
-          <button class="link-dark btn-style ">Mobile Development</button>
-          <div class="select-option">
-            <button class="btn select-category-btn shadow-none" value="android">
-              Android
-            </button>
-            <button class="btn select-category-btn shadow-none" value="android">
-              Flutter
-            </button>
-            <button class="btn select-category-btn shadow-none" value="android">
-              IOS
-            </button>
-            <button class="btn select-category-btn shadow-none" value="android">
-              React Native
-            </button>
-          </div>
-        </li>
-        <li class="category">
-          <button class="link-dark btn-style">Application Programming Interface</button>
-          <div class="select-option">
-            <button class="btn select-category-btn" value="api">
-              API
-            </button>
-          </div>
-        </li>
-        <li class="category">
-          <button class="link-dark btn-style">Designing</button>
+    <div style="max-width: 500px;">
 
-          <div class="select-option">
-            <button class="btn select-category-btn shadow-none" value="design">
-              General
+      <div id="sidebarm" class="d-flex flex-column flex-shrink-0 p-3 m-3 mx-4 d-none " style="width: 350px;">
+        <h4 id="categoryText">Categories</h4>
+        <hr class="catHr" />
+        <ul id="categoryList" class="nav nav-pills flex-column mb-auto">
+          <li>
+            <button class="link-dark contribution-btn subcategory" id="contributeBtn"  >Contribution Button</button>
+          </li>
+          <li class="category">
+            <button class="link-dark btn-style">Programming</button>
+            <div class="select-option">
+              <button class="btn select-category-btn shadow-none  subcategory" value="programming">
+                C++
+              </button>
+              <button class="btn select-category-btn shadow-none subcategory" value="programming">
+                Java
+              </button>
+              <button class="btn select-category-btn shadow-none subcategory" value="programming">
+                Python
+              </button>
+              <button class="btn select-category-btn shadow-none subcategory" value="programming">
+                Javascript
+              </button>
+              <button class="btn select-category-btn subcategory" value="programming">
+                PHP
+              </button>
+            </div>
+          </li>
+          <li class="category">
+            <button class="link-dark btn-style">Web Development</button>
+            <div class="select-option">
+              <button class="btn select-category-btn shadow-none subcategory" value="web">
+                Frontend
+              </button>
+              <button class="btn select-category-btn shadow-none subcategory" value="web">
+                Backend
+              </button>
+              <button class="btn select-category-btn shadow-none subcategory" value="web">
+                MEAN
+              </button>
+              <button class="btn select-category-btn shadow-none subcategory" value="web">
+                MERN
+              </button>
+              <button class="btn select-category-btn shadow-none subcategory" value="web">
+                MEVN
+              </button>
+              <button class="btn select-category-btn subcategory" value="web">
+                Ruby on Rails
+              </button>
+            </div>
+          </li>
+          <li class="category">
+            <button class="link-dark btn-style ">Mobile Development</button>
+            <div class="select-option">
+              <button class="btn select-category-btn shadow-none subcategory" value="android">
+                Android
+              </button>
+              <button class="btn select-category-btn shadow-none subcategory" value="android">
+                Flutter
+              </button>
+              <button class="btn select-category-btn shadow-none subcategory" value="android">
+                IOS
+              </button>
+              <button class="btn select-category-btn shadow-none subcategory" value="android">
+                React Native
+              </button>
+            </div>
+          </li>
+          <li class="category">
+            <button class="link-dark btn-style">Application Programming Interface</button>
+            <div class="select-option">
+              <button class="btn select-category-btn subcategory" value="api">
+                API
+              </button>
+            </div>
+          </li>
+          <li class="category">
+            <button class="link-dark btn-style">Designing</button>
+  
+            <div class="select-option">
+              <button class="btn select-category-btn shadow-none subcategory" value="design">
+                General
+              </button>
+              <button class="btn select-category-btn shadow-none subcategory" value="design">
+                Illustrations
+              </button>
+              <button class="btn select-category-btn shadow-none subcategory" value="design">
+                Motion
+              </button>
+              <button class="btn select-category-btn shadow-none subcategory" value="design">
+                Photo
+              </button>
+              <button class="btn select-category-btn shadow-none subcategory" value="design">
+                Sound
+              </button>
+              <button class="btn select-category-btn shadow-none subcategory" value="design">
+                UI/UX
+              </button>
+              <button class="btn select-category-btn shadow-none subcategory" value="design">
+                Video
+              </button>
+            </div>
+          </li>
+          <li class="category">
+            <button class="link-dark btn-style">
+              Artificial Intelligience
             </button>
-            <button class="btn select-category-btn shadow-none" value="design">
-              Illustrations
-            </button>
-            <button class="btn select-category-btn shadow-none" value="design">
-              Motion
-            </button>
-            <button class="btn select-category-btn shadow-none" value="design">
-              Photo
-            </button>
-            <button class="btn select-category-btn shadow-none" value="design">
-              Sound
-            </button>
-            <button class="btn select-category-btn shadow-none" value="design">
-              UI/UX
-            </button>
-            <button class="btn select-category-btn shadow-none" value="design">
-              Video
-            </button>
-          </div>
-        </li>
-        <li class="category">
-          <button class="link-dark btn-style">
-            Artificial Intelligience
-          </button>
-          <div class="select-option">
-            <button class="btn select-category-btn shadow-none" value="ai">AI</button>
-            <button class="btn select-category-btn shadow-none" value="ai">ML</button>
-            <button class="btn select-category-btn shadow-none" value="ai">
-              Computer Vision
-            </button>
-            <button class="btn select-category-btn shadow-none" value="ai">
-              Deep Learning
-            </button>
-          </div>
-        </li>
-        <li class="category">
-          <button class="link-dark btn-style">Data Science</button>
-          <div class="select-option">
-            <button class="btn select-category-btn shadow-none" value="data_science">
-              Statistics
-            </button>
-            <button class="btn select-category-btn shadow-none" value="data_science">
-              Big Data
-            </button>
-          </div>
-        </li>
-        <li class="category">
-          <button class="link-dark btn-style">Git and GitHub</button>
-          <div class="select-option">
-            <button class="btn select-category-btn" value="git">
-              Git and GitHub
-            </button>
-          </div>
-        </li>
-        <li class="category">
-          <button class="link-dark btn-style">Data Structures & Algorithms</button>
-          <div class="select-option">
-            <button class="btn select-category-btn" value="data_structure_&_algorithm">
-              Data structures & Algorithms
-            </button>
-          </div>
-        </li>
-        <li class="category">
-          <button class="link-dark btn-style">Database Management</button>
-          <div class="select-option">
-            <button class="btn select-category-btn" value="database_management">
-              Database Management
-            </button>
-          </div>
-        </li>
-        <li class="category">
-          <button class="link-dark btn-style">Blockchain Development</button>
-          <div class="select-option">
-            <button class="btn select-category-btn shadow-none" value="Blockchain">
-              Blockchain
-            </button>
-          </div>
-        </li>
-        <li class="category">
-          <button class="link-dark btn-style">Ethical Hacking</button>
-          <div class="select-option">
-            <button class="btn select-category-btn shadow-none" value="ethical_hacking">
-              Ethical Hacking
-            </button>
-          </div>
-        </li>
-        <li class="category">
-          <button class="link-dark btn-style">Game Development</button>
-          <div class="select-option">
-            <button class="btn select-category-btn shadow-none" value="Game_dev">
-              Game Development
-            </button>
-          </div>
-        </li>
-        <li class="category">
-          <button class="link-dark btn-style">Robotics</button>
-          <div class="select-option">
-            <button class="btn select-category-btn shadow-none" value="robotics">
-              Robotics
-            </button>
-          </div>
-        </li>
-
-        <li class="category">
-          <button class="link-dark btn-style">Linux Fundamentals</button>
-          <div class="select-option">
-            <button class="btn select-category-btn shadow-none" value="linux">
-              linux
-            </button>
-          </div>
-        </li>
-
-        <li class="category">
-          <button class="link-dark btn-style">CyberSecurity</button>
-          <div class="select-option">
-            <button class="btn select-category-btn shadow-none" value="CyberSecurity">
-              CyberSecurity
-            </button>
-          </div>
-        </li>
-      </ul>
-      <hr class="catHr" />
+            <div class="select-option">
+              <button class="btn select-category-btn shadow-none subcategory" value="ai">AI</button>
+              <button class="btn select-category-btn shadow-none subcategory" value="ai">ML</button>
+              <button class="btn select-category-btn shadow-none subcategory" value="ai">
+                Computer Vision
+              </button>
+              <button class="btn select-category-btn shadow-none subcategory" value="ai">
+                Deep Learning
+              </button>
+            </div>
+          </li>
+          <li class="category">
+            <button class="link-dark btn-style">Data Science</button>
+            <div class="select-option">
+              <button class="btn select-category-btn shadow-none subcategory" value="data_science">
+                Statistics
+              </button>
+              <button class="btn select-category-btn shadow-none subcategory" value="data_science">
+                Big Data
+              </button>
+            </div>
+          </li>
+          <li class="category">
+            <button class="link-dark btn-style">Git and GitHub</button>
+            <div class="select-option">
+              <button class="btn select-category-btn subcategory" value="git">
+                Git and GitHub
+              </button>
+            </div>
+          </li>
+          <li class="category">
+            <button class="link-dark btn-style">Data Structures & Algorithms</button>
+            <div class="select-option">
+              <button class="btn select-category-btn subcategory" value="data_structure_&_algorithm">
+                Data structures & Algorithms
+              </button>
+            </div>
+          </li>
+          <li class="category">
+            <button class="link-dark btn-style">Database Management</button>
+            <div class="select-option">
+              <button class="btn select-category-btn subcategory" value="database_management">
+                Database Management
+              </button>
+            </div>
+          </li>
+          <li class="category">
+            <button class="link-dark btn-style">Blockchain Development</button>
+            <div class="select-option">
+              <button class="btn select-category-btn shadow-none subcategory" value="Blockchain">
+                Blockchain
+              </button>
+            </div>
+          </li>
+          <li class="category">
+            <button class="link-dark btn-style">Ethical Hacking</button>
+            <div class="select-option">
+              <button class="btn select-category-btn shadow-none subcategory" value="ethical_hacking">
+                Ethical Hacking
+              </button>
+            </div>
+          </li>
+          <li class="category">
+            <button class="link-dark btn-style">Game Development</button>
+            <div class="select-option">
+              <button class="btn select-category-btn shadow-none subcategory" value="Game_dev">
+                Game Development
+              </button>
+            </div>
+          </li>
+          <li class="category">
+            <button class="link-dark btn-style">Robotics</button>
+            <div class="select-option">
+              <button class="btn select-category-btn shadow-none subcategory" value="robotics">
+                Robotics
+              </button>
+            </div>
+          </li>
+  
+          <li class="category">
+            <button class="link-dark btn-style">Linux Fundamentals</button>
+            <div class="select-option">
+              <button class="btn select-category-btn shadow-none subcategory" value="linux">
+                linux
+              </button>
+            </div>
+          </li>
+  
+          <li class="category">
+            <button class="link-dark btn-style">CyberSecurity</button>
+            <div class="select-option">
+              <button class="btn select-category-btn shadow-none subcategory" value="CyberSecurity">
+                CyberSecurity
+              </button>
+            </div>
+          </li>
+        </ul>
+        <hr class="catHr" />
+      </div>
     </div>
+    
+
     <!-- Sidebar Ends -->
     <div class="container mt-3" id="contributionGuideline">
       <h2 id="contriHead">Contribution Guidelines</h2>

@@ -277,11 +277,12 @@ a:hover {
   color: var(--primary-label);
   padding: 8px;
 }
-#sidebar {
+#sidebarm {
   z-index: 5;
   background: var(--primary-background);
   width: fit-content;
   border-radius: 15px;
+  display: none;
   box-shadow: 1px 1px 30px var(--primmary-shadow);
 }
 #categoryText {
@@ -663,3 +664,5 @@ footer {
     font-size: 1.5rem;
   }
 }
+
+

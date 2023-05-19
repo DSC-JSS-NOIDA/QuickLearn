@@ -353,3 +353,23 @@ for (let i = 0; i < selectCategoryBtn.length; i++) {
 		}, 300);
 	});
 }
+// handeling the responsiveness of resourses section
+
+const menu = document.getElementById("menubtn");
+const sidebarm = document.getElementById("sidebarm");
+const subcategory = document.getElementsByClassName("subcategory");
+
+menu.addEventListener("click", (e) => {
+  if (sidebarm.classList.contains("d-none")) {
+    sidebarm.classList.remove("d-none");
+  } else {
+    sidebarm.classList.add("d-none");
+  }
+});
+
+for (let i = 0; i < subcategory.length; i++) {
+  subcategory[i].addEventListener("click", (e) => {
+    sidebarm.classList.add("d-none");
+
+  });
+}
