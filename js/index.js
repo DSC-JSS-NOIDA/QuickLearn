@@ -42,11 +42,17 @@ const hr = document.getElementsByClassName("catHr");
 const head = document.getElementById("contriHead");
 const List3 = document.querySelectorAll("li.font");
 const $points = document.querySelectorAll("div.points");
+const nav = document.getElementById("navbar");
 console.log(List2);
 
 function dark_mode() {
     var count = 0;
     if (window.location.href.includes("index.html")) {
+        if(nav.style.backgroundColor == "black")
+        nav.style.backgroundColor="white";
+        else
+        nav.style.backgroundColor="black";
+      
         icon1.classList.toggle("fa-sun");
         Body[0].classList.toggle("dark");
         para.classList.toggle("dark-para");
