@@ -55,7 +55,7 @@ a:hover {
   position: sticky;
   top: 0%;
   z-index: 10;
-  background-color: #f1f1f2;
+  background-color: white;
 }
 #navResourceBtn {
   box-sizing: border-box;
@@ -258,7 +258,6 @@ a:hover {
   background: none;
   margin: 0.5rem auto;
   width: 100%;
-  box-shadow: 1px 1px 5px var(--primary-title);
   border-radius: 20px;
   font-family: sans-serif;
   color: var(--primary-label);
@@ -266,15 +265,17 @@ a:hover {
   color: white;
   background: var(--primary-title);
 }
+
+
 .btn-style {
   border: none;
   background: none;
   margin: 0.5rem auto;
   width: 100%;
-  box-shadow: 1px 1px 5px var(--primary-title);
+  /* box-shadow: 1px 1px 5px var(--primary-title); */
   border-radius: 20px;
   font-family: sans-serif;
-  color: var(--primary-label);
+  /* color: var(--primary-label); */
   padding: 8px;
 }
 #sidebar {
@@ -282,16 +283,19 @@ a:hover {
   background: var(--primary-background);
   width: fit-content;
   border-radius: 15px;
-  box-shadow: 1px 1px 30px var(--primmary-shadow);
+  /* box-shadow: 1px 1px 30px var(--primmary-shadow); */
 }
 #categoryText {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 1.5rem;
-  text-align: center;
+  text-align: start;
+  padding-left: 10px;
+  color: rgb(49, 28, 98) ;
 }
 #resourceContainer {
   display: flex;
   padding: 1rem;
+  background-color: rgb(241, 238, 252);
 }
 /* Initially for Contribution Guidlines */
 #resourceBox {
@@ -305,25 +309,28 @@ a:hover {
 
 .category .select-option {
   display: none;
+  
 }
 .category .btn-style {
   transition: all 0.2s;
 }
 .category .btn-style:hover {
   background: #dacff6;
+  color: rgb(49, 28, 98);
 }
 .select-category-btn {
   display: block;
   width: 100%;
   color: gray;
   margin: 0px;
-  text-align: left;
-  font-weight: 800;
-  font-size: 1.2rem;
+  text-align: center;
+  font-weight:600;
+  font-size: .9rem;
   /* font-family: monospace; */
 }
 .select-category-btn:hover {
-  background-color: var(--primary-contact-background);
+  background-color:  #dacff6;
+  border-radius: 20px;
 }
 .view-more-btn {
   width: 100%;
