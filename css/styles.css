@@ -557,7 +557,7 @@ footer {
   transform: translate(-50%, -50%);
   border-radius: 50%;
   background-color: #045de9;
-  background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+  background-image: linear-gradient(315deg, #045de9 0%,  #6f42c1 74%);
   transition: width 0.5s, height 0.5s;
   z-index: -1;
 }
