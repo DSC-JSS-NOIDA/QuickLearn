@@ -3,5 +3,11 @@
       "title": "HackerSploit",
       "link": "https://www.youtube.com/c/HackerSploit/playlists",
       "type": "video"
-  }
+  },
+
+  {
+    "title": "Kali Linux: Ethical Hacking Getting Started Course",
+    "link": "https://www.youtube.com/playlist?list=PLhfrWIlLOoKMe1Ue0IdeULQvEgCgQ3a1B",
+    "type": "video"
+}
 ]
