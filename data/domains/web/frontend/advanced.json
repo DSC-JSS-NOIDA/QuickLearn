@@ -44,6 +44,11 @@
         "title": "Front-end roadmap",
         "link": "https://roadmap.sh/frontend",
         "type": "docs"
+   },
+   {
+        "title": "Advanced React",
+        "link": "https://scrimba.com/learn/react",
+        "type": "video"
    }
 
 ]
