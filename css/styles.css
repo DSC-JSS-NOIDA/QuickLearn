@@ -373,6 +373,10 @@ textarea.contact-input-tags {
 #contactHeading {
   color: var(--primary-title);
 }
+.formbox{
+  border-radius: 20px;
+  box-shadow: 1px 1px 4px 1px #bbb6b6;
+}
 
 #contactSubheading {
   color: #778899;
