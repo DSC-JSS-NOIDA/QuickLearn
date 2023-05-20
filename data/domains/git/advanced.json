@@ -8,5 +8,10 @@
         "title": "Kunal Kushwaha - Complete Git and GitHub Tutorial",
         "link": "https://www.youtube.com/watch?v=apGV9Kg7ics&t=745s",
         "type": "video"
+    },
+    {
+        "title": "Git Pro",
+        "link": "https://git-scm.com/book/en/v2",
+        "type": "docs"
     }
 ]
