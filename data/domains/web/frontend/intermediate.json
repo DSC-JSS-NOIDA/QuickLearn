@@ -42,6 +42,16 @@
       "title": "Conquering Responsive Layouts by Kevin Powell",
       "link": "https://courses.kevinpowell.co/courses/conquering-responsive-layouts",
       "type": "docs"
+    },
+    {
+      "title": "Learn React",
+      "link": "https://scrimba.com/learn/learnreact",
+      "type": "video"
+    },
+    {
+      "title": "Learn React Router 6",
+      "link": "https://scrimba.com/learn/reactrouter6",
+      "type": "video"
     }
 
 ]

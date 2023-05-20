@@ -17,6 +17,12 @@
         "link": "https://youtu.be/mU6anWqZJcc"  ,
         "type": "video"
     }
+    ,
+    {
+        "title": "scrimba.com",
+        "link": "https://scrimba.com/learn/frontend"  ,
+        "type": "video"
+    }
   
    
 ]
