@@ -1,0 +1,17 @@
+[
+    {
+        "title" : "Difference between LLD and HLD",
+        "link" : "https://www.geeksforgeeks.org/difference-between-high-level-design-and-low-level-design/",
+        "type": "docs"
+    },
+    {
+        "title": "System Design Fundamentals",
+        "link": "https://youtube.com/playlist?list=PLCRMIe5FDPsd0gVs500xeOewfySTsmEjf",
+        "type": "video"
+    },
+    {
+        "title": "Low Level Design Primer Course",
+        "link": "https://youtube.com/playlist?list=PLTCrU9sGybupCpY20eked6blbHI4zZ55k",
+        "type": "video"
+    }
+]
