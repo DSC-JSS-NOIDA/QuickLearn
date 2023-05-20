@@ -42,6 +42,17 @@
       "title": "Conquering Responsive Layouts by Kevin Powell",
       "link": "https://courses.kevinpowell.co/courses/conquering-responsive-layouts",
       "type": "docs"
+    },
+    {
+        "title": "Introduction to Tailwind CSS - FreeCodeCamp",
+        "link": "https://www.freecodecamp.org/news/what-is-tailwind-css-a-beginners-guide/",
+        "type": "docs"
+    },
+    {
+        "title": "Learn Tailwind CSS - FreeCodeCamp",
+        "link": "https://www.youtube.com/watch?v=ft30zcMlFao",
+        "type": "video"
     }
+
 
 ]
