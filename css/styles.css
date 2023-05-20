@@ -59,15 +59,15 @@ a:hover {
 }
 #navResourceBtn {
   box-sizing: border-box;
-  padding-left: 1%;
-  padding-right: 1%;
+  padding: 10px 30px;
+  font-size: 20px;
   margin-left: auto;
-  min-width: 18%;
   text-align: center;
   background-color: var(--primary-title);
   border: 2px solid var(--primary-title);
+  border-radius: 10px;
   color: white;
-  transition: 0.1s linear all;
+  transition: 0.5s linear all;
 }
 #navResourceBtn:hover {
   border: 2px solid var(--primary-title);
