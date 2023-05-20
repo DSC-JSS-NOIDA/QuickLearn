@@ -25,5 +25,10 @@
         "title": "Apna College",
         "link": "https://www.youtube.com/playlist?list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ",
         "type": "video"
+    },
+    {
+        "title": "Kunal Kushwaha",
+        "link": "https://www.youtube.com/watch?v=rZ41y93P2Qo&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&ab_channel=KunalKushwaha",
+        "type": "video"
     }
 ]
