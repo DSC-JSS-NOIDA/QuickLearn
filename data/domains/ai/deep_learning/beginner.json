@@ -1,7 +1,17 @@
 [
     {
-        "title": "C++",
-        "link": "https://developer.mozilla.org/",
-        "type": "docs"
+        "title": "What is Deep Learning",
+        "link": "https://www.youtube.com/watch?v=ajeTYqhRHno",
+        "type": "video"
+    },
+    {
+        "title": "How Deep Neural Networks Works",
+        "link": "https://www.youtube.com/watch?v=dPWYUELwIdM",
+        "type": "video"
+    },
+    {
+        "title": "Deep Learning Crash Course for Beginners",
+        "link": "https://www.youtube.com/watch?v=VyWAvY2CF9c",
+        "type": "video"
     }
 ]
