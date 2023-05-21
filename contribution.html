@@ -31,6 +31,12 @@
             width: 10rem;
             height: 8rem;
         }
+        .font{
+            list-style: none;
+            font-size: large;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: normal;
+        }
     </style>
 </head>
 
@@ -51,40 +57,42 @@
         <h2>Contribution Guidelines</h2>
 
         <div class="contributionHead font my-2">
-            Follow the steps below to start contributing, and make your first PR. We hope you have fun!
+        Follow the steps below to start contributing, and make your first PR. We hope you have fun!
         </div>
         <li class="font">
-            Firstly, fork the repository you want to contribute to by clicking on the fork button.
+           1.  Firstly, fork the repository you want to contribute to by clicking on the fork button.
         </li>
         <li class="font">
-            Now clone the Repo by typing the following commands in the
+            2.  Now clone the Repo by typing the following commands in the
             terminal:
         </li>
         <div class="mx-4 my-2 fc">
-            <div>$ git clone https://github.com/< your_user_name>/QuickLearn.git
+            <div>$ git clone https://github.com/< your_user_name >/QuickLearn.git
                     <div>
                         $ cd QuickLearn
                     </div>
             </div>
         </div>
         <li class="font">
-            Add the original repository as a remote named upstream.
+            3. Add the original repository as a remote named upstream.
+            </li>
+        <li class="font">
 
-            Now add a reference to the original repository(by typing following command).
+            4. Now add a reference to the original repository(by typing following command).
         </li>
 
         <div class="mx-4 my-2 fc">
             $ git remote add upstream https://github.com/DSC-JSS-NOIDA/QuickLearn.git
         </div>
         <li class="font">
-            Check the remotes for your repository:
+           5. Check the remotes for your repository:
         </li>
 
         <div class="mx-4 my-2 fc">
             $ git remote -v
         </div>
         <li class="font">
-            Always take a pull from the upstream repository to your master branch to keep it at par with the main
+           6. Always take a pull from the upstream repository to your master branch to keep it at par with the main
             project:
         </li>
 
@@ -92,24 +100,24 @@
             $ git pull upstream master
         </div>
         <li class="font">
-            Create a new branch to perform your changes:
+            7. Create a new branch to perform your changes:
         </li>
 
         <div class="mx-4 my-2 fc">
             $ git checkout -b < your_branch_name>
         </div>
         <li class="font">
-            Perform the desired changes that you want to perform in the repository.
+            8. Perform the desired changes that you want to perform in the repository.
         </li>
         <li class="font">
-            After performing the changes, track your changes:
+            9. After performing the changes, track your changes:
         </li>
 
         <div class="mx-4 my-2 fc">
             $ git add .
         </div>
         <li class="font">
-            Now commit your changes:
+           10. Now commit your changes:
         </li>
 
         <div class="mx-4 my-2 fc">
@@ -117,29 +125,33 @@
         </div>
 
         <li class="font">
-            Fetch the newest work from upstream.
+           11. Fetch the newest work from upstream.
         </li>
         <div class="mx-4 my-2 fc">
             $ git fetch upstream
         </div>
         <li class="font">
-            Merge the main branch of that repository into your topic branch.
+           12. Merge the main branch of that repository into your topic branch.
         </li>
         <div class="mx-4 my-2 fc">
             $ git merge upstream/master
         </div>
 
-        <li class="font">Push the committed changes in your feature branch to your remote repo:</li>
+        <li class="font">
+            13. Push the committed changes in your feature branch to your remote repo:</li>
 
         <div class="mx-4 my-2 fc">
             $ git push -u origin < branch name you gave earlier>
         </div>
 
-        <li class="font">Navigate to the original repository and make a pull request, by clicking on Compare and Pull
+        <li class="font">
+            14.  Navigate to the original repository and make a pull request, by clicking on Compare and Pull
             Request</li>
-        <li class="font">Add appropriate title and description to your pull request explaining your changes and efforts
+        <li class="font">
+            15. Add appropriate title and description to your pull request explaining your changes and efforts
             done.</li>
-        <li class="font">Click On Create Pull Request</li><br>
+        <li class="font">
+            16. Click On Create Pull Request</li><br>
         <div id="footHeading">
             Woohoo! You have made a PR to the QuickLEarn ?? . Wait for your submission to be accepted and your PR to be
             merged.
