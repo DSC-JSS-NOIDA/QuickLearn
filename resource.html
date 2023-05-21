@@ -348,6 +348,13 @@
   <script src="./js/index.js"></script>
   <script src="./js/getResource.js"></script>
   <script src="https://kit.fontawesome.com/d5f8b6c1a9.js" crossorigin="anonymous"></script>
+  <script>window.addEventListener("DOMContentLoaded", function() {
+    var darkModeEnabled = localStorage.getItem("darkModeEnabled");
+    if (darkModeEnabled === "true") {
+      document.body.classList.add("dark");
+    }
+  });
+</script>
 </body>
 
 </html>
