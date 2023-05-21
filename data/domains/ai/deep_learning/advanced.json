@@ -1,7 +1,12 @@
 [
     {
-        "title": "C++",
-        "link": "https://developer.mozilla.org/",
+        "title": "Practical Deep Learning for Coders",
+        "link": "https://course.fast.ai/",
         "type": "docs"
+    },
+    {
+        "title": "PyTorch for Deep Learning & Machine Learning",
+        "link": "https://www.youtube.com/watch?v=V_xro1bcAuA",
+        "type": "video"
     }
 ]
