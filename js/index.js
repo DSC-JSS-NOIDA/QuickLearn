@@ -45,56 +45,17 @@ const $points = document.querySelectorAll("div.points");
 console.log(List2);
 
 function dark_mode() {
-    var count = 0;
-    if (window.location.href.includes("index.html")) {
-        icon1.classList.toggle("fa-sun");
-        Body[0].classList.toggle("dark");
-        para.classList.toggle("dark-para");
-        for (i = 0; i < List.length; i++) {
-            List[i].classList.toggle("dark-list");
-        }
-        for (i = 0; i < icon1.classList.length; i++) {
-            if (icon1.classList[i] == "fa-sun") {
-                count++;
-                break;
-            }
-        }
-    }
-    else {
-        Body[0].classList.toggle("dark");
-        sidebar.classList.toggle("dark-side-bar");
-        for (i = 0; i < List2.length; i++) {
-            List2[i].classList.toggle("dark-list-2");
-        }
-        for (i = 0; i < hr.length; i++) {
-            hr[i].classList.toggle("dark-hr");
-        }
-        text.classList.toggle("dark-text");
-        list.classList.toggle("dark-side-bar");
-        head.classList.toggle("dark-head");
-        for (i = 0; i < List3.length; i++) {
-            List3[i].classList.toggle("dark-list-3");
-        }
-        for (i = 0; i < $points.length; i++) {
-            $points[i].classList.toggle("dark-points");
-        }
-        for (i = 0; i < icon2.classList.length; i++) {
-            if (icon2.classList[i] == "fa-sun") {
-                count++;
-                break;
-            }
-        }
-    }
-
-    if (count) {
-        sessionStorage.setItem("switch", 1);
-        console.log("yes");
-    }
-    else {
-        sessionStorage.setItem("switch", 0);
-        console.log("no");
+    var isDarkModeEnabled = document.body.classList.contains("dark");
+  
+    if (isDarkModeEnabled) {
+      document.body.classList.remove("dark");
+      localStorage.setItem("darkModeEnabled", "false");
+    }else {
+      document.body.classList.add("dark");
+      localStorage.setItem("darkModeEnabled", "true");
     }
 }
+
 if (Number(sessionStorage.getItem("switch"))) {
     if (window.location.href.includes("index.html")) {
         icon1.classList.toggle("fa-sun");
