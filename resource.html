@@ -51,15 +51,17 @@
   </nav>
   <div class="container-fluid my-3" id="resourceContainer">
     <div id="sidebar" class="d-flex flex-column flex-shrink-0 p-3 m-3 mx-4">
-      <h4 id="categoryText">Categories</h4>
-      <hr class="catHr" />
+      <button class="dropdown-btn categoriess" ><h4>Categories<i class="fa fa-caret-down"></i></h4>
+      </button>
+      <div class="dropdown-container">
       <ul id="categoryList" class="nav nav-pills flex-column mb-auto">
         <li>
           <button class="link-dark contribution-btn" id="contributeBtn">Contribution Button</button>
         </li>
+        
         <li class="category">
-          <button class="link-dark btn-style">Programming</button>
-          <div class="select-option">
+          <button class="dropdown-btn link-dark btn-style">Programming<i class="fa fa-caret-down"></i></button>
+          <div class="dropdown-container">
             <button class="btn select-category-btn shadow-none" value="programming">
               C++
             </button>
@@ -253,7 +255,7 @@
           </div>
         </li>
       </ul>
-      <hr class="catHr" />
+      </div>
     </div>
     <!-- Sidebar Ends -->
     <div class="container mt-3" id="contributionGuideline">
