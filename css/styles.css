@@ -400,9 +400,8 @@ textarea.contact-input-tags {
   width: 50%;
 }
 
-
-#logo{
-  font-family:cursive;
+#logo {
+  font-family: cursive;
   font-size: 25px;
   font-weight: bold;
   margin-left: 10px;
@@ -494,7 +493,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-    font-family: monospace;
+  font-family: monospace;
 }
 .copy-btn {
   height: 40px;
@@ -616,7 +615,6 @@ footer {
   background-color: #383838;
   color: white;
   box-shadow: 1px 1px 5px var(--primary-title);
-
 }
 
 .dark-text {
@@ -654,6 +652,9 @@ footer {
 @media screen and (max-width: 380px) {
   #social-section li {
     width: 100%;
+  }
+  #navResourceBtn {
+    min-width: 27%;
   }
 }
 
