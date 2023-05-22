@@ -62,7 +62,7 @@ a:hover {
   padding-left: 1%;
   padding-right: 1%;
   margin-left: auto;
-  min-width: 18%;
+  /* min-width: 18%; */
   text-align: center;
   background-color: var(--primary-title);
   border: 2px solid var(--primary-title);
@@ -653,9 +653,9 @@ footer {
   #social-section li {
     width: 100%;
   }
-  #navResourceBtn {
+  /* #navResourceBtn {
     min-width: 27%;
-  }
+  } */
 }
 
 /* Fixing text overflow in cybersecurity */
