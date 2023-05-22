@@ -3,5 +3,15 @@
       "title": "HackerSploit",
       "link": "https://www.youtube.com/c/HackerSploit/playlists",
       "type": "video"
-  }
+  },
+  {
+    "title": "Null Byte",
+    "link": "https://www.youtube.com/@NullByteWHT/playlists",
+    "type": "video"
+},
+{
+    "title": "Professor Messer",
+    "link": "https://www.youtube.com/@professormesser/playlists",
+    "type": "video"
+}
 ]

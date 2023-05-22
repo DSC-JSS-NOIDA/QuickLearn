@@ -3,5 +3,15 @@
       "title": "JohnHammond CyberSecurity",
       "link": "https://www.youtube.com/c/JohnHammond010/playlists",
       "type": "video"
-  }
+  },
+  {
+    "title": "LiveOverflow",
+    "link": "https://www.youtube.com/@LiveOverflow/playlists",
+    "type": "video"
+},
+{
+    "title": "IppSec",
+    "link": "https://www.youtube.com/@ippsec/playlists",
+    "type": "video"
+}
 ]
