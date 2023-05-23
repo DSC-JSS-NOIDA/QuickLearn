@@ -655,6 +655,23 @@ footer {
   #social-section li {
     width: 100%;
   }
+
+/* Fixing resources button to overflow from navbar */
+  .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #logo{
+    margin-left: -4px;
+  }
+
+  #navResourceBtn {
+    padding-block: 6px;
+    min-width: 80px;
+  }
+
 }
 
 /* Fixing text overflow in cybersecurity */
@@ -662,4 +679,23 @@ footer {
   .card-title h5 {
     font-size: 1.5rem;
   }
+}
+
+
+/* Fixing left and right box of contact us section */
+@media screen and (max-width: 991px) {
+  .contactus .container .row,   .oci{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.list-group {
+  width: 100%;
+  margin-inline: 25px;
+}
+
+.list-group li {
+  width: 100%;
+}
 }
