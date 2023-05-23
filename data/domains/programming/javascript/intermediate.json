@@ -1,5 +1,10 @@
 [
     {
+        "title": "GeeksForGeeks",
+        "link": "https://www.geeksforgeeks.org/javascript/",
+        "type": "docs"
+    },
+    {
         "title": "Javascript | MDN",
         "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
         "type": "docs"
