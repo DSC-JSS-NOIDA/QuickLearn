@@ -13,5 +13,10 @@
         "title": "30 Days Vanilla Js Challenge",
         "link": "https://javascript30.com/",
         "type": "docs"
+    },
+    {
+        "title": "Namaste Javascript",
+        "link": "https://www.youtube.com/playlist?list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP",
+        "type": "video"
     }
 ]
