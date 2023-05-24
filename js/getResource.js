@@ -50,7 +50,8 @@ const domains = [
   "Game_dev",
   "robotics",
   "CyberSecurity",
-  "linux"
+  "linux",
+  "Computer Networks"
 ];
 let bres = '';
 let bdata = '';
@@ -98,6 +99,7 @@ for (let i = 0; i < selectCategoryBtn.length; i++) {
 			value == 'database_management' ||
       value == 'git' ||
 			value == 'api' ||
+      value=='Computer Networks' ||
       value == 'linux'
 		) {
 			console.log('hello');
@@ -152,7 +154,7 @@ for (let i = 0; i < selectCategoryBtn.length; i++) {
     
     /* new feature added linux resources*/
 
-    if (value == "Blockchain" || value == "ethical_hacking" || value == "Game_dev" ||value == "robotics" || value == "CyberSecurity" || value == "git" || value == "data_structure_&_algorithm" || value == "database_management" || value == "api" || value == "linux") {
+    if (value == "Blockchain" || value == "ethical_hacking" || value == "Game_dev" ||value == "robotics" || value == "CyberSecurity" || value == "git" || value == "data_structure_&_algorithm" || value == "database_management" || value == "api" || value=="Computer Networks" || value == "linux") {
       console.log("hello");
       /* beginner*/
       bres = await fetch(`./data/domains/${value}/beginner.json`);
