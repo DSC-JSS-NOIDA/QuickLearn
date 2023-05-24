@@ -353,3 +353,15 @@ for (let i = 0; i < selectCategoryBtn.length; i++) {
 		}, 300);
 	});
 }
+
+// auto acroll to resource section in mobile deveices
+
+if (window.innerWidth < 500) {
+  
+selectCategoryBtn.forEach(function (btns, idx) {
+  btns.addEventListener('click', function (e) { 
+    resourceBox.scrollIntoView({ behavior: 'smooth' })
+  })
+  
+})
+}

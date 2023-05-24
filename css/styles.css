@@ -483,6 +483,16 @@ footer {
   #aboutUs .row {
     flex-direction: column-reverse;
   }
+
+   /*  responisive for mobile devices */
+   #resourceContainer{
+
+    flex-direction: column;
+  }
+
+  .col-6{
+    width: 100%;
+  }
 }
 
 /* Code Snippets */
