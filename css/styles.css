@@ -524,6 +524,7 @@ footer {
 .mybutton {
   margin: 0;
   padding: 0;
+ background-image: linear-gradient(to right, #2196f3, #f44336);
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   position: relative;
