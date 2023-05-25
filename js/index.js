@@ -46,7 +46,7 @@ console.log(List2);
 
 function dark_mode() {
     var count = 0;
-    if (window.location.href.includes("index.html")) {
+    if (window.location.href.includes("index.html") || window.location.href.includes("resource.html")) {
         icon1.classList.toggle("fa-sun");
         Body[0].classList.toggle("dark");
         para.classList.toggle("dark-para");
@@ -96,7 +96,7 @@ function dark_mode() {
     }
 }
 if (Number(sessionStorage.getItem("switch"))) {
-    if (window.location.href.includes("index.html")) {
+    if (window.location.href.includes("index.html")||window.location.href.includes("resources.html")) {
         icon1.classList.toggle("fa-sun");
         Body[0].classList.toggle("dark");
         para.classList.toggle("dark-para");
@@ -123,6 +123,7 @@ if (Number(sessionStorage.getItem("switch"))) {
             $points[i].classList.toggle("dark-points");
         }
     }
+
 }
 
 function copy(id){
