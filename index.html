@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -63,14 +64,30 @@
 
 <body>
   <!--Navbar Section -->
-  <nav class="nav p-3 flex-nowrap">
-    
-    <a href="#" id="logo" class="navbar-brand  font-weight-bold">
-          Quick Learn
-    </a>
-    <a class="nav-link btn" href="./resource.html" id="navResourceBtn">Resources</a>
-    <span class="btn" onclick="dark_mode()" style="display: block; margin-left: 2px; color: #6940d3;" href="#"><i
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light p-3">
+    <a class="navbar-brand font-weight-bold" id="logo" href="#">Quick Learn</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#features">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contactus">Contact</a>
+        </li>
+      </ul>
+      <a class="nav-link btn" href="./resource.html" id="navResourceBtn">Resources</a>
+      <span class="btn" onclick="dark_mode()" style="display: block; margin-left: 2px; color: #6940d3;" href="#"><i
         id="darkSwitch1" class="fas fa-moon"></i></span>
+      
+    </div>
+
   </nav>
   <!-- Header Section -->
   <header>
@@ -373,9 +390,9 @@ id="validationCustom03" placeholder="Enter your message" rows="4" name="message"
   </footer>
   <!-- Footer Section Ends -->
   <!-- Option 1: Bootstrap Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
   <script>
