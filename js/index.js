@@ -42,12 +42,15 @@ const hr = document.getElementsByClassName("catHr");
 const head = document.getElementById("contriHead");
 const List3 = document.querySelectorAll("li.font");
 const $points = document.querySelectorAll("div.points");
+const navbar = document.querySelector(".nav");
 console.log(List2);
+
 
 function dark_mode() {
     var count = 0;
     if (window.location.href.includes("index.html")) {
         icon1.classList.toggle("fa-sun");
+        // Navbar.classList.toggle("dark-theme");
         Body[0].classList.toggle("dark");
         para.classList.toggle("dark-para");
         for (i = 0; i < List.length; i++) {
